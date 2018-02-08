@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<svg width="1220" height="900" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="1222" height="902" id="canvas_background" fill="#fff"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000" id="svg_2" height="302.999978" width="407.000005" y="63" x="71" stroke-width="2" fill="#fff"/>
+  <rect stroke="#000" id="svg_3" height="64" width="11" y="274" x="472" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="#fff"/>
+  <rect stroke="#000" id="svg_4" height="88" width="13" y="147" x="64" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect stroke="#000" transform="rotate(90 133.50000000000003,63.000000000000014) " id="svg_5" height="51.999998" width="13" y="37.000002" x="127" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect stroke="#000" id="svg_6" height="183.000004" width="141.000007" y="63" x="478" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect stroke="#000" transform="rotate(90 544.5000000000001,246.00000000000006) " id="svg_7" height="64" width="11" y="214" x="539" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="#fff"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_8" cy="191.5" cx="87.5" stroke-width="2" stroke="#00bf00" fill="#00bf00"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_9" cy="804.53009" cx="61.517407" stroke-width="2" stroke="#00bf00" fill="#00bf00"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_10" cy="761.990364" cx="59.49001" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_11" cy="156.5" cx="79.5" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <rect stroke="#00bf00" id="svg_12" height="10.00001" width="18.500012" y="740.515017" x="49.498674" fill="#00bf00"/>
+  <text style="cursor: move;" stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_13" y="749.513579" x="54.998416" stroke-opacity="null" stroke-width="0" fill="#ffffff">N</text>
+  <rect stroke="#00bf00" id="svg_14" height="10.00001" width="18.500012" y="96.501113" x="77.000013" fill="#00bf00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_15" y="105.499674" x="82.499755" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">3</text>
+  <rect stroke="#0000bf" id="svg_16" height="10.00001" width="18.500012" y="112.001067" x="86.999983" fill="#0000bf"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_17" y="120.999628" x="92.499725" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">3</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_18" y="103.999688" x="96.999716" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK3</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_19" y="749.013581" x="70.998372" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Socket 80-90cm</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_20" y="120.999639" x="107.999684" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK4</text>
+  <rect stroke="#0000bf" id="svg_21" height="10.00001" width="18.500012" y="722.515052" x="50.498668" fill="#0000bf"/>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_22" y="731.513613" x="55.998409" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">N</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_23" y="731.513623" x="71.498368" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Socket 30cm</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_24" cy="72.000244" cx="147.999802" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_25" y="194.499425" x="96.499718" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">OK1</text>
+  <line stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_27" y2="111.999665" x2="71.99979" y1="101.499696" x1="76.999775" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <line stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_28" y2="110.999667" x2="71.499791" y1="116.999651" x1="85.999748" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect stroke="#00bf00" id="svg_29" height="10.00001" width="18.500012" y="352.5004" x="86.499991" fill="#00bf00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_30" y="361.498961" x="92.499731" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">1</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_31" y="349.998996" x="88.499746" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK5</text>
+  <rect stroke="#00bf00" id="svg_36" height="10.00001" width="18.500012" y="353.0004" x="226.999579" fill="#00bf00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_37" y="361.998961" x="232.49932" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">3</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_38" y="350.998995" x="228.999334" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK6</text>
+  <rect stroke="#00bf00" id="svg_39" height="10.00001" width="18.500012" y="352.500398" x="429.498984" fill="#00bf00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_40" y="361.49896" x="434.998725" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">1</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_41" y="350.498993" x="431.498739" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK7</text>
+  <rect stroke="#00bf00" id="svg_42" height="10.00001" width="18.500012" y="65.501229" x="387.49911" fill="#00bf00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_43" y="74.499791" x="393.49885" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">4</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_44" y="82.999767" x="389.498865" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK1</text>
+  <rect stroke="#7f0000" id="svg_45" height="10.00001" width="18.500012" y="65.501229" x="263.999472" fill="#7f0000"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_46" y="74.499791" x="269.999212" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">1</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_47" y="82.999767" x="265.999227" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK8</text>
+  <rect stroke="#0000bf" id="svg_48" height="10.00001" width="18.500012" y="66.001228" x="199.999659" fill="#0000bf"/>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_49" y="74.999789" x="205.999399" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">1</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_50" y="83.499766" x="201.999414" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK2</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_51" cy="240.499857" cx="186.999706" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_52" y="243.499282" x="195.999424" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LK1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_53" cy="136.50016" cx="322.499313" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_54" y="139.499585" x="331.499031" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LK2</text>
+  <path stroke="#56aaff" id="svg_55" d="m433.8862,249.09819l8.212097,0l2.537903,-7.63916l2.537872,7.63916l8.212067,0l-6.643921,4.72168l2.537872,7.639084l-6.64389,-4.72168l-6.643951,4.72168l2.537903,-7.639084l-6.643951,-4.72168l0,0z" stroke-width="2" fill="#56aaff"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_56" y="271.4992" x="436.998716" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MK1</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_59" y="783.022634" x="72.486914" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Switch</text>
+  <path stroke="#0000bf" id="svg_60" d="m460.386139,255.409286l7,-9l6.999969,9l-6.999969,8.999954l-7,-8.999954z" stroke-width="2" fill="#0000bf"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_61" y="258.99922" x="464.49863" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">3</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_62" y="244.499272" x="459.998649" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">WK1</text>
+  <path stroke="#0000bf" id="svg_63" d="m490.886078,233.909348l7,-9l6.999969,9l-6.999969,8.999954l-7,-8.999954z" stroke-width="2" fill="#0000bf"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_64" y="237.499283" x="494.99854" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_65" y="222.999335" x="490.49856" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">WT1</text>
+  <rect stroke="#0000bf" id="svg_66" height="10.00001" width="18.500012" y="174.000887" x="480.498825" fill="#0000bf"/>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_67" y="182.999448" x="485.998567" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">1</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_68" y="171.999491" x="481.498585" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">ST1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_69" cy="113.500227" cx="538.498688" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_70" y="104.499687" x="531.498452" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LT1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_71" cy="185.500013" cx="538.998686" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_72" y="176.499474" x="531.998451" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LT2</text>
+  <rect stroke="#00bf00" id="svg_73" height="19.999976" width="21.500006" y="195.000843" x="591.998501" fill="#00bf00"/>
+  <rect stroke="#bf00bf" id="svg_74" height="19.999976" width="21.500006" y="189.000861" x="566.498575" fill="#bf00bf"/>
+  <rect stroke="#7f0000" id="svg_75" height="19.999976" width="21.500006" y="215.000784" x="565.498579" fill="#7f0000"/>
+  <line stroke-width="2" stroke-linecap="null" stroke-linejoin="null" id="svg_76" y2="231.499315" x2="617.498194" y1="207.999384" x1="587.498282" stroke="#000000" fill="none"/>
+  <line stroke="#000000" stroke-width="2" stroke-linecap="null" stroke-linejoin="null" id="svg_77" y2="231.499314" x2="617.498194" y1="226.499335" x1="586.998282" fill="none"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_78" y="192.499427" x="594.498268" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">BT1</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_79" y="186.499445" x="569.99834" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">BT2</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_80" y="227.499324" x="548.998401" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">VT1</text>
+  <path stroke="#0000bf" id="svg_81" d="m587.385803,257.409271l7,-9l6.999939,9l-6.999939,8.999939l-7,-8.999939z" stroke-width="2" fill="#0000bf"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_82" y="260.999215" x="591.498258" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">2</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_83" y="275.499183" x="586.998277" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">WH1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_84" cy="303.499672" cx="486.49884" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_85" y="306.499097" x="495.498558" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">RH1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_86" cy="301.999672" cx="538.998688" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_87" y="316.999062" x="530.998455" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MH1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_88" cy="83.501319" cx="608.49844" stroke-width="2" stroke="#00bf00" fill="#00bf00"/>
+  <text stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_89" y="98.499705" x="599.498134" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">OT1</text>
+  <rect stroke="#000" id="svg_90" height="215.499915" width="189.499858" y="30.50009" x="620.499593" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect stroke="#000" transform="rotate(90 766.9993286132812,246.50000000000009) " id="svg_91" height="64" width="11" y="214.499999" x="761.499344" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="#fff"/>
+  <rect stroke="#000" transform="rotate(90 659.7496948242189,235.50003051757818) " id="svg_92" height="77.499969" width="19.999973" y="196.750067" x="649.74968" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="#fff"/>
+  <rect stroke="#7f0000" id="svg_93" height="19.999976" width="21.500006" y="197.000838" x="638.998366" fill="#7f0000"/>
+  <line stroke="#000000" transform="rotate(90 643.4981689453126,220.74929809570318) " stroke-width="2" stroke-linecap="null" stroke-linejoin="null" id="svg_94" y2="227.249264" x2="647.248157" y1="214.24933" x1="639.748192" fill="none"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_95" y="195.999415" x="628.498172" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">VB1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_96" cy="72.500347" cx="656.998344" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_97" y="88.499735" x="649.998109" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LB2</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_98" cy="70.000355" cx="753.498062" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_99" y="85.999742" x="746.497826" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LB1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_100" cy="171.50006" cx="659.998335" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_101" y="187.499448" x="652.9981" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LB3</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_102" cy="173.000053" cx="758.49805" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_103" y="188.999441" x="751.497814" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LB4</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_104" cy="123.500198" cx="707.998195" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_105" y="139.499586" x="700.99796" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LB5</text>
+  <rect stroke="#000" transform="rotate(90 706.4983520507812,31.000093460083068) " id="svg_106" height="51.999998" width="13" y="5.000095" x="699.998314" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_107" cy="39.000363" cx="723.498067" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_108" y="54.499793" x="715.497917" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MB2</text>
+  <rect stroke="#00bf00" id="svg_109" height="10.00001" width="18.500012" y="33.501323" x="775.497981" fill="#00bf00"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_110" y="42.499884" x="781.497721" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_111" y="50.999861" x="777.497736" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SB2</text>
+  <rect stroke="#00bf00" id="svg_112" height="10.00001" width="18.500012" y="33.001324" x="639.498377" fill="#00bf00"/>
+  <text style="cursor: move;" stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_113" y="41.999886" x="645.498117" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_114" y="50.499862" x="641.498132" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SB1</text>
+  <rect stroke="#0000bf" id="svg_115" height="10.00001" width="18.500012" y="140.50101" x="788.497942" fill="#0000bf"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_116" y="149.499571" x="794.497682" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_117" y="137.499609" x="788.497703" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SB3</text>
+  <rect stroke="#0000bf" id="svg_118" height="10.00001" width="18.500012" y="207.500817" x="789.497939" fill="#0000bf"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_119" y="216.499378" x="795.49768" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_120" y="204.499416" x="789.4977" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SB4</text>
+  <path stroke="#0000bf" id="svg_121" d="m710.385437,234.409348l7,-9l7,9l-7,8.999954l-7,-8.999954z" stroke-width="2" fill="#0000bf"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_122" y="237.999282" x="714.497892" stroke-opacity="null" stroke-width="0" fill="#ffffff">2</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_123" y="223.499334" x="709.997911" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">WB1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_124" cy="234.49987" cx="697.99823" stroke-width="2" stroke="#999999" fill="#999999"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_125" y="237.499293" x="672.498022" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MB1</text>
+  <rect stroke="#000" id="svg_126" height="277.499942" width="307.499831" y="30.50009" x="810.499603" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect stroke="#000" id="svg_127" height="277.499942" width="307.499831" y="308.50009" x="810.499603" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect stroke="#000" id="svg_129" height="214.499938" width="191.499822" y="371.500081" x="618.499595" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_130" y2="371.5" x2="618.999939" y1="247" x1="619.499939" stroke-width="null" stroke="#000000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_131" y2="371.5" x2="703.999939" y1="247" x1="704.499939" stroke-width="null" stroke="#000000" fill="none"/>
+  <line stroke="#000000" stroke-linecap="null" stroke-linejoin="null" id="svg_132" y2="308.5" x2="703.999937" y1="308.5" x1="619.499939" stroke-width="null" fill="none"/>
+  <path stroke="#0000bf" id="svg_133" d="m622.385437,359.409363l7,-9l7,9l-7,8.999939l-7,-8.999939z" stroke-width="2" fill="#0000bf"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_134" y="362.999282" x="626.497892" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_135" y="348.499334" x="621.997911" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">WH2</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_136" cy="257.49987" cx="620.99823" stroke-width="2" stroke="#999999" fill="#999999"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_137" cy="273.99987" cx="620.99823" stroke-width="2" stroke="#999999" fill="#999999"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_138" y="259.999293" x="631.998022" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MB1</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_139" y="275.999293" x="631.498022" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MC1,MH3</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_140" cy="255.99987" cx="692.99823" stroke-width="2" stroke="#ff00ff" fill="#ff00ff"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_141" cy="360.49987" cx="691.49823" stroke-width="2" stroke="#ff00ff" fill="#ff00ff"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_142" y="271.499293" x="684.498022" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">RH3</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_143" y="351.499293" x="683.498022" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">RH4</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_144" cy="307.499672" cx="713.498688" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_145" y="322.499062" x="705.498455" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MH2</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_146" cy="308.999672" cx="802.49884" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_147" y="323.999097" x="788.498558" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">RH2</text>
+  <path stroke="#0000bf" id="svg_148" d="m781.385803,308.409271l7,-9l6.999939,9l-6.999939,8.999939l-7,-8.999939z" stroke-width="2" fill="#0000bf"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_149" y="311.999215" x="785.498258" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_150" y="310.499334" x="760.997911" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">WH3</text>
+  <path stroke="#0000bf" id="svg_151" d="m790.385803,264.909271l7,-9l6.999939,9l-6.999939,8.999939l-7,-8.999939z" stroke-width="2" fill="#0000bf"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_152" y="268.499215" x="794.498258" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">1</text>
+  <text stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_153" y="269.499334" x="768.497911" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">WH4</text>
+  <line stroke="#000000" transform="rotate(90 802.2481689453125,252.9992980957032) " stroke-width="2" stroke-linecap="null" stroke-linejoin="null" id="svg_154" y2="254.749267" x2="807.748151" y1="251.249329" x1="796.748203" fill="none"/>
+  <rect stroke="#000" id="svg_155" height="42.5" width="11" y="256" x="805" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="#fff"/>
+  <rect stroke="#000" id="svg_156" height="42.5" width="11" y="323" x="805.5" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="#fff"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_157" cy="299.999672" cx="821.49884" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_158" cy="315.499672" cx="820.99884" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_159" y="301.999334" x="830.497911" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">MS1</text>
+  <text style="cursor: move;" stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_160" y="317.499334" x="829.497911" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">MG4</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_161" cy="299.499672" cx="1106.99884" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_162" y="302.999334" x="1080.497911" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">MS3</text>
+  <rect stroke="#000" transform="rotate(90 755.5003662109376,372.50000000000006) " id="svg_163" height="64" width="11" y="340.499999" x="750.000403" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="#fff"/>
+  <rect stroke="#000" transform="rotate(90 711,586.0000000000001) " id="svg_164" height="74.999996" width="13" y="548.500004" x="704.5" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_165" cy="381.999672" cx="628.498688" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_166" cy="575.499672" cx="798.498688" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_167" cy="577.499672" cx="681.998688" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_168" y="384.499062" x="636.998455" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MC5</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_169" y="568.499062" x="673.498455" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MC3</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_170" y="578.999062" x="773.498455" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MC4</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_171" cy="471.999672" cx="714.498688" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_172" y="487.499062" x="706.498455" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LC1</text>
+  <rect stroke="#00bf00" id="svg_173" height="10.00001" width="18.500012" y="573.000398" x="625.998984" fill="#00bf00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_174" y="581.99896" x="631.498725" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">3</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_175" y="570.998993" x="627.998739" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SC3</text>
+  <rect stroke="#00bf00" id="svg_176" height="10.00001" width="18.500012" y="549.002433" x="787.985251" fill="#00bf00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_177" y="558.000995" x="793.484992" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">1</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_178" y="547.500984" x="790.48496" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SC2</text>
+  <rect stroke="#00bf00" id="svg_179" height="10.00001" width="18.500012" y="393.015663" x="789.485124" fill="#00bf00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_180" y="402.014224" x="794.984865" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">1</text>
+  <ellipse stroke="#0000bf" ry="5.000127" rx="5.750063" id="svg_181" cy="380.016234" cx="799.748584" stroke-width="2" fill="#0000bf"/>
+  <line stroke="#bf005f" stroke-linecap="null" stroke-linejoin="null" id="svg_182" y2="376.468087" x2="799.432191" y1="371.468511" x1="799.432191" fill-opacity="null" stroke-width="2" fill="none"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_183" y="388.507451" x="776.492523" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MC2</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_184" y="410.512596" x="790.48496" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SC1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_186" cy="380.490844" cx="697.991702" stroke-width="2" stroke="#999999" fill="#999999"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_187" y="382.490262" x="672.494548" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MC1</text>
+  <path stroke="#0000bf" id="svg_188" d="m706.385803,383.396729l7,-9l7,9l-7,8.999939l-7,-8.999939z" stroke-width="2" fill="#0000bf"/>
+  <text style="cursor: move;" stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_189" y="386.986647" x="710.498231" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_190" y="401.48424" x="704.498377" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">WC1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_191" cy="569.967926" cx="710.447189" stroke-width="2" stroke="#00bf00" fill="#00bf00"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_192" y="572.967351" x="719.446907" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">OC1</text>
+  <path stroke="#0000bf" id="svg_193" d="m813.883057,221.916595l7,-9l6.999939,9l-6.999939,8.999954l-7,-8.999954z" stroke-width="2" fill="#0000bf"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_194" y="225.506547" x="817.995504" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_195" y="224.003191" x="832.492487" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">WS1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_196" cy="143.007629" cx="820.487847" stroke-width="2" stroke="#999999" fill="#999999"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_197" y="133.508105" x="815.485906" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MS5</text>
+  <rect stroke="#00bf00" id="svg_198" height="10.00001" width="18.500012" y="51.999755" x="812.994803" fill="#00bf00"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_199" y="60.998316" x="818.994543" stroke-opacity="null" stroke-width="0" fill="#ffffff">3</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_200" cy="39.500321" cx="819.489928" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_201" y="41.000937" x="828.488342" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MS2</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_202" y="70.998395" x="816.489359" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SS3</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_203" cy="158.497231" cx="957.977001" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_204" y="174.496618" x="950.976766" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LS1</text>
+  <rect stroke="#00bf00" id="svg_207" height="10.00001" width="18.500012" y="245.983306" x="1095.970816" fill="#00bf00"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_208" y="254.981867" x="1101.970557" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_209" y="264.981946" x="1099.465373" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SS2</text>
+  <rect stroke="#000" id="svg_210" height="48.501316" width="11" y="75.01687" x="1112.445709" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="#fff"/>
+  <rect stroke="#000" id="svg_211" height="101.996769" width="11" y="124.012714" x="1112.445709" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_212" cy="215.50679" cx="1108.498713" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_213" y="218.506495" x="1083.497657" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">MS4</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_214" cy="172.493774" cx="1103.456478" stroke-width="2" stroke="#00bf00" fill="#00bf00"/>
+  <text stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_215" y="175.493182" x="1080.457375" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">OS1</text>
+  <path stroke="#0000bf" id="svg_216" d="m1100.358765,66.429779l7,-9l6.999878,9l-6.999878,8.999954l-7,-8.999954z" stroke-width="2" fill="#0000bf"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_217" y="70.01973" x="1104.471212" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text style="cursor: move;" stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_218" y="72.516038" x="1078.971597" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">WS2</text>
+  <rect stroke="#00bf00" id="svg_219" height="10.00001" width="18.500012" y="41.000687" x="1096.470786" fill="#00bf00"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_220" y="49.999249" x="1102.470526" stroke-opacity="null" stroke-width="0" fill="#ffffff">3</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_221" y="49.00026" x="1078.967112" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SS1</text>
+  <rect stroke="#7f0000" id="svg_222" height="10.00001" width="18.500012" y="40.503348" x="1120.426871" fill="#7f0000"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_224" y="48.000345" x="1140.461897" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SS4</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_225" cy="64.019638" cx="1127.997059" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text style="cursor: move;" stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_226" y="67.019331" x="1136.993122" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">RS1</text>
+  <rect stroke="#00bf00" id="svg_227" height="10.00001" width="18.500012" y="311.477753" x="1080.972088" fill="#00bf00"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_228" y="320.476314" x="1086.971828" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_229" y="329.976436" x="1081.966856" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SG1</text>
+  <path stroke="#0000bf" id="svg_230" d="m813.883057,383.402893l7,-9l6.999939,9l-6.999939,8.999969l-7,-8.999969z" stroke-width="2" fill="#0000bf"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_231" y="386.99286" x="817.995504" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_232" y="385.489503" x="831.492572" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">WG1</text>
+  <rect stroke="#000" id="svg_233" height="126.994647" width="11" y="363.492414" x="1112.445709" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect stroke="#000" transform="rotate(90 1059.4746093750002,585.4819335937501) " id="svg_234" height="64" width="11" y="553.481951" x="1053.97464" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="#fff"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_235" cy="478.484505" cx="1107.998756" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_236" y="481.984167" x="1081.497826" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">MG1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_237" cy="427.979965" cx="1102.413956" stroke-width="2" stroke="#00bf00" fill="#00bf00"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_238" y="431.979305" x="1077.416554" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">OG1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_239" cy="438.50251" cx="968.977112" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_240" y="454.0019" x="960.976879" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LG1</text>
+  <rect stroke="#00bf00" id="svg_241" height="10.00001" width="18.500012" y="545.957886" x="1096.470783" fill="#00bf00"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_242" y="554.956448" x="1102.470523" stroke-opacity="null" stroke-width="0" fill="#ffffff">3</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_243" y="543.958307" x="1096.465625" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SG2</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_244" cy="576.976158" cx="1107.998756" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_245" y="568.476835" x="1096.996512" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">MG5</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_246" cy="576.976158" cx="1039.004607" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_247" y="568.476835" x="1029.502237" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">MG2</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_248" cy="595.47459" cx="1018.006387" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text style="cursor: move;" stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_249" y="610.973234" x="1009.003974" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">RG1</text>
+  <rect stroke="#00bf00" id="svg_250" height="10.00001" width="18.500012" y="521.459962" x="813.994739" fill="#00bf00"/>
+  <text style="cursor: move;" stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_251" y="530.458523" x="819.994479" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_252" y="519.460383" x="813.989581" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SG3</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_253" cy="576.974182" cx="915.973232" stroke-width="2" stroke="#999999" fill="#999999"/>
+  <text style="cursor: move;" stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_254" y="567.47692" x="905.51275" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">MG3</text>
+  <path stroke="#0000bf" id="svg_255" d="m1006.36676,574.386719l7,-9l6.999939,9l-6.999939,8.999939l-7,-8.999939z" stroke-width="2" fill="#0000bf"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_256" y="577.97667" x="1010.479192" stroke-opacity="null" stroke-width="0" fill="#ffffff">1</text>
+  <text style="cursor: move;" stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_257" y="560.474672" x="1000.978198" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">WG2</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_258" y2="693.358174" x2="618.564386" y1="584.533309" x1="618.564386" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <line stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_259" y2="692.857692" x2="71.064851" y1="366.334204" x1="71.064851" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <line stroke="#000" transform="rotate(90 345.31506347656244,692.9949951171876) " stroke-linecap="null" stroke-linejoin="null" id="svg_260" y2="967.107917" x2="345.315044" y1="418.882121" x1="345.315044" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect stroke="#000" id="svg_261" height="127.03562" width="13" y="458.784463" x="65.000913" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect stroke="#00bf00" id="svg_262" height="10.00001" width="18.500012" y="369.515926" x="102.014146" fill="#00bf00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_263" y="378.514487" x="108.013886" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">1</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_264" y="388.033698" x="102.512531" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SV3</text>
+  <rect stroke="#00bf00" id="svg_265" height="10.00001" width="18.500012" y="405.048347" x="245.144746" fill="#00bf00"/>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_266" y="414.046908" x="251.144486" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">4</text>
+  <rect stroke="#00bf00" id="svg_267" height="19.999976" width="21.500006" y="408.69582" x="216.155574" fill="#00bf00"/>
+  <rect stroke="#0000bf" id="svg_268" height="10.00001" width="18.500012" y="391.168405" x="264.518956" fill="#0000bf"/>
+  <text style="cursor: move;" stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_269" y="400.166966" x="270.518696" stroke-opacity="null" stroke-width="0" fill="#ffffff">3</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_270" y2="407.872121" x2="225.705937" y1="366.834678" x1="233.212786" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000000" fill="none"/>
+  <line stroke="#000000" stroke-linecap="null" stroke-linejoin="null" id="svg_271" y2="367.335134" x2="237.716896" y1="404.368923" x1="254.231965" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <line stroke="#000000" stroke-linecap="null" stroke-linejoin="null" id="svg_272" y2="367.335134" x2="240.219179" y1="390.356139" x1="273.249316" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_273" y="423.565203" x="246.01486" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SV1</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_274" y="409.051961" x="266.033125" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SV2</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_275" y="436.577075" x="218.990202" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">BV1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_276" cy="376.123606" cx="79.901989" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_277" y="391.133989" x="73.387551" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MV2</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_278" cy="470.209452" cx="78.400619" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_279" y="472.708422" x="86.899881" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MV5</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_280" cy="519.299095" cx="86.499086" stroke-width="2" stroke="#00bf00" fill="#00bf00"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_281" y="522.29852" x="95.498804" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">OV1</text>
+  <rect stroke="#000" transform="rotate(90 325.1748657226562,693.5753173828126) " id="svg_282" height="179.115992" width="13" y="604.017313" x="318.674822" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_283" cy="680.401229" cx="81.403358" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_284" y="670.388781" x="75.389378" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MV1</text>
+  <rect stroke="#00bf00" id="svg_285" height="10.00001" width="18.500012" y="678.798114" x="99.511861" fill="#00bf00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_286" y="687.796675" x="105.511601" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">3</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_287" y="676.39426" x="100.912666" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SV4</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_288" cy="684.404882" cx="244.552223" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_289" y="674.89289" x="236.536416" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MV4</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_290" cy="681.447044" cx="316.208681" stroke-width="2" stroke="#00bf00" fill="#00bf00"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_291" y="672.935968" x="308.693331" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">OV2</text>
+  <rect stroke="#00bf00" id="svg_292" height="10.00001" width="18.500012" y="680.299484" x="506.883543" fill="#00bf00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_293" y="689.298045" x="512.883283" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">3</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_294" y="677.89563" x="508.284348" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SV5</text>
+  <rect stroke="#00bf00" id="svg_295" height="10.00001" width="18.500012" y="571.700393" x="595.464362" fill="#00bf00"/>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_296" y="580.698955" x="601.464102" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">1</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_297" y="569.29654" x="596.865166" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SV6</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_298" cy="683.904426" cx="607.883736" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_299" y="674.392434" x="599.867929" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">MV3</text>
+  <path stroke="#0000bf" id="svg_300" d="m600.365356,391.438599l7,-9l7,9l-7,8.999939l-7,-8.999939z" stroke-width="2" fill="#0000bf"/>
+  <text style="cursor: move;" stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_301" y="395.028506" x="604.4778" stroke-opacity="null" stroke-width="0" fill="#ffffff">3</text>
+  <text style="cursor: move;" stroke="#000" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_302" y="396.042714" x="578.958641" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">WV1</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_303" cy="508.744604" cx="327.127558" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_304" y="511.744029" x="336.127276" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LV1</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_305" y="763.526823" x="70.998372" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Light/sensor</text>
+  <path stroke="#0000bf" id="svg_306" d="m53.857056,781.421265l7,-9l6.999962,9l-6.999962,8.999939l-7,-8.999939z" stroke-width="2" fill="#0000bf"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_307" y="785.011168" x="57.969544" stroke-opacity="null" stroke-width="0" fill="#ffffff">3</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_308" y="807.044551" x="71.986457" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Box</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_309" cy="823.699295" cx="61.193325" stroke-width="2" stroke="#999999" fill="#999999"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_310" y="824.560533" x="71.986457" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">&#1042;&#1080;&#1093;&#1110;&#1076; &#1085;&#1072; &#1075;&#1086;&#1088;&#1080;&#1097;&#1077;</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_311" cy="843.940964" cx="61.423328" stroke-width="2" stroke="#ff00ff" fill="#ff00ff"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_312" y="845.579711" x="71.986457" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">&#1051;&#1072;&#1084;&#1087;&#1072; &#1073;&#1088;&#1072; (H5 &#1085;&#1080;&#1078;&#1095;&#1077; H6)</text>
+  <rect stroke="#00bf00" id="svg_313" height="19.999976" width="21.500006" y="718.978924" x="210.150097" fill="#00bf00"/>
+  <rect stroke="#7f0000" id="svg_314" height="19.999976" width="21.500006" y="745.985258" x="210.174376" fill="#7f0000"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_315" y="731.998056" x="236.64951" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">&#1050;&#1086;&#1088;&#1086;&#1073;&#1082;&#1072; &#1074;&#1085;&#1080;&#1079;&#1091;</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_316" y="758.522257" x="237.149967" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">&#1050;&#1086;&#1088;&#1086;&#1073;&#1082;&#1072; &#1079;&#1074;&#1077;&#1088;&#1093;&#1091;</text>
+ </g>
+</svg>

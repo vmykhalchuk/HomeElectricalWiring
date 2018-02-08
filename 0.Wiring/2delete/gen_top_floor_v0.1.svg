@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1220" height="900" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="1222" height="902" id="canvas_background" fill="#fff"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000" id="svg_2" height="622.817435" width="546" y="93.099133" x="67.329374" stroke-width="2" fill="#fff"/>
+  <rect style="vector-effect: non-scaling-stroke;" stroke="#000" id="svg_4" height="65.237998" width="13" y="209.376881" x="60.329374" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_9" cy="834.629223" cx="57.846781" stroke-width="2" stroke="#00bf00" fill="#00bf00"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_10" cy="792.089497" cx="55.819384" stroke-width="2" stroke="#7f0000" fill="#7f0000"/>
+  <rect stroke="#00bf00" id="svg_12" height="10.00001" width="18.500012" y="770.61415" x="45.828048" fill="#00bf00"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_13" y="779.612712" x="51.32779" stroke-opacity="null" stroke-width="0" fill="#ffffff">N</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_19" y="779.112714" x="67.327746" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Socket 80-90cm</text>
+  <rect stroke="#0000bf" id="svg_21" height="10.00001" width="18.500012" y="752.614185" x="46.828042" fill="#0000bf"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_22" y="761.612746" x="52.327783" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">N</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_23" y="761.612756" x="67.827742" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Socket 30cm</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_59" y="813.121767" x="68.816288" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Switch</text>
+  <rect stroke="#000" id="svg_90" height="555.499967" width="498.968042" y="60.599219" x="615.360718" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect stroke="#000" transform="rotate(90, 652.408, 265.599)" id="svg_92" height="71.626968" width="19.999973" y="229.785737" x="642.408466" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="#fff"/>
+  <rect stroke="#000" transform="rotate(90, 816.828, 61.0992)" id="svg_106" height="153.999993" width="13" y="-15.900763" x="810.327688" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_305" y="793.625956" x="67.327746" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Light/sensor</text>
+  <path stroke="#0000bf" id="svg_306" d="m50.186432,811.520386l7,-9l6.999962,9l-6.999962,8.999939l-7,-8.999939z" stroke-width="2" fill="#0000bf"/>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_307" y="815.110301" x="54.298918" stroke-opacity="null" stroke-width="0" fill="#ffffff">3</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_308" y="837.143684" x="68.315831" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Box</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_309" cy="853.798428" cx="57.522699" stroke-width="2" stroke="#999999" fill="#999999"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_310" y="854.659666" x="68.315831" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Вихід на горище</text>
+  <ellipse ry="6.5" rx="6.5" id="svg_311" cy="874.040097" cx="57.752702" stroke-width="2" stroke="#ff00ff" fill="#ff00ff"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_312" y="875.678844" x="68.315831" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Лампа бра (H5 нижче H6)</text>
+  <rect stroke="#00bf00" id="svg_313" height="19.999976" width="21.500006" y="749.078057" x="206.479471" fill="#00bf00"/>
+  <rect stroke="#7f0000" id="svg_314" height="19.999976" width="21.500006" y="776.084391" x="206.50375" fill="#7f0000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_315" y="762.097189" x="232.978884" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Коробка внизу</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_316" y="788.62139" x="233.479341" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Коробка зверху</text>
+  <rect stroke="#000" id="svg_3" height="88.237996" width="13" y="507.217465" x="60.329374" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect style="vector-effect: non-scaling-stroke;" stroke="#000" id="svg_5" height="39.5" width="11" y="291.162631" x="608.286207" stroke-width="2" fill="none"/>
+  <text style="cursor: move; vector-effect: non-scaling-stroke;" fill="#7f7f7f" stroke="#000" stroke-width="0" stroke-opacity="null" x="527.836018" y="46.249887" id="svg_27" font-size="8" font-family="Georgia, Times, 'Times New Roman', serif" text-anchor="left" xml:space="preserve" font-style="italic" font-weight="bold">GROUND &lt;&lt;2&gt;&gt;</text>
+  <text style="cursor: move; vector-effect: non-scaling-stroke;" fill="#7f7f7f" stroke-width="0" x="621.069888" y="45.515758" id="svg_28" font-size="8" font-family="Georgia, Times, 'Times New Roman', serif" text-anchor="left" xml:space="preserve" font-style="italic" font-weight="bold">GROUND &lt;&lt;3&gt;&gt;</text>
+  <line fill="none" stroke-width="2" fill-opacity="null" x1="557.935141" y1="49.186387" x2="543.986763" y2="93.233899" id="svg_29" stroke-linejoin="null" stroke-linecap="null" stroke="#000000"/>
+  <line fill="none" stroke="#000000" stroke-width="2" fill-opacity="null" x1="635.752412" y1="46.984012" x2="642.359533" y2="59.46414" id="svg_30" stroke-linejoin="null" stroke-linecap="null"/>
+  <rect stroke="#000" transform="rotate(90, 831.828, 616.099)" id="svg_6" height="152.000001" width="13" y="540.098862" x="825.327932" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect stroke="#000" transform="rotate(90, 312.828, 717.099)" id="svg_7" height="145.999993" width="13" y="644.098809" x="306.327749" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect stroke="#000" transform="rotate(90, 316.828, 94.0988)" id="svg_8" height="144.000001" width="13" y="22.09877" x="310.327719" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_11" cy="596.798428" cx="929.522699" stroke-width="2" stroke="#999999" fill="#999999"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_14" cy="161.798428" cx="889.522699" stroke-width="2" stroke="#999999" fill="#999999"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_15" cy="339.798428" cx="615.522699" stroke-width="2" stroke="#999999" fill="#999999"/>
+  <ellipse ry="6.5" rx="6.5" id="svg_16" cy="281.798428" cx="614.522699" stroke-width="2" stroke="#999999" fill="#999999"/>
+ </g>
+</svg>

@@ -1,0 +1,84 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body>
+
+	<h1>Structure of files</h1>
+	We use Online Editor:
+	<a href="http://editor.method.ac/">Method.AC</a>
+
+
+	<h2>GEN_XXXX</h2>
+	These files represent general layout of wiring destinations (points)
+	like sockets, switches, boxes, etc.
+
+	<h3>Notation used</h3>
+	Every point is encoded as
+	<b>TRN</b>, where T - is a type of point, R - is a room and N - is a
+	number in the room of this point type.
+	<br>
+	<br>
+	<table>
+		<tr>
+			<td><b><font style="text-decoration: underline;">T</font></b>ype:
+				<ul>
+					<li>B - Велика коробка(Box)</li>
+					<li>O– Кругла коробка з заглушкою</li>
+					<li>L – Точка в стелі під світильник/галогенку</li>
+					<li><strike>R – Точка під Бра</strike></li>
+					<li>W – Вимикач</li>
+					<li>S – Розетка</li>
+					<li><strike>D – Скрита точка з кабельом даних</strike></li>
+					<li>V – Вентиляційна шахта</li>
+					<li>M – Інші точки</li>
+				</ul></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+			<td><b><font style="text-decoration: underline;">R</font></b>oom:
+				<ul>
+					<li>K – Кухня</li>
+					<li>T – Туалет</li>
+					<li>B – Ванна</li>
+					<li>H– Сходова (на всіх рівнях)</li>
+					<li>M – Серверна, котєльня</li>
+					<li>D–Гараж</li>
+					<li>V – Вітальня</li>
+					<li>S – Спальня</li>
+					<li>G – Гостьова</li>
+					<li>C – Дитяча</li>
+					<li>U – гардеробна/прохожа</li>
+					<li>A – кімната за гаражом</li>
+				</ul></td>
+		</tr>
+	</table>
+
+	E.g. WK1 – вимикач на кухні, точка №1
+	<br>
+	<br>
+
+	<table>
+		<tr>
+			<td>
+				<h3>gen_ground_floor</h3> <img src='gen_ground_floor_v0.2.svg'
+				width="100%" height="100%"></img>
+			</td>
+			<td>
+				<h3>gen_main_floor</h3> <img src='gen_main_floor_v0.5.svg'
+				width="100%" height="100%"></img>
+			</td>
+			<td>
+				<h3>gen_top_floor</h3> <img src='gen_top_floor_v0.2.svg'
+				width="100%" height="100%"></img>
+			</td>
+		</tr>
+	</table>
+
+
+	<h2>WIRING_XXXX</h2>
+	These files represent wiring between points and where all the cabling's
+	go (plus tubes for replacing/adding cables)
+	<h3>wiring_kitchen</h3>
+	<img src='wiring_kitchen_v0.6.svg' width="50%" height="50%"></img>
+</body>
+</html>

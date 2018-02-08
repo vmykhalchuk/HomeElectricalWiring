@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="1082" width="1922" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="10.5" rx="10.5" id="svg_1" cy="246.499999" cx="181.499999" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_2" y="230" x="146" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">мале вікно (датчик)</text>
+  <ellipse ry="10.5" rx="10.5" id="svg_3" cy="326.499999" cx="103.499999" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_4" y="330" x="125" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK3 - 1</text>
+  <ellipse ry="10.5" rx="10.5" id="svg_5" cy="351.499999" cx="102.499999" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_6" y="355" x="124" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK3 - 2</text>
+  <ellipse ry="10.5" rx="10.5" id="svg_7" cy="376.499999" cx="102.499999" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_8" y="380" x="124" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK3 - 3</text>
+  <ellipse ry="10.5" rx="10.5" id="svg_9" cy="425.499999" cx="104.499999" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_10" y="429" x="126" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK4 - 1</text>
+  <ellipse ry="10.5" rx="10.5" id="svg_11" cy="450.499999" cx="103.499999" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_12" y="454" x="125" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK4 - 2</text>
+  <ellipse ry="10.5" rx="10.5" id="svg_13" cy="475.499999" cx="103.499999" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_14" y="479" x="125" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SK4 - 3</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_15" y2="326" x2="65" y1="326" x1="91" fill-opacity="null" stroke-opacity="null" stroke-width="4" stroke="#000" fill="none"/>
+  <ellipse ry="10.5" rx="10.5" id="svg_16" cy="464.499999" cx="670.499999" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_17" y="469" x="689" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LK2</text>
+  <ellipse ry="10.5" rx="10.5" id="svg_18" cy="855.154723" cx="253.713528" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_19" y="859.654724" x="272.213529" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">LK1</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_20" y2="350" x2="65" y1="350" x1="91" fill-opacity="null" stroke-opacity="null" stroke-width="4" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_21" y2="376" x2="65" y1="376" x1="91" fill-opacity="null" stroke-opacity="null" stroke-width="4" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_22" y2="425" x2="66" y1="425" x1="92" fill-opacity="null" stroke-opacity="null" stroke-width="4" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_23" y2="450" x2="66" y1="450" x1="92" fill-opacity="null" stroke-opacity="null" stroke-width="4" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_24" y2="475" x2="66" y1="475" x1="92" fill-opacity="null" stroke-opacity="null" stroke-width="4" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_25" y2="474.00001" x2="67" y1="286.999997" x1="65" fill-opacity="null" stroke-opacity="null" stroke-width="4" stroke="#000" fill="none"/>
+  <ellipse ry="10.5" rx="10.5" id="svg_26" cy="245.499999" cx="406.499999" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_27" y="218" x="360" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">скрита коробка</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_28" y2="288" x2="407.147027" y1="288" x1="65.999988" fill-opacity="null" stroke-opacity="null" stroke-width="4" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_29" y2="290" x2="406" y1="257" x1="406" fill-opacity="null" stroke-opacity="null" stroke-width="4" stroke="#000" fill="none"/>
+  <ellipse ry="10.5" rx="10.5" id="svg_30" cy="620.499999" cx="926.499999" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_32" y="230" x="360" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">справа мал вікна</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_33" y="618" x="942" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">скрита коробка</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_34" y="630" x="942" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">зліва від дверей</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_35" y2="249" x2="924.024654" y1="249" x1="417" fill-opacity="null" stroke-opacity="null" stroke-width="4" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_36" y2="611.001385" x2="925" y1="248.999983" x1="925" fill-opacity="null" stroke-opacity="null" stroke-width="4" stroke="#000" fill="none"/>
+  <line stroke-dasharray="5,5" stroke-linecap="null" stroke-linejoin="null" id="svg_40" y2="389.999998" x2="404.000003" y1="463" x1="659.000001" fill-opacity="null" stroke-width="2" stroke="#ff0000" fill="none"/>
+  <line stroke-dasharray="5,5" stroke-linecap="null" stroke-linejoin="null" id="svg_41" y2="392" x2="408" y1="257" x1="187" fill-opacity="null" stroke-width="2" stroke="#ff0000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_42" y2="59" x2="184.147027" y1="59" x1="62.999988" fill-opacity="null" stroke-opacity="null" stroke-width="4" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_43" y="63" x="193" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">2.5mm * 2 (unless otherwise stated)</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_44" y2="82" x2="183.004273" y1="82" x1="66" fill-opacity="null" stroke-opacity="null" stroke-dasharray="5,5" stroke-width="2" stroke="#000" fill="none"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_45" y="84" x="193" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">data cable (8*0.15mm, unless otherwise stated)</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_46" y2="56" x2="624.147027" y1="56" x1="502.999988" fill-opacity="null" stroke-width="4" stroke="#ff0000" fill="none"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_47" y="62" x="635" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">if RED - then must be confirmed!</text>
+  <rect stroke-dasharray="5,5" id="svg_49" height="282.143363" width="408.082789" y="467.635542" x="185.492177" fill-opacity="null" stroke="#cccccc" fill="none"/>
+  <rect id="svg_50" height="38.07471" width="41.979808" y="530.117116" x="264.570421" fill-opacity="null" stroke="#000000" fill="none"/>
+  <rect id="svg_51" height="38.07471" width="41.979808" y="530.117116" x="307.526504" fill-opacity="null" stroke="#000000" fill="none"/>
+  <rect id="svg_52" height="38.07471" width="41.979808" y="530.117116" x="350.482587" fill-opacity="null" stroke="#000000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_54" y2="643.830072" x2="668.748111" y1="617.981831" x1="668.748111" fill-opacity="null" stroke="#000000" fill="none"/>
+ </g>
+</svg>

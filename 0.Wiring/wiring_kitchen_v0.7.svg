@@ -1,0 +1,4967 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2120"
+   height="1480"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="wiring_kitchen_v0.7.svg">
+  <metadata
+     id="metadata495">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs493" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="809"
+     id="namedview491"
+     showgrid="false"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:zoom="0.82718152"
+     inkscape:cx="799.98371"
+     inkscape:cy="828.13837"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer3" />
+  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+  <path
+     style="fill:none;stroke:#000000;stroke-width:4"
+     inkscape:connector-curvature="0"
+     d=""
+     stroke-opacity="null"
+     fill-opacity="null"
+     id="svg_209" />
+  <path
+     style="fill:none;stroke:#cccccc;stroke-dasharray:5, 5"
+     inkscape:connector-curvature="0"
+     d=""
+     id="svg_303"
+     fill-opacity="null"
+     stroke-opacity="null"
+     stroke-width="null" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:none;stroke:#00ff7f"
+       fill-opacity="null"
+       x="679.83368"
+       y="1205.3107"
+       width="73.535347"
+       height="84.128731"
+       id="svg_435" />
+    <rect
+       style="fill:none;stroke:#00ff7f"
+       fill-opacity="null"
+       x="753.41278"
+       y="1205.3107"
+       width="73.535347"
+       height="84.128731"
+       id="svg_436" />
+    <circle
+       style="fill:#ff6600;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+       r="10.5"
+       cx="1420.2854"
+       cy="1324.6403"
+       id="svg_401" />
+    <circle
+       style="fill:#ff6600;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+       r="10.5"
+       cx="1609.1445"
+       cy="619.16669"
+       id="svg_30" />
+    <circle
+       style="fill:#ff6600;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+       r="10.5"
+       cx="603.8269"
+       cy="249.49986"
+       id="svg_26" />
+    <rect
+       style="fill:none;stroke:#cccccc;stroke-dasharray:5, 5"
+       fill-opacity="null"
+       x="45.10807"
+       y="374.39188"
+       width="303.5719"
+       height="278.14349"
+       id="svg_49" />
+    <rect
+       style="fill:none;stroke:#0000bf"
+       x="223.98851"
+       y="436.87341"
+       width="73.535347"
+       height="84.128731"
+       id="svg_121" />
+    <circle
+       style="fill:#7f0000;stroke:#000000;stroke-width:1.5"
+       r="10.5"
+       cx="181.5"
+       cy="246.5"
+       id="svg_1" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="146"
+       y="230"
+       id="svg_2"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">мале вікно (датчик)</text>
+    <circle
+       style="fill:#7f0000;stroke:#000000;stroke-width:1.5"
+       r="10.5"
+       cx="682.04315"
+       cy="496.32739"
+       id="svg_16" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="700.54315"
+       y="500.82739"
+       id="svg_17"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">LK2</text>
+    <circle
+       style="fill:#7f0000;stroke:#000000;stroke-width:1.5"
+       r="10.5"
+       cx="444.42688"
+       cy="839.12109"
+       id="svg_18" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="462.92688"
+       y="843.62109"
+       id="svg_19"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">LK1</text>
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="557.32697"
+       y="221.99986"
+       id="svg_27"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">скрита коробка</text>
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="557.32697"
+       y="233.99986"
+       id="svg_32"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">справа мал вікна</text>
+    <rect
+       style="fill:none;stroke:#0000bf"
+       x="76.018654"
+       y="436.87341"
+       width="73.535347"
+       height="84.128731"
+       id="svg_50" />
+    <g
+       id="svg_85">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="97.437325"
+         y1="462.16443"
+         x2="97.437325"
+         y2="488.01266"
+         id="svg_73"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_74"
+         y2="487.62964"
+         x2="97.123184"
+         y1="495.65845"
+         x1="93.664581"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_75"
+         y2="487.82382"
+         x2="97.664436"
+         y1="495.65845"
+         x1="100.66432"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="121.90212"
+         y1="462.16443"
+         x2="121.90212"
+         y2="488.01266"
+         id="svg_76"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_77"
+         y2="487.62964"
+         x2="121.58797"
+         y1="495.65845"
+         x1="118.12938"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_78"
+         y2="487.82382"
+         x2="122.12923"
+         y1="495.65845"
+         x1="125.12912"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="109.51682"
+         y1="462.62314"
+         x2="109.51682"
+         y2="481.13193"
+         id="svg_79"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_80"
+         y2="480.74893"
+         x2="109.20267"
+         y1="488.77774"
+         x1="105.74408"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_81"
+         y2="480.94312"
+         x2="109.74393"
+         y1="488.77774"
+         x1="112.74381"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_82"
+         y="489.31158"
+         x="91.990967"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_83"
+         y="489.6174"
+         x="124.40682"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_84"
+         y="483.19537"
+         x="112.63314"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <rect
+       style="fill:none;stroke:#0000bf"
+       x="150.2168"
+       y="436.87341"
+       width="73.535347"
+       height="84.128731"
+       id="svg_113" />
+    <g
+       id="svg_98"
+       transform="matrix(-1,0,0,-1,381.326,937.354)">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="178.45828"
+         y1="451.93021"
+         x2="178.45828"
+         y2="477.77844"
+         id="svg_86"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_87"
+         y2="477.39542"
+         x2="178.14413"
+         y1="485.42422"
+         x1="174.68555"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_88"
+         y2="477.5896"
+         x2="178.68539"
+         y1="485.42422"
+         x1="181.68527"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="202.92308"
+         y1="451.93021"
+         x2="202.92308"
+         y2="477.77844"
+         id="svg_89"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_90"
+         y2="477.39542"
+         x2="202.60893"
+         y1="485.42422"
+         x1="199.15033"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_91"
+         y2="477.5896"
+         x2="203.15019"
+         y1="485.42422"
+         x1="206.15007"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="190.53777"
+         y1="452.38892"
+         x2="190.53777"
+         y2="470.89771"
+         id="svg_92"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_93"
+         y2="470.51471"
+         x2="190.22363"
+         y1="478.54352"
+         x1="186.76503"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_94"
+         y2="470.70889"
+         x2="190.76488"
+         y1="478.54352"
+         x1="193.76477"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_95"
+         y="479.07736"
+         x="173.01193"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_96"
+         y="479.38318"
+         x="205.42778"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_97"
+         y="472.96115"
+         x="193.6541"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <g
+       id="svg_111"
+       transform="matrix(-1,0,0,-1,520.34,959.528)">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="247.96573"
+         y1="463.01727"
+         x2="247.96573"
+         y2="488.86551"
+         id="svg_99"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_100"
+         y2="488.48251"
+         x2="247.65158"
+         y1="496.51132"
+         x1="244.19299"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_101"
+         y2="488.6767"
+         x2="248.19284"
+         y1="496.51132"
+         x1="251.19272"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="272.43051"
+         y1="463.01727"
+         x2="272.43051"
+         y2="488.86551"
+         id="svg_102"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_103"
+         y2="488.48251"
+         x2="272.11639"
+         y1="496.51132"
+         x1="268.65778"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_104"
+         y2="488.6767"
+         x2="272.65762"
+         y1="496.51132"
+         x1="275.65753"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="260.04523"
+         y1="463.47601"
+         x2="260.04523"
+         y2="481.9848"
+         id="svg_105"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_106"
+         y2="481.60178"
+         x2="259.73108"
+         y1="489.63058"
+         x1="256.27249"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_107"
+         y2="481.79596"
+         x2="260.27234"
+         y1="489.63058"
+         x1="263.27222"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_108"
+         y="490.16443"
+         x="242.51938"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_109"
+         y="490.47025"
+         x="274.93524"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_110"
+         y="484.04825"
+         x="263.16153"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:4"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_112"
+       y2="402.71249"
+       x2="94.168739"
+       y1="443.6694"
+       x1="94.168739"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:4"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_114"
+       y2="478.63632"
+       x2="158.13264"
+       y1="478.63632"
+       x1="139.79633"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_115"
+       y2="477.35706"
+       x2="140.22276"
+       y1="470.53424"
+       x1="109.52008"
+       fill-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_116"
+       y2="462.43213"
+       x2="109.52008"
+       y1="443.24298"
+       x1="95.021591"
+       fill-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_117"
+       y2="462.00571"
+       x2="121.46001"
+       y1="444.09583"
+       x1="95.448021"
+       fill-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_118"
+       y2="462.00571"
+       x2="97.153732"
+       y1="443.6694"
+       x1="94.168732"
+       fill-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_119"
+       y2="478.2099"
+       x2="140.22275"
+       y1="471.38708"
+       x1="98.006569"
+       fill-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_120"
+       y2="477.35706"
+       x2="140.22275"
+       y1="470.10782"
+       x1="122.31286"
+       fill-opacity="null" />
+    <rect
+       style="fill:none;stroke:#00ff7f"
+       fill-opacity="null"
+       x="128.04263"
+       y="559.25769"
+       width="73.535347"
+       height="84.128731"
+       id="svg_122" />
+    <rect
+       style="fill:none;stroke:#00ff7f"
+       fill-opacity="null"
+       x="201.81435"
+       y="559.25769"
+       width="73.535347"
+       height="84.128731"
+       id="svg_123" />
+    <rect
+       style="fill:none;stroke:#00ff7f"
+       fill-opacity="null"
+       x="53.844505"
+       y="559.25769"
+       width="73.535347"
+       height="84.128731"
+       id="svg_124" />
+    <g
+       id="svg_137">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="226.218"
+         y1="587.96014"
+         x2="226.218"
+         y2="613.80835"
+         id="svg_125"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_126"
+         y2="613.42535"
+         x2="225.90385"
+         y1="621.45416"
+         x1="222.44525"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_127"
+         y2="613.61951"
+         x2="226.44511"
+         y1="621.45416"
+         x1="229.44499"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="250.6828"
+         y1="587.96014"
+         x2="250.6828"
+         y2="613.80835"
+         id="svg_128"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_129"
+         y2="613.42535"
+         x2="250.36865"
+         y1="621.45416"
+         x1="246.91005"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_130"
+         y2="613.61951"
+         x2="250.9099"
+         y1="621.45416"
+         x1="253.90979"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="238.29749"
+         y1="588.41882"
+         x2="238.29749"
+         y2="606.92761"
+         id="svg_131"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_132"
+         y2="606.54462"
+         x2="237.98335"
+         y1="614.57343"
+         x1="234.52475"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_133"
+         y2="606.73883"
+         x2="238.5246"
+         y1="614.57343"
+         x1="241.52449"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_134"
+         y="615.1073"
+         x="220.77164"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_135"
+         y="615.41309"
+         x="253.1875"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_136"
+         y="608.99109"
+         x="241.41382"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <g
+       id="svg_150">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="153.72556"
+         y1="590.09222"
+         x2="153.72556"
+         y2="615.94049"
+         id="svg_138"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_139"
+         y2="615.5575"
+         x2="153.41142"
+         y1="623.5863"
+         x1="149.95282"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_140"
+         y2="615.75165"
+         x2="153.95267"
+         y1="623.5863"
+         x1="156.95256"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="178.19035"
+         y1="590.09222"
+         x2="178.19035"
+         y2="615.94049"
+         id="svg_141"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_142"
+         y2="615.5575"
+         x2="177.87622"
+         y1="623.5863"
+         x1="174.41762"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_143"
+         y2="615.75165"
+         x2="178.41747"
+         y1="623.5863"
+         x1="181.41736"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="165.80505"
+         y1="590.55096"
+         x2="165.80505"
+         y2="609.05975"
+         id="svg_144"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_145"
+         y2="608.67676"
+         x2="165.49091"
+         y1="616.70557"
+         x1="162.03232"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_146"
+         y2="608.87091"
+         x2="166.03217"
+         y1="616.70557"
+         x1="169.03206"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_147"
+         y="617.23938"
+         x="148.27921"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_148"
+         y="617.54523"
+         x="180.69507"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_149"
+         y="611.12323"
+         x="168.92137"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:4"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_151"
+       y2="513.15686"
+       x2="173.91042"
+       y1="565.62726"
+       x1="173.91042"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:4"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_152"
+       y2="515.289"
+       x2="248.53499"
+       y1="567.7594"
+       x1="248.53499"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#cccccc;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_153"
+       y="539.99902"
+       x="160.26479"
+       fill-opacity="null"
+       stroke-opacity="null">A</text>
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#cccccc;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_154"
+       y="544.68976"
+       x="234.46292"
+       fill-opacity="null"
+       stroke-opacity="null">B</text>
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_155"
+       y2="470.06519"
+       x2="179.02753"
+       y1="478.16727"
+       x1="158.55908"
+       fill-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_156"
+       y2="471.77087"
+       x2="190.54103"
+       y1="478.16727"
+       x1="158.55907"
+       fill-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_157"
+       y2="475.6087"
+       x2="202.05452"
+       y1="478.16727"
+       x1="158.55905"
+       fill-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_158"
+       y2="484.56366"
+       x2="178.17468"
+       y1="513.13422"
+       x1="173.05757"
+       fill-opacity="null"
+       stroke-opacity="null"
+       stroke-width="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_159"
+       y2="484.99008"
+       x2="202.48094"
+       y1="513.13422"
+       x1="173.0576"
+       fill-opacity="null"
+       stroke-opacity="null"
+       stroke-width="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_160"
+       y2="485.4165"
+       x2="190.54099"
+       y1="513.13422"
+       x1="173.05756"
+       fill-opacity="null"
+       stroke-opacity="null"
+       stroke-width="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_161"
+       y2="589.89093"
+       x2="153.86839"
+       y1="565.58459"
+       x1="173.91042"
+       fill-opacity="null"
+       stroke-width="NaN" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_162"
+       y2="591.17017"
+       x2="165.38188"
+       y1="565.58459"
+       x1="173.9104"
+       fill-opacity="null"
+       stroke-width="NaN" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_163"
+       y2="590.31732"
+       x2="178.60109"
+       y1="565.58459"
+       x1="173.9104"
+       fill-opacity="null"
+       stroke-width="NaN" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_164"
+       y2="594.5816"
+       x2="225.9344"
+       y1="595.43445"
+       x1="154.29482"
+       fill-opacity="null"
+       stroke-opacity="null"
+       stroke-width="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_165"
+       y2="597.99298"
+       x2="237.87433"
+       y1="598.84583"
+       x1="166.23476"
+       fill-opacity="null"
+       stroke-opacity="null"
+       stroke-width="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_166"
+       y2="601.83081"
+       x2="249.81425"
+       y1="602.68372"
+       x1="178.17468"
+       fill-opacity="null"
+       stroke-opacity="null"
+       stroke-width="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_167"
+       y2="589.03809"
+       x2="249.81424"
+       y1="567.83496"
+       x1="248.53494"
+       fill-opacity="null"
+       stroke-width="NaN" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_169"
+       y2="588.18518"
+       x2="225.9344"
+       y1="568.14319"
+       x1="247.25571"
+       fill-opacity="null"
+       stroke-width="NaN" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_170"
+       y2="588.18518"
+       x2="238.30075"
+       y1="568.14319"
+       x1="247.25571"
+       fill-opacity="null"
+       stroke-width="NaN" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_171"
+       y2="485.4165"
+       x2="190.54099"
+       y1="513.13422"
+       x1="173.05756"
+       fill-opacity="null"
+       stroke-opacity="null"
+       stroke-width="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_172"
+       y2="515.19373"
+       x2="248.05864"
+       y1="496.7002"
+       x1="248.36687"
+       fill-opacity="null"
+       stroke-opacity="null"
+       stroke-width="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_173"
+       y2="514.8855"
+       x2="248.67509"
+       y1="496.39197"
+       x1="260.69589"
+       fill-opacity="null"
+       stroke-opacity="null"
+       stroke-width="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_174"
+       y2="514.8855"
+       x2="249.29153"
+       y1="496.39197"
+       x1="272.40845"
+       fill-opacity="null"
+       stroke-opacity="null"
+       stroke-width="null" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:4"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_175"
+       y2="599.03107"
+       x2="414.241"
+       y1="600.26398"
+       x1="271.79199"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_176"
+       y="593.79126"
+       x="278.57297"
+       fill-opacity="null"
+       stroke-opacity="null">SK3 - SK12</text>
+    <text
+       style="font-size:24px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#cccccc;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="24"
+       id="svg_177"
+       y="611.36011"
+       x="73.294701"
+       fill-opacity="null"
+       stroke-opacity="null">TV</text>
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_178"
+       y2="393.44461"
+       x2="78.226311"
+       y1="402.38315"
+       x1="93.329369"
+       fill-opacity="null"
+       stroke-width="NaN" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_179"
+       y2="382.04025"
+       x2="113.05581"
+       y1="402.38315"
+       x1="94.562271"
+       fill-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_180"
+       y2="386.97186"
+       x2="115.21339"
+       y1="402.38315"
+       x1="94.562271"
+       fill-opacity="null" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#cccccc;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_181"
+       y="391.28702"
+       x="60.657452"
+       fill-opacity="null"
+       stroke-opacity="null">Earth (*)</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#cccccc;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_182"
+       y="386.04718"
+       x="116.13806"
+       fill-opacity="null"
+       stroke-opacity="null">На горище SK41</text>
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#cccccc;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_3"
+       y="430.66925"
+       x="257.59497"
+       fill-opacity="null"
+       stroke-opacity="null">SK4</text>
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#cccccc;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_4"
+       y="554.66522"
+       x="59.658527"
+       fill-opacity="null"
+       stroke-opacity="null">SK3</text>
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_5"
+       y="615.1239"
+       x="278.57297"
+       fill-opacity="null"
+       stroke-opacity="null">[2*2.5mm]</text>
+    <circle
+       style="fill:#7f0000;stroke:#000000;stroke-width:1.5"
+       r="10.5"
+       cx="71.504066"
+       cy="728.48431"
+       id="svg_7" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="36.00407"
+       y="711.98431"
+       id="svg_8"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">велике вікно (датчик)</text>
+    <circle
+       style="fill:#00bf00;stroke:#000000;stroke-width:1.5"
+       r="10.5"
+       cx="73.504005"
+       cy="828.48108"
+       id="svg_9" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="31.337557"
+       y="811.31445"
+       id="svg_10"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">велике вікно / батарея</text>
+    <rect
+       style="fill:none;stroke:#00ff7f"
+       x="1196.0018"
+       y="316.70966"
+       width="73.535347"
+       height="84.128731"
+       id="svg_14" />
+    <rect
+       style="fill:none;stroke:#00ff7f"
+       x="1048.5309"
+       y="316.70966"
+       width="73.535347"
+       height="84.128731"
+       id="svg_15" />
+    <rect
+       style="fill:none;stroke:#00ff7f"
+       x="1122.2301"
+       y="316.70966"
+       width="73.535347"
+       height="84.128731"
+       id="svg_20" />
+    <g
+       id="svg_183">
+      <rect
+         style="fill:none;stroke:#00ff7f"
+         x="663.99957"
+         y="302.21112"
+         width="73.535347"
+         height="84.128731"
+         id="svg_21" />
+      <g
+         id="svg_67">
+        <line
+           style="fill:none;stroke:#000000"
+           fill-opacity="null"
+           x1="688.08081"
+           y1="333.3244"
+           x2="688.08081"
+           y2="359.17264"
+           id="svg_22"
+           stroke-linejoin="null"
+           stroke-linecap="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           stroke-linecap="null"
+           stroke-linejoin="null"
+           id="svg_23"
+           y2="358.78961"
+           x2="687.76666"
+           y1="366.81842"
+           x1="684.30811"
+           fill-opacity="null"
+           stroke-opacity="null"
+           stroke-width="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           stroke-linecap="null"
+           stroke-linejoin="null"
+           id="svg_24"
+           y2="358.9838"
+           x2="688.30792"
+           y1="366.81842"
+           x1="691.3078"
+           fill-opacity="null"
+           stroke-opacity="null"
+           stroke-width="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           fill-opacity="null"
+           x1="712.54559"
+           y1="333.3244"
+           x2="712.54559"
+           y2="359.17264"
+           id="svg_40"
+           stroke-linejoin="null"
+           stroke-linecap="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           stroke-linecap="null"
+           stroke-linejoin="null"
+           id="svg_51"
+           y2="358.78961"
+           x2="712.23151"
+           y1="366.81842"
+           x1="708.77289"
+           fill-opacity="null"
+           stroke-opacity="null"
+           stroke-width="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           stroke-linecap="null"
+           stroke-linejoin="null"
+           id="svg_52"
+           y2="358.9838"
+           x2="712.77271"
+           y1="366.81842"
+           x1="715.77264"
+           fill-opacity="null"
+           stroke-opacity="null"
+           stroke-width="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           fill-opacity="null"
+           x1="700.16034"
+           y1="333.78311"
+           x2="700.16034"
+           y2="352.2919"
+           id="svg_61"
+           stroke-linejoin="null"
+           stroke-linecap="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           stroke-linecap="null"
+           stroke-linejoin="null"
+           id="svg_62"
+           y2="351.90887"
+           x2="699.84619"
+           y1="359.93771"
+           x1="696.38757"
+           fill-opacity="null"
+           stroke-opacity="null"
+           stroke-width="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           stroke-linecap="null"
+           stroke-linejoin="null"
+           id="svg_63"
+           y2="352.10306"
+           x2="700.38745"
+           y1="359.93771"
+           x1="703.38733"
+           fill-opacity="null"
+           stroke-opacity="null"
+           stroke-width="null" />
+        <text
+           style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+           xml:space="preserve"
+           text-anchor="left"
+           font-size="4"
+           id="svg_64"
+           y="360.47156"
+           x="682.63446"
+           fill-opacity="null"
+           stroke-opacity="null">L</text>
+        <text
+           style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+           xml:space="preserve"
+           text-anchor="left"
+           font-size="4"
+           id="svg_65"
+           y="360.77734"
+           x="715.05035"
+           fill-opacity="null"
+           stroke-opacity="null">N</text>
+        <text
+           style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+           xml:space="preserve"
+           text-anchor="left"
+           font-size="4"
+           id="svg_66"
+           y="354.35535"
+           x="703.27661"
+           fill-opacity="null"
+           stroke-opacity="null">E</text>
+      </g>
+      <text
+         style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#cccccc;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="13"
+         id="svg_68"
+         y="299.34021"
+         x="706.9137"
+         fill-opacity="null"
+         stroke-opacity="null">SK2</text>
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="696.49731"
+         y1="308.04056"
+         x2="687.85754"
+         y2="334.29214"
+         id="svg_70"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="712.44763"
+         y1="333.62753"
+         x2="696.82959"
+         y2="306.71136"
+         id="svg_71"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="700.15259"
+         y1="333.95984"
+         x2="696.82959"
+         y2="307.70825"
+         id="svg_72"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+    </g>
+    <rect
+       style="fill:none;stroke:#7f0000"
+       x="855.42218"
+       y="301.73999"
+       width="73.535347"
+       height="84.128731"
+       id="svg_184" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="903.06628"
+       y="298.34576"
+       id="svg_185"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">SK8</text>
+    <g
+       id="svg_198">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="878.76727"
+         y1="331.03479"
+         x2="878.76727"
+         y2="356.88303"
+         id="svg_186"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_187"
+         y2="356.5"
+         x2="878.45312"
+         y1="364.52881"
+         x1="874.99457"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_188"
+         y2="356.69418"
+         x2="878.99438"
+         y1="364.52881"
+         x1="881.99426"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="903.23212"
+         y1="331.03479"
+         x2="903.23212"
+         y2="356.88303"
+         id="svg_189"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_190"
+         y2="356.5"
+         x2="902.91797"
+         y1="364.52881"
+         x1="899.45935"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_191"
+         y2="356.69418"
+         x2="903.45923"
+         y1="364.52881"
+         x1="906.45911"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="890.8468"
+         y1="331.4935"
+         x2="890.8468"
+         y2="350.00229"
+         id="svg_192"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_193"
+         y2="349.61929"
+         x2="890.53265"
+         y1="357.6481"
+         x1="887.07404"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_194"
+         y2="349.81348"
+         x2="891.07391"
+         y1="357.6481"
+         x1="894.07379"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_195"
+         y="358.18195"
+         x="873.32092"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_196"
+         y="358.48776"
+         x="905.73682"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_197"
+         y="352.06573"
+         x="893.96313"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <rect
+       style="fill:none;stroke:#00ff7f"
+       x="1269.3531"
+       y="316.70966"
+       width="73.535347"
+       height="84.128731"
+       id="svg_202" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="1054.2599"
+       y="310.3215"
+       id="svg_203"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">SK1</text>
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-width="null"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="886.70343"
+       y1="307.87619"
+       x2="878.7196"
+       y2="331.32867"
+       id="svg_204"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-width="null"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="887.20239"
+       y1="308.37518"
+       x2="891.19434"
+       y2="332.32666"
+       id="svg_205"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-width="null"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="903.17004"
+       y1="331.82767"
+       x2="887.20239"
+       y2="309.87216"
+       id="svg_206"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-dasharray:5, 5"
+       inkscape:connector-curvature="0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       d="M 1083.0508,706.53308"
+       id="svg_207" />
+    <g
+       id="svg_225"
+       transform="matrix(-1,0,0,-1,2170.8,684.94)">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1073.1949"
+         y1="325.72275"
+         x2="1073.1949"
+         y2="351.57101"
+         id="svg_213"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_214"
+         y2="351.18799"
+         x2="1072.8809"
+         y1="359.2168"
+         x1="1069.4222"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_215"
+         y2="351.38217"
+         x2="1073.422"
+         y1="359.2168"
+         x1="1076.422"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1097.6598"
+         y1="325.72275"
+         x2="1097.6598"
+         y2="351.57101"
+         id="svg_216"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_217"
+         y2="351.18799"
+         x2="1097.3456"
+         y1="359.2168"
+         x1="1093.887"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_218"
+         y2="351.38217"
+         x2="1097.8868"
+         y1="359.2168"
+         x1="1100.8867"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1085.2744"
+         y1="326.18149"
+         x2="1085.2744"
+         y2="344.69028"
+         id="svg_219"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_220"
+         y2="344.30725"
+         x2="1084.9603"
+         y1="352.33606"
+         x1="1081.5017"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_221"
+         y2="344.50143"
+         x2="1085.5016"
+         y1="352.33606"
+         x1="1088.5015"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_222"
+         y="352.86993"
+         x="1067.7485"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_223"
+         y="353.17572"
+         x="1100.1644"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_224"
+         y="346.75372"
+         x="1088.3907"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <g
+       id="svg_238"
+       transform="matrix(-1,0,0,-1,2318.34,685.602)">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1146.9606"
+         y1="326.05356"
+         x2="1146.9606"
+         y2="351.90179"
+         id="svg_226"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_227"
+         y2="351.51877"
+         x2="1146.6464"
+         y1="359.54758"
+         x1="1143.1879"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_228"
+         y2="351.71295"
+         x2="1147.1876"
+         y1="359.54758"
+         x1="1150.1875"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1171.4253"
+         y1="326.05356"
+         x2="1171.4253"
+         y2="351.90179"
+         id="svg_229"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_230"
+         y2="351.51877"
+         x2="1171.1112"
+         y1="359.54758"
+         x1="1167.6526"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_231"
+         y2="351.71295"
+         x2="1171.6525"
+         y1="359.54758"
+         x1="1174.6523"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1159.04"
+         y1="326.51227"
+         x2="1159.04"
+         y2="345.02106"
+         id="svg_232"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_233"
+         y2="344.63806"
+         x2="1158.726"
+         y1="352.66687"
+         x1="1155.2673"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_234"
+         y2="344.83224"
+         x2="1159.2672"
+         y1="352.66687"
+         x1="1162.2671"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_235"
+         y="353.20071"
+         x="1141.5142"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_236"
+         y="353.50653"
+         x="1173.9301"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_237"
+         y="347.0845"
+         x="1162.1564"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <g
+       id="svg_251"
+       transform="matrix(-1,0,0,-1,2455.94,680.308)">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1215.7644"
+         y1="323.40726"
+         x2="1215.7644"
+         y2="349.25549"
+         id="svg_239"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_240"
+         y2="348.87247"
+         x2="1215.4502"
+         y1="356.90128"
+         x1="1211.9916"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_241"
+         y2="349.06665"
+         x2="1215.9915"
+         y1="356.90128"
+         x1="1218.9913"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1240.2291"
+         y1="323.40726"
+         x2="1240.2291"
+         y2="349.25549"
+         id="svg_242"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_243"
+         y2="348.87247"
+         x2="1239.915"
+         y1="356.90128"
+         x1="1236.4564"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_244"
+         y2="349.06665"
+         x2="1240.4563"
+         y1="356.90128"
+         x1="1243.4562"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1227.8439"
+         y1="323.86597"
+         x2="1227.8439"
+         y2="342.37476"
+         id="svg_245"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_246"
+         y2="341.99176"
+         x2="1227.5297"
+         y1="350.02057"
+         x1="1224.071"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_247"
+         y2="342.18594"
+         x2="1228.0709"
+         y1="350.02057"
+         x1="1231.0708"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_248"
+         y="350.55441"
+         x="1210.318"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_249"
+         y="350.86023"
+         x="1242.7339"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_250"
+         y="344.4382"
+         x="1230.9602"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <g
+       id="svg_264"
+       transform="matrix(-1,0,0,-1,2584.94,680.308)">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1280.2679"
+         y1="323.40726"
+         x2="1280.2679"
+         y2="349.25549"
+         id="svg_252"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_253"
+         y2="348.87247"
+         x2="1279.9537"
+         y1="356.90128"
+         x1="1276.4951"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_254"
+         y2="349.06665"
+         x2="1280.495"
+         y1="356.90128"
+         x1="1283.4949"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1304.7327"
+         y1="323.40726"
+         x2="1304.7327"
+         y2="349.25549"
+         id="svg_255"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_256"
+         y2="348.87247"
+         x2="1304.4186"
+         y1="356.90128"
+         x1="1300.96"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_257"
+         y2="349.06665"
+         x2="1304.9598"
+         y1="356.90128"
+         x1="1307.9597"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1292.3474"
+         y1="323.86597"
+         x2="1292.3474"
+         y2="342.37476"
+         id="svg_258"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_259"
+         y2="341.99176"
+         x2="1292.0332"
+         y1="350.02057"
+         x1="1288.5747"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_260"
+         y2="342.18594"
+         x2="1292.5745"
+         y1="350.02057"
+         x1="1295.5743"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_261"
+         y="350.55441"
+         x="1274.8215"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_262"
+         y="350.86023"
+         x="1307.2374"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_263"
+         y="344.4382"
+         x="1295.4637"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_272"
+       y="425.08966"
+       x="1280.859"
+       fill-opacity="null"
+       stroke-opacity="null">old wiring</text>
+    <line
+       style="fill:none;stroke:#ff0000;stroke-width:4"
+       fill-opacity="null"
+       x1="1215.9913"
+       y1="356.25812"
+       x2="1244.4391"
+       y2="389.66763"
+       id="svg_273"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000;stroke-width:4"
+       fill-opacity="null"
+       x1="1148.5106"
+       y1="358.90442"
+       x2="1167.0347"
+       y2="389.00607"
+       id="svg_274"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000;stroke-width:4"
+       fill-opacity="null"
+       x1="1074.4143"
+       y1="358.90442"
+       x2="1110.8009"
+       y2="390.99078"
+       id="svg_275"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="1317.2123"
+       y1="391.65237"
+       x2="1295.7111"
+       y2="378.09009"
+       id="svg_276"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="1295.3802"
+       y1="377.75928"
+       x2="1292.734"
+       y2="356.5889"
+       id="svg_277"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="1295.3802"
+       y1="378.42087"
+       x2="1238.1541"
+       y2="369.8204"
+       id="svg_278"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="1228.2305"
+       y1="356.25812"
+       x2="1238.8157"
+       y2="369.8204"
+       id="svg_279"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="1159.4266"
+       y1="359.2352"
+       x2="1170.3427"
+       y2="371.14355"
+       id="svg_280"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="1238.4849"
+       y1="369.15881"
+       x2="1170.0118"
+       y2="371.14355"
+       id="svg_281"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="1085.3302"
+       y1="358.90442"
+       x2="1102.5312"
+       y2="371.80511"
+       id="svg_282"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="1170.0118"
+       y1="371.14355"
+       x2="1102.5312"
+       y2="371.80511"
+       id="svg_283"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000"
+       fill-opacity="null"
+       x1="1296.0419"
+       y1="378.42087"
+       x2="1335.4055"
+       y2="364.85858"
+       id="svg_285"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000"
+       fill-opacity="null"
+       x1="1304.9731"
+       y1="356.5889"
+       x2="1335.0748"
+       y2="362.87387"
+       id="svg_286"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000"
+       fill-opacity="null"
+       x1="1280.4948"
+       y1="356.91968"
+       x2="1335.0747"
+       y2="363.86621"
+       id="svg_287"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000"
+       fill-opacity="null"
+       x1="1317.4432"
+       y1="391.59293"
+       x2="1318.108"
+       y2="381.9527"
+       id="svg_288"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#ff0000"
+       fill-opacity="null"
+       x1="1317.7756"
+       y1="391.26053"
+       x2="1324.0917"
+       y2="382.61755"
+       id="svg_289"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_292"
+       y="389.85568"
+       x="1305.087"
+       fill-opacity="null"
+       stroke-opacity="null">E</text>
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_293"
+       y="381.54196"
+       x="1316.7263"
+       fill-opacity="null"
+       stroke-opacity="null">L</text>
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_294"
+       y="382.87216"
+       x="1324.7075"
+       fill-opacity="null"
+       stroke-opacity="null">N</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:8;stroke-dasharray:5, 2, 2, 2, 2, 2"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="203.75304"
+       y1="512.42896"
+       x2="187.10655"
+       y2="566.03064"
+       id="svg_297"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#ff0000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       x="1788.6498"
+       y="791.70447"
+       id="svg_168"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">до коробки в туал (BT1)</text>
+    <g
+       id="svg_199">
+      <text
+         style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         stroke-opacity="null"
+         fill-opacity="null"
+         x="1624.6445"
+         y="616.66669"
+         id="svg_33"
+         font-size="13"
+         text-anchor="left"
+         xml:space="preserve">скрита коробка</text>
+      <text
+         style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         stroke-opacity="null"
+         fill-opacity="null"
+         x="1624.6445"
+         y="628.66669"
+         id="svg_34"
+         font-size="13"
+         text-anchor="left"
+         xml:space="preserve">зліва від дверей</text>
+    </g>
+    <rect
+       style="fill:none;stroke:#cccccc;stroke-dasharray:5, 5"
+       fill-opacity="null"
+       x="1149.1078"
+       y="576.97449"
+       width="387.07962"
+       height="278.14349"
+       id="svg_200" />
+    <rect
+       style="fill:none;stroke:#0000bf"
+       x="1183.5306"
+       y="710.68414"
+       width="111.53532"
+       height="101.12874"
+       id="svg_208" />
+    <rect
+       style="fill:none;stroke:#0000bf"
+       x="1295.5306"
+       y="710.68414"
+       width="111.53532"
+       height="101.12874"
+       id="svg_299" />
+    <rect
+       style="fill:none;stroke:#0000bf"
+       x="1407.5306"
+       y="710.68414"
+       width="111.53532"
+       height="101.12874"
+       id="svg_300" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_301"
+       y="706.22424"
+       x="1186.1039"
+       fill-opacity="null"
+       stroke-opacity="null">WK1</text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4"
+       inkscape:connector-curvature="0"
+       id="svg_304"
+       d="m 1343.786,686.35071 0.4998,34.69824 101.4461,18.49011"
+       fill-opacity="null" />
+    <text
+       style="font-size:10px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="10"
+       id="svg_305"
+       y="822.66248"
+       x="1188.1028"
+       fill-opacity="null"
+       stroke-opacity="null">WK1.1</text>
+    <text
+       style="font-size:10px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="10"
+       id="svg_306"
+       y="821.16327"
+       x="1298.5442"
+       fill-opacity="null"
+       stroke-opacity="null">WK1.2</text>
+    <text
+       style="font-size:10px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="10"
+       id="svg_307"
+       y="822.16272"
+       x="1409.9851"
+       fill-opacity="null"
+       stroke-opacity="null">WK1.3</text>
+    <text
+       style="font-size:10px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="10"
+       id="svg_308"
+       y="695.7298"
+       x="1347.0186"
+       fill-opacity="null"
+       stroke-opacity="null">WK12 [2*0.75]</text>
+    <text
+       style="font-size:10px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="10"
+       id="svg_309"
+       y="313.0014"
+       x="1207.5934"
+       fill-opacity="null"
+       stroke-opacity="null">oven</text>
+    <text
+       style="font-size:10px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="10"
+       id="svg_310"
+       y="312.00192"
+       x="1270.0602"
+       fill-opacity="null"
+       stroke-opacity="null">світло антресолі</text>
+    <path
+       style="fill:#00ffff;stroke:#000000;stroke-width:1.5"
+       inkscape:connector-curvature="0"
+       id="svg_314"
+       d="m 1244.2626,607.31049 16.5367,0 5.1127,-16.92969 5.1086,16.92969 16.5376,0 -13.3811,10.46069 5.1127,16.92804 -13.3778,-10.46234 -13.3805,10.46234 5.1116,-16.92804 -13.3805,-10.46069 0,0 z"
+       stroke-opacity="null" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_315"
+       y="601.93591"
+       x="1225.5239"
+       fill-opacity="null"
+       stroke-opacity="null">MK1</text>
+    <line
+       style="fill:none;stroke:#ff0000;stroke-width:8;stroke-dasharray:5, 2, 2, 2, 2, 2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_316"
+       y2="719.38342"
+       x2="1241.4781"
+       y1="631.06268"
+       x1="1267.4254"
+       fill-opacity="null" />
+    <line
+       style="fill:none;stroke:#ff0000;stroke-width:8;stroke-dasharray:5, 2, 2, 2, 2, 2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_317"
+       y2="886.61823"
+       x2="1352.7523"
+       y1="804.2113"
+       x1="1352.7523"
+       fill-opacity="null" />
+    <line
+       style="fill:none;stroke:#ff0000;stroke-width:8;stroke-dasharray:5, 2, 2, 2, 2, 2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_318"
+       y2="866.13416"
+       x2="1473.5072"
+       y1="803.71228"
+       x1="1473.5072"
+       fill-opacity="null" />
+    <text
+       style="font-size:10px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="10"
+       id="svg_319"
+       y="881.02252"
+       x="1317.4775"
+       fill-opacity="null"
+       stroke-opacity="null">to BT1</text>
+    <text
+       style="font-size:10px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="10"
+       id="svg_320"
+       y="865.53217"
+       x="1482.1997"
+       fill-opacity="null"
+       stroke-opacity="null">to WT1</text>
+    <g
+       id="svg_335">
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_329"
+         y2="765.22925"
+         x2="1223.7996"
+         y1="758.24347"
+         x1="1241.7631"
+         fill-opacity="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_330"
+         y2="765.22931"
+         x2="1215.3168"
+         y1="765.22931"
+         x1="1224.2986"
+         fill-opacity="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_331"
+         y2="764.73035"
+         x2="1253.7388"
+         y1="764.73035"
+         x1="1240.7651"
+         fill-opacity="null" />
+      <circle
+         style="fill:none;stroke:#000000"
+         r="0.49915901"
+         id="svg_332"
+         cy="764.56122"
+         cx="1249.9237"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <circle
+         style="fill:none;stroke:#000000"
+         r="0.49915901"
+         id="svg_333"
+         cy="765.06036"
+         cx="1219.2253"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <rect
+         style="fill:none;stroke:#e5e5e5;stroke-width:0.2"
+         id="svg_334"
+         height="10.749312"
+         width="33.997826"
+         y="756.19049"
+         x="1217.4293"
+         fill-opacity="null" />
+    </g>
+    <g
+       id="svg_342">
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_336"
+         y2="742.58862"
+         x2="1333.4707"
+         y1="735.60284"
+         x1="1351.4342"
+         fill-opacity="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_337"
+         y2="742.58868"
+         x2="1324.9879"
+         y1="742.58868"
+         x1="1333.9697"
+         fill-opacity="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_338"
+         y2="742.08972"
+         x2="1363.4099"
+         y1="742.08972"
+         x1="1350.4363"
+         fill-opacity="null" />
+      <circle
+         style="fill:none;stroke:#000000"
+         r="0.49915901"
+         id="svg_339"
+         cy="741.92059"
+         cx="1359.5947"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <circle
+         style="fill:none;stroke:#000000"
+         r="0.49915901"
+         id="svg_340"
+         cy="742.41974"
+         cx="1328.8965"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <rect
+         style="fill:none;stroke:#e5e5e5;stroke-width:0.2"
+         id="svg_341"
+         height="10.749312"
+         width="33.997826"
+         y="733.54987"
+         x="1327.1005"
+         fill-opacity="null" />
+    </g>
+    <g
+       id="svg_349">
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_343"
+         y2="763.58862"
+         x2="1334.4707"
+         y1="756.60284"
+         x1="1352.4342"
+         fill-opacity="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_344"
+         y2="763.58868"
+         x2="1325.9879"
+         y1="763.58868"
+         x1="1334.9697"
+         fill-opacity="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_345"
+         y2="763.08972"
+         x2="1364.4099"
+         y1="763.08972"
+         x1="1351.4363"
+         fill-opacity="null" />
+      <circle
+         style="fill:none;stroke:#000000"
+         r="0.49915901"
+         id="svg_346"
+         cy="762.92059"
+         cx="1360.5947"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <circle
+         style="fill:none;stroke:#000000"
+         r="0.49915901"
+         id="svg_347"
+         cy="763.41974"
+         cx="1329.8965"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <rect
+         style="fill:none;stroke:#e5e5e5;stroke-width:0.2"
+         id="svg_348"
+         height="10.749312"
+         width="33.997826"
+         y="754.54987"
+         x="1328.1005"
+         fill-opacity="null" />
+    </g>
+    <g
+       id="svg_356">
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_350"
+         y2="773.22925"
+         x2="1451.7996"
+         y1="766.24347"
+         x1="1469.7631"
+         fill-opacity="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_351"
+         y2="773.22931"
+         x2="1443.3168"
+         y1="773.22931"
+         x1="1452.2986"
+         fill-opacity="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_352"
+         y2="772.73035"
+         x2="1481.7388"
+         y1="772.73035"
+         x1="1468.7651"
+         fill-opacity="null" />
+      <circle
+         style="fill:none;stroke:#000000"
+         r="0.49915901"
+         id="svg_353"
+         cy="772.56122"
+         cx="1477.9237"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <circle
+         style="fill:none;stroke:#000000"
+         r="0.49915901"
+         id="svg_354"
+         cy="773.06036"
+         cx="1447.2253"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <rect
+         style="fill:none;stroke:#e5e5e5;stroke-width:0.2"
+         id="svg_355"
+         height="10.749312"
+         width="33.997826"
+         y="764.19049"
+         x="1445.4293"
+         fill-opacity="null" />
+    </g>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:4"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_357"
+       y2="789.66803"
+       x2="1261.9222"
+       y1="803.97406"
+       x1="1351.4181"
+       fill-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_358"
+       y2="788.66992"
+       x2="1262.255"
+       y1="764.71564"
+       x1="1253.6049"
+       fill-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_359"
+       y2="790.00073"
+       x2="1261.5896"
+       y1="765.38104"
+       x1="1216.0099"
+       fill-opacity="null" />
+    <text
+       style="font-size:6px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="6"
+       id="svg_360"
+       y="801.86676"
+       x="1257.6223"
+       fill-opacity="null"
+       stroke-opacity="null">WK15 [2*1.5]</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:4"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_361"
+       y2="788.33722"
+       x2="1350.7528"
+       y1="806.30292"
+       x1="1353.7471"
+       fill-opacity="null" />
+    <text
+       style="font-size:6px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="6"
+       id="svg_362"
+       y="796.87628"
+       x="1354.7703"
+       fill-opacity="null"
+       stroke-opacity="null">WK16 [2*1.5]</text>
+    <text
+       style="font-size:6px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="6"
+       id="svg_363"
+       y="802.53217"
+       x="1357.0991"
+       fill-opacity="null"
+       stroke-opacity="null">з вузликом</text>
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_364"
+       y="789.42725"
+       x="1249.556"
+       fill-opacity="null"
+       stroke-opacity="null">N</text>
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_365"
+       y="784.10413"
+       x="1261.8658"
+       fill-opacity="null"
+       stroke-opacity="null">L</text>
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_366"
+       y="786.10028"
+       x="1359.3464"
+       fill-opacity="null"
+       stroke-opacity="null">L</text>
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="svg_367"
+       d="m 1351.0856,788.66992 11.9769,-11.33386 22.6235,0 0,-35.26599 -22.9561,0"
+       fill-opacity="null"
+       stroke-width="null" />
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="svg_368"
+       d="m 1349.7545,788.66992 5.9887,-15.9917 19.6291,0 -0.3326,-9.64819 -10.6465,0"
+       fill-opacity="null" />
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_369"
+       y="782.10791"
+       x="1347.702"
+       fill-opacity="null"
+       stroke-opacity="null">N</text>
+    <path
+       style="fill:none;stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="svg_371"
+       d="m 1258.2626,776.02747 67.8703,-0.0222 -0.3326,-33.60254"
+       fill-opacity="null" />
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_372"
+       y="832.34534"
+       x="1267.5217"
+       fill-opacity="null"
+       stroke-opacity="null">L - коричневий</text>
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_373"
+       y="838.00122"
+       x="1267.5217"
+       fill-opacity="null"
+       stroke-opacity="null">N - синій</text>
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_374"
+       y="754.49396"
+       x="1220.2786"
+       fill-opacity="null"
+       stroke-opacity="null">антрисоль</text>
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_375"
+       y="732.53589"
+       x="1329.4037"
+       fill-opacity="null"
+       stroke-opacity="null">switch for LK2</text>
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_376"
+       y="753.49585"
+       x="1329.4037"
+       fill-opacity="null"
+       stroke-opacity="null">switch for LK1</text>
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_377"
+       y="750.83429"
+       x="1219.2805"
+       fill-opacity="null"
+       stroke-opacity="null">switch for SK1.4</text>
+    <text
+       style="font-size:7px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="7"
+       id="svg_378"
+       y="412.33246"
+       x="1054.0194"
+       fill-opacity="null"
+       stroke-opacity="null">SK1.1</text>
+    <text
+       style="font-size:7px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="7"
+       id="svg_379"
+       y="411.00168"
+       x="1124.5514"
+       fill-opacity="null"
+       stroke-opacity="null">SK1.2</text>
+    <text
+       style="font-size:7px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="7"
+       id="svg_380"
+       y="410.66898"
+       x="1277.9253"
+       fill-opacity="null"
+       stroke-opacity="null">SK1.4</text>
+    <text
+       style="font-size:7px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="7"
+       id="svg_381"
+       y="408.67279"
+       x="1196.4142"
+       fill-opacity="null"
+       stroke-opacity="null">SK1.3</text>
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_382"
+       y2="772.5827"
+       x2="1482.8186"
+       y1="740.59741"
+       x1="1446.3353"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_383"
+       y2="773.58221"
+       x2="1443.3368"
+       y1="740.0976"
+       x1="1445.8356"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_384"
+       y="780.01404"
+       x="1448.349"
+       fill-opacity="null"
+       stroke-opacity="null">switch for stairs</text>
+    <circle
+       style="fill:#7f7f7f;stroke:#000000;stroke-width:1.5"
+       r="10.5"
+       cx="1644.1438"
+       cy="684.11823"
+       id="svg_394" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#ff0000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_399"
+       y="688.23767"
+       x="1659.7759"
+       stroke-opacity="null">Вихід на горище</text>
+    <circle
+       style="fill:#ff6600;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+       r="10.5"
+       cx="218.28479"
+       cy="1324.6403"
+       id="svg_29" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="159.32672"
+       y="1348.0005"
+       id="svg_290"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">скрита коробка</text>
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="1367.3274"
+       y="1350.0005"
+       id="svg_298"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">скрита коробка</text>
+    <rect
+       style="fill:none;stroke:#00ff7f"
+       x="1331.3612"
+       y="1224.7701"
+       width="73.535347"
+       height="84.128731"
+       id="svg_413" />
+    <g
+       id="svg_426">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1355.4424"
+         y1="1255.8834"
+         x2="1355.4424"
+         y2="1281.7317"
+         id="svg_414"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_415"
+         y2="1281.3486"
+         x2="1355.1283"
+         y1="1289.3774"
+         x1="1351.6697"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_416"
+         y2="1281.5428"
+         x2="1355.6696"
+         y1="1289.3774"
+         x1="1358.6694"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1379.9072"
+         y1="1255.8834"
+         x2="1379.9072"
+         y2="1281.7317"
+         id="svg_417"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_418"
+         y2="1281.3486"
+         x2="1379.593"
+         y1="1289.3774"
+         x1="1376.1344"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_419"
+         y2="1281.5428"
+         x2="1380.1343"
+         y1="1289.3774"
+         x1="1383.1342"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="1367.5219"
+         y1="1256.3422"
+         x2="1367.5219"
+         y2="1274.851"
+         id="svg_420"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_421"
+         y2="1274.4679"
+         x2="1367.2078"
+         y1="1282.4967"
+         x1="1363.7491"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_422"
+         y2="1274.6621"
+         x2="1367.749"
+         y1="1282.4967"
+         x1="1370.7489"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_423"
+         y="1283.0305"
+         x="1349.9961"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_424"
+         y="1283.3363"
+         x="1382.4119"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_425"
+         y="1276.9143"
+         x="1370.6382"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#cccccc;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_427"
+       y="1221.8992"
+       x="1374.2753"
+       fill-opacity="null"
+       stroke-opacity="null">SK7</text>
+    <line
+       style="fill:none;stroke:#000000"
+       fill-opacity="null"
+       x1="1363.8589"
+       y1="1230.5996"
+       x2="1355.2191"
+       y2="1256.8511"
+       id="svg_428"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       fill-opacity="null"
+       x1="1379.8092"
+       y1="1256.1865"
+       x2="1364.1912"
+       y2="1229.2704"
+       id="svg_429"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       fill-opacity="null"
+       x1="1367.5142"
+       y1="1256.5188"
+       x2="1364.1912"
+       y2="1230.2672"
+       id="svg_430"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <g
+       id="svg_433">
+      <rect
+         style="fill:none;stroke:#00ff7f"
+         x="252.84816"
+         y="1217.6813"
+         width="73.535347"
+         height="84.128731"
+         id="svg_326" />
+      <g
+         id="svg_407">
+        <line
+           style="fill:none;stroke:#000000"
+           fill-opacity="null"
+           x1="276.92941"
+           y1="1248.7946"
+           x2="276.92941"
+           y2="1274.6428"
+           id="svg_370"
+           stroke-linejoin="null"
+           stroke-linecap="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           stroke-linecap="null"
+           stroke-linejoin="null"
+           id="svg_385"
+           y2="1274.2598"
+           x2="276.61526"
+           y1="1282.2886"
+           x1="273.15668"
+           fill-opacity="null"
+           stroke-opacity="null"
+           stroke-width="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           stroke-linecap="null"
+           stroke-linejoin="null"
+           id="svg_392"
+           y2="1274.454"
+           x2="277.15652"
+           y1="1282.2886"
+           x1="280.1564"
+           fill-opacity="null"
+           stroke-opacity="null"
+           stroke-width="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           fill-opacity="null"
+           x1="301.3942"
+           y1="1248.7946"
+           x2="301.3942"
+           y2="1274.6428"
+           id="svg_395"
+           stroke-linejoin="null"
+           stroke-linecap="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           stroke-linecap="null"
+           stroke-linejoin="null"
+           id="svg_396"
+           y2="1274.2598"
+           x2="301.08005"
+           y1="1282.2886"
+           x1="297.62146"
+           fill-opacity="null"
+           stroke-opacity="null"
+           stroke-width="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           stroke-linecap="null"
+           stroke-linejoin="null"
+           id="svg_397"
+           y2="1274.454"
+           x2="301.62131"
+           y1="1282.2886"
+           x1="304.62119"
+           fill-opacity="null"
+           stroke-opacity="null"
+           stroke-width="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           fill-opacity="null"
+           x1="289.00888"
+           y1="1249.2533"
+           x2="289.00888"
+           y2="1267.7621"
+           id="svg_398"
+           stroke-linejoin="null"
+           stroke-linecap="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           stroke-linecap="null"
+           stroke-linejoin="null"
+           id="svg_402"
+           y2="1267.379"
+           x2="288.69476"
+           y1="1275.4078"
+           x1="285.23615"
+           fill-opacity="null"
+           stroke-opacity="null"
+           stroke-width="null" />
+        <line
+           style="fill:none;stroke:#000000"
+           stroke-linecap="null"
+           stroke-linejoin="null"
+           id="svg_403"
+           y2="1267.5732"
+           x2="289.23599"
+           y1="1275.4078"
+           x1="292.2359"
+           fill-opacity="null"
+           stroke-opacity="null"
+           stroke-width="null" />
+        <text
+           style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+           xml:space="preserve"
+           text-anchor="left"
+           font-size="4"
+           id="svg_404"
+           y="1275.9418"
+           x="271.48303"
+           fill-opacity="null"
+           stroke-opacity="null">L</text>
+        <text
+           style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+           xml:space="preserve"
+           text-anchor="left"
+           font-size="4"
+           id="svg_405"
+           y="1276.2476"
+           x="303.8989"
+           fill-opacity="null"
+           stroke-opacity="null">N</text>
+        <text
+           style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+           xml:space="preserve"
+           text-anchor="left"
+           font-size="4"
+           id="svg_406"
+           y="1269.8256"
+           x="292.12521"
+           fill-opacity="null"
+           stroke-opacity="null">E</text>
+      </g>
+      <text
+         style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#cccccc;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="13"
+         id="svg_408"
+         y="1214.8104"
+         x="295.76227"
+         fill-opacity="null"
+         stroke-opacity="null">SK5</text>
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="285.34589"
+         y1="1223.5107"
+         x2="276.70615"
+         y2="1249.7623"
+         id="svg_409"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="301.29623"
+         y1="1249.0977"
+         x2="285.67819"
+         y2="1222.1815"
+         id="svg_410"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="289.00119"
+         y1="1249.4301"
+         x2="285.67819"
+         y2="1223.1785"
+         id="svg_411"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+    </g>
+    <rect
+       style="fill:none;stroke:#00ff7f"
+       fill-opacity="null"
+       x="826.9679"
+       y="1205.3107"
+       width="73.535347"
+       height="84.128731"
+       id="svg_437" />
+    <g
+       id="svg_450">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="710.42029"
+         y1="1239.306"
+         x2="710.42029"
+         y2="1265.1543"
+         id="svg_438"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_439"
+         y2="1264.7714"
+         x2="710.10614"
+         y1="1272.8002"
+         x1="706.64758"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_440"
+         y2="1264.9655"
+         x2="710.6474"
+         y1="1272.8002"
+         x1="713.64728"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="734.88513"
+         y1="1239.306"
+         x2="734.88513"
+         y2="1265.1543"
+         id="svg_441"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_442"
+         y2="1264.7714"
+         x2="734.57098"
+         y1="1272.8002"
+         x1="731.11237"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_443"
+         y2="1264.9655"
+         x2="735.11218"
+         y1="1272.8002"
+         x1="738.11212"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="722.49982"
+         y1="1239.7648"
+         x2="722.49982"
+         y2="1258.2736"
+         id="svg_444"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_445"
+         y2="1257.8906"
+         x2="722.18567"
+         y1="1265.9194"
+         x1="718.72705"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_446"
+         y2="1258.0847"
+         x2="722.72693"
+         y1="1265.9194"
+         x1="725.72681"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_447"
+         y="1266.4532"
+         x="704.97394"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_448"
+         y="1266.759"
+         x="737.38983"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_449"
+         y="1260.337"
+         x="725.61615"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <g
+       id="svg_463">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="784.41956"
+         y1="1238.3062"
+         x2="784.41956"
+         y2="1264.1543"
+         id="svg_451"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_452"
+         y2="1263.7714"
+         x2="784.10541"
+         y1="1271.8002"
+         x1="780.64685"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_453"
+         y2="1263.9655"
+         x2="784.64667"
+         y1="1271.8002"
+         x1="787.64655"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="808.8844"
+         y1="1238.3062"
+         x2="808.8844"
+         y2="1264.1543"
+         id="svg_454"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_455"
+         y2="1263.7714"
+         x2="808.57025"
+         y1="1271.8002"
+         x1="805.11163"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_456"
+         y2="1263.9655"
+         x2="809.11151"
+         y1="1271.8002"
+         x1="812.11139"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="796.49908"
+         y1="1238.7648"
+         x2="796.49908"
+         y2="1257.2736"
+         id="svg_457"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_458"
+         y2="1256.8906"
+         x2="796.18494"
+         y1="1264.9194"
+         x1="792.72632"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_459"
+         y2="1257.0848"
+         x2="796.7262"
+         y1="1264.9194"
+         x1="799.72607"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_460"
+         y="1265.4532"
+         x="778.97321"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_461"
+         y="1265.759"
+         x="811.3891"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_462"
+         y="1259.337"
+         x="799.61542"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <text
+       style="font-size:24px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#cccccc;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="24"
+       id="svg_464"
+       y="1261.3536"
+       x="845.28705"
+       fill-opacity="null"
+       stroke-opacity="null">TV</text>
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="860.92297"
+       y="1200.6176"
+       id="svg_465"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">SK6</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:4"
+       fill-opacity="null"
+       x1="796.99207"
+       y1="1226.0045"
+       x2="719.99286"
+       y2="1226.0045"
+       id="svg_466"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:4"
+       fill-opacity="null"
+       x1="720.99286"
+       y1="1226.0045"
+       x2="617.9939"
+       y2="1297.0038"
+       id="svg_467"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="616.92535"
+       y="1259.6169"
+       id="svg_468"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">to BV1</text>
+    <path
+       style="opacity:0.5;fill:none;stroke:#000000;stroke-width:4"
+       inkscape:connector-curvature="0"
+       fill-opacity="null"
+       d="M 73.999268,835.00836"
+       id="svg_469" />
+    <path
+       style="opacity:0.5;fill:none;stroke:#000000;stroke-width:4"
+       inkscape:connector-curvature="0"
+       fill-opacity="null"
+       d="M 73.999268,834.00836"
+       id="svg_470" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3823"
+       y="249.8871"
+       x="194.90323"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff0000"
+         y="249.8871"
+         x="194.90323"
+         id="tspan3825"
+         sodipodi:role="line">MK2</tspan></text>
+    <text
+       xml:space="preserve"
+       font-size="13"
+       id="text5105"
+       y="249.50481"
+       x="566.3335"
+       fill-opacity="null"
+       stroke-opacity="null"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.99999905px;line-height:125%;font-family:Helvetica, Arial, sans-serif;-inkscape-font-specification:'Helvetica, Arial, sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5107"
+         x="566.3335"
+         y="249.50481">HK1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.99999905px;line-height:125%;font-family:Helvetica, Arial, sans-serif;-inkscape-font-specification:'Helvetica, Arial, sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="1617.7852"
+       y="603.40802"
+       id="text5109"
+       font-size="13"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan5119"
+         x="1617.7852"
+         y="603.40802">HK2</tspan></text>
+    <text
+       xml:space="preserve"
+       font-size="13"
+       id="text5113"
+       y="672.64996"
+       x="1650.269"
+       fill-opacity="null"
+       stroke-opacity="null"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.99999905px;line-height:125%;font-family:Helvetica, Arial, sans-serif;-inkscape-font-specification:'Helvetica, Arial, sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5117"
+         x="1650.269"
+         y="672.64996">HK3</tspan></text>
+    <text
+       xml:space="preserve"
+       font-size="13"
+       id="text5121"
+       y="1318.0532"
+       x="1438.2689"
+       fill-opacity="null"
+       stroke-opacity="null"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.99999905px;line-height:125%;font-family:Helvetica, Arial, sans-serif;-inkscape-font-specification:'Helvetica, Arial, sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5125"
+         x="1438.2689"
+         y="1318.0532">HK4</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.99999905px;line-height:125%;font-family:Helvetica, Arial, sans-serif;-inkscape-font-specification:'Helvetica, Arial, sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="232.94635"
+       y="1319.7629"
+       id="text5127"
+       font-size="13"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan5131"
+         x="232.94635"
+         y="1319.7629">HK5</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Gofry"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:8;stroke-dasharray:2, 2"
+       inkscape:connector-curvature="0"
+       id="svg_400"
+       d="m 601.55115,255.80911 4.99627,156.88294 366.72632,93.92993 603.54966,2.99774 1.9985,165.87625 57.9791,6.99475"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:8;stroke-dasharray:5, 2, 2, 2, 2, 2"
+       stroke-linecap="undefined"
+       stroke-linejoin="undefined"
+       id="svg_28"
+       y2="833"
+       x2="449"
+       y1="505.01736"
+       x1="676.65686" />
+    <path
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:8;stroke-dasharray:5, 2, 2, 2, 2, 2"
+       inkscape:connector-curvature="0"
+       id="svg_302"
+       d="m 72,836 0,320 641,0 217,0 0,151 -62,1 -1,-31" />
+    <path
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:8;stroke-dasharray:5, 2, 2, 2, 2, 2"
+       inkscape:connector-curvature="0"
+       id="svg_393"
+       d="m 1352.9904,890.33563 428.6801,-0.99927 -0.9991,-75.94323 126.9059,-0.99903"
+       fill-opacity="null"
+       stroke-opacity="null" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Info"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <line
+       style="display:inline;fill:none;stroke:#000000;stroke-width:4"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="62.999989"
+       y1="59"
+       x2="184.14703"
+       y2="59"
+       id="svg_42"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="193"
+       y="63"
+       id="svg_43"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">2.5mm * 3 wires (unless otherwise stated)</text>
+    <line
+       style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:5, 5"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="66"
+       y1="82"
+       x2="183.00427"
+       y2="82"
+       id="svg_44"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="193"
+       y="84"
+       id="svg_45"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">data cable (8*0.15mm, unless otherwise stated)</text>
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       fill-opacity="null"
+       x1="503"
+       y1="56"
+       x2="624.14703"
+       y2="56"
+       id="svg_46"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="635"
+       y="62"
+       id="svg_47"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">if RED - then must be confirmed!</text>
+    <text
+       style="font-weight:bold;font-size:13px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="65.00415"
+       y="121.33212"
+       id="svg_6"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve"
+       font-weight="bold">NOTE: СТАРА ПРОВОДКА ВІДКЛЮЧЕНА В КОРОБКАХ А ТІЛЬКИ ЗЕМЛЯ З НЕЇ ВИКОРИСТОВУЄТЬСЯ</text>
+    <line
+       style="display:inline;fill:none;stroke:#000000;stroke-width:8;stroke-dasharray:5, 2, 2, 2, 2, 2"
+       stroke-linecap="undefined"
+       stroke-linejoin="undefined"
+       id="svg_11"
+       y2="35"
+       x2="185.06665"
+       y1="35"
+       x1="65" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="193"
+       y="41"
+       id="svg_13"
+       font-size="13"
+       text-anchor="left"
+       xml:space="preserve">гофра</text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Power Wiring"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       inkscape:connector-curvature="0"
+       fill-opacity="null"
+       d="m 607.69781,244.06215 1001.68599,3.99701 0,364.08684"
+       id="svg_211" />
+    <path
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       inkscape:connector-curvature="0"
+       fill-opacity="null"
+       d="M 93.972153,379.38757 92.472603,272.41925 577.34045,271.9194 596.82574,248.92938"
+       id="svg_210" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:4"
+       inkscape:connector-curvature="0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       d="m 886.76148,309.0737 -0.55018,-188.04485 355.0847,0"
+       id="svg_212" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       fill-opacity="null"
+       x1="1316.8815"
+       y1="391.65237"
+       x2="1316.8815"
+       y2="447.14914"
+       id="svg_271"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <path
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       inkscape:connector-curvature="0"
+       fill-opacity="null"
+       d="m 1316.3676,446.8866 64.1682,0 -1.375,-185.62983 -706.76834,-1.37503 -62.71491,-9.37847"
+       id="svg_295" />
+    <line
+       style="display:inline;fill:none;stroke:#000000;stroke-width:4"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_35"
+       y2="458.04785"
+       x2="1430"
+       y1="362"
+       x1="1430"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       fill-opacity="null"
+       x1="606.98187"
+       y1="255.65622"
+       x2="697.31073"
+       y2="307.32336"
+       id="svg_69"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="display:inline;fill:none;stroke:#000000;stroke-width:4"
+       fill-opacity="null"
+       x1="1054.8978"
+       y1="381.72873"
+       x2="993.29578"
+       y2="381.72873"
+       id="svg_265"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_266"
+       y="378.11783"
+       x="978.51929"
+       fill-opacity="null"
+       stroke-opacity="null">SK3 - SK12</text>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:4"
+       inkscape:connector-curvature="0"
+       fill-opacity="null"
+       d="m 1109.8085,389.99844 108.4818,0 -0.086,70.80378"
+       id="svg_267" />
+    <line
+       style="display:inline;fill:none;stroke:#000000;stroke-width:4"
+       fill-opacity="null"
+       x1="1244.439"
+       y1="389.00607"
+       x2="1244.439"
+       y2="460.25525"
+       id="svg_269"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="display:inline;fill:none;stroke:#000000;stroke-width:4"
+       fill-opacity="null"
+       x1="1335.0747"
+       y1="363.53543"
+       x2="1429.689"
+       y2="363.53543"
+       id="svg_284"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_296"
+       y="359.6582"
+       x="1389.5636"
+       fill-opacity="null"
+       stroke-opacity="null">SK11+WK11</text>
+    <path
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:8;stroke-dasharray:2, 2"
+       inkscape:connector-curvature="0"
+       id="svg_36"
+       d="m 1216,462 254,0 311,0 -2.0007,340.0379 124.0011,-1.00049"
+       fill-opacity="null" />
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_268"
+       y="448.92926"
+       x="1183.1063"
+       fill-opacity="null"
+       stroke-opacity="null">SK13</text>
+    <text
+       style="font-size:13px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:5, 5"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="13"
+       id="svg_270"
+       y="448.90634"
+       x="1248.4012"
+       fill-opacity="null"
+       stroke-opacity="null">SK14</text>
+    <ellipse
+       style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:4"
+       stroke-opacity="null"
+       cx="1243.7017"
+       cy="461.8288"
+       id="svg_475"
+       rx="4.0033321"
+       ry="5.3377762" />
+    <ellipse
+       style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:4"
+       stroke-opacity="null"
+       cx="1430.5238"
+       cy="459.15991"
+       id="svg_474"
+       rx="4.0033321"
+       ry="5.3377762" />
+    <ellipse
+       style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:4"
+       stroke-opacity="null"
+       cx="1218.3473"
+       cy="461.8288"
+       id="svg_476"
+       rx="4.0033321"
+       ry="5.3377762" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_312"
+       y2="764.80902"
+       x2="1649.9698"
+       y1="764.80902"
+       x1="1512.6965"
+       fill-opacity="null" />
+    <text
+       style="font-size:10px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="10"
+       id="svg_386"
+       y="756.59003"
+       x="1546.2894">SK11+WK11</text>
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#ff0000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_390"
+       y="745.04388"
+       x="1668.5614"
+       stroke-opacity="null">E (old wiring)</text>
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#ff0000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_391"
+       y="766.534"
+       x="1681.0557"
+       stroke-opacity="null">на горище (WK11+SK11)</text>
+    <line
+       style="display:inline;fill:none;stroke:#ff0000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_387"
+       y2="745.59509"
+       x2="1671.9556"
+       y1="764.58636"
+       x1="1649.4658"
+       fill-opacity="null" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_388"
+       y2="761.58771"
+       x2="1678.9524"
+       y1="764.58636"
+       x1="1649.4658"
+       fill-opacity="null" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_389"
+       y2="767.08521"
+       x2="1677.453"
+       y1="764.58636"
+       x1="1649.4658"
+       fill-opacity="null" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:4"
+       inkscape:connector-curvature="0"
+       fill-opacity="null"
+       d="m 1364.998,1231.0096 -0.5,-31.0026 56,-0.5087 0,118.4999"
+       id="svg_434" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="223.50012"
+       y1="1324.0007"
+       x2="1416.0172"
+       y2="1324.0007"
+       id="svg_311"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <path
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       inkscape:connector-curvature="0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       d="m 1423.0039,1324.0007 188.9963,0 -1.9996,-699.00046"
+       id="svg_313" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       fill-opacity="null"
+       x1="1636.0282"
+       y1="1038.3086"
+       x2="212.17659"
+       y2="1097.0243"
+       id="svg_472"
+       stroke-linejoin="undefined"
+       stroke-linecap="undefined" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       stroke-opacity="null"
+       x1="1426.5205"
+       y1="1318.5417"
+       x2="1622.6837"
+       y2="1054.3219"
+       id="svg_477"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:4"
+       inkscape:connector-curvature="0"
+       fill-opacity="null"
+       d="m 217.72797,1317.9504 -3.03806,-123.9909 71.90085,0 0,31.3933"
+       id="svg_432" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       x1="165.8362"
+       y1="1218.9294"
+       x2="211.7908"
+       y2="1320.8287"
+       id="svg_431"
+       stroke-linejoin="undefined"
+       stroke-linecap="undefined" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       fill-opacity="null"
+       x1="213.51102"
+       y1="1098.3585"
+       x2="165.47104"
+       y2="1219.793"
+       id="svg_471"
+       stroke-linejoin="undefined"
+       stroke-linecap="undefined" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="1634.6938"
+       y1="1038.3086"
+       x2="1642.7004"
+       y2="687.34979"
+       id="svg_473"
+       stroke-linejoin="undefined"
+       stroke-linecap="undefined" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:4"
+       stroke-opacity="null"
+       x1="1637.3627"
+       y1="684.68091"
+       x2="1622.6837"
+       y2="1056.9907"
+       id="svg_478"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <text
+       style="font-size:9px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#000000;stroke:#000000;stroke-width:0"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="906.05792"
+       y="117.20824"
+       id="svg_201"
+       font-size="9"
+       text-anchor="left"
+       xml:space="preserve">цей провід іде по зовнішній стороні стіни до серверної</text>
+    <text
+       style="font-size:4px;font-family:Helvetica, Arial, sans-serif;display:inline;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="4"
+       id="svg_291"
+       y="578.34369"
+       x="959.11273"
+       fill-opacity="null"
+       stroke-opacity="null">E</text>
+    <g
+       style="display:inline"
+       id="svg_25">
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="903.4184"
+         y1="552.31293"
+         x2="903.4184"
+         y2="578.16113"
+         id="svg_54"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_37"
+         y2="577.77814"
+         x2="903.10425"
+         y1="585.80695"
+         x1="899.64563"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_38"
+         y2="577.97235"
+         x2="903.64551"
+         y1="585.80695"
+         x1="906.64539"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="927.88318"
+         y1="552.31293"
+         x2="927.88318"
+         y2="578.16113"
+         id="svg_39"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_48"
+         y2="577.77814"
+         x2="927.56903"
+         y1="585.80695"
+         x1="924.11047"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_53"
+         y2="577.97235"
+         x2="928.11029"
+         y1="585.80695"
+         x1="931.11017"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         fill-opacity="null"
+         x1="915.49786"
+         y1="552.77161"
+         x2="915.49786"
+         y2="571.28046"
+         id="svg_55"
+         stroke-linejoin="null"
+         stroke-linecap="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_56"
+         y2="570.8974"
+         x2="915.18372"
+         y1="578.92621"
+         x1="911.72516"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_57"
+         y2="571.09161"
+         x2="915.72498"
+         y1="578.92621"
+         x1="918.72485"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_58"
+         y="579.46008"
+         x="897.97205"
+         fill-opacity="null"
+         stroke-opacity="null">L</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_59"
+         y="579.76587"
+         x="930.38788"
+         fill-opacity="null"
+         stroke-opacity="null">N</text>
+      <text
+         style="font-size:4px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+         xml:space="preserve"
+         text-anchor="left"
+         font-size="4"
+         id="svg_60"
+         y="573.34387"
+         x="918.6142"
+         fill-opacity="null"
+         stroke-opacity="null">E</text>
+    </g>
+    <g
+       style="display:inline"
+       id="svg_328"
+       transform="translate(-7.2535469,-6.9513163)">
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_321"
+         y2="587.25476"
+         x2="989.79987"
+         y1="580.26898"
+         x1="1007.7634"
+         fill-opacity="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_322"
+         y2="587.25482"
+         x2="981.31708"
+         y1="587.25482"
+         x1="990.29889"
+         fill-opacity="null" />
+      <line
+         style="fill:none;stroke:#000000"
+         stroke-linecap="null"
+         stroke-linejoin="null"
+         id="svg_323"
+         y2="586.7558"
+         x2="1019.7391"
+         y1="586.7558"
+         x1="1006.7654"
+         fill-opacity="null" />
+      <circle
+         style="fill:none;stroke:#000000"
+         r="0.49915901"
+         id="svg_324"
+         cy="586.58673"
+         cx="1015.924"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <circle
+         style="fill:none;stroke:#000000"
+         r="0.49915901"
+         id="svg_325"
+         cy="587.08588"
+         cx="985.22571"
+         fill-opacity="null"
+         stroke-opacity="null"
+         stroke-width="null" />
+      <rect
+         style="fill:none;stroke:#e5e5e5;stroke-width:0.2"
+         id="svg_327"
+         height="10.749312"
+         width="33.997826"
+         y="578.216"
+         x="983.42963"
+         fill-opacity="null" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Data Wiring"
+     style="display:inline">
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:2;stroke-dasharray:5, 5"
+       fill-opacity="null"
+       x1="188.99597"
+       y1="255.50304"
+       x2="672.48712"
+       y2="490.46692"
+       id="svg_41"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <line
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:2;stroke-dasharray:5, 5"
+       fill-opacity="null"
+       x1="79.670639"
+       y1="730.98456"
+       x2="434.71078"
+       y2="838.04968"
+       id="svg_12"
+       stroke-linejoin="null"
+       stroke-linecap="null" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 682.04315,496.32739 2.20812,40.7115 -199.47255,286.51511 -40.35184,15.56709"
+       id="path5139"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g5248"
+       transform="translate(-9.1884801,37.465944)">
+      <rect
+         y="398.84021"
+         x="744.09656"
+         height="82.718704"
+         width="202.32228"
+         id="rect5192"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.61895859;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="430.65353"
+         x="774.92059"
+         height="20.551716"
+         width="170.45836"
+         id="rect5215"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="422.19107"
+         x="785.8009"
+         height="35.058811"
+         width="26.596338"
+         id="rect5217"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="420.98215"
+         x="816.02405"
+         height="37.476658"
+         width="29.014189"
+         id="rect5219"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="414.9375"
+         x="796.68127"
+         height="47.148067"
+         width="39.894531"
+         id="rect5230"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5232"
+         d="m 774.69758,434.31855 -21.15726,-6.19758"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5234"
+         d="m 774.69758,436.45564 -21.37097,-4.27419"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5236"
+         d="m 774.69758,438.59274 -21.37097,-2.56452"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5238"
+         d="m 774.92059,440.9294 -21.59398,-1.26811"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5240"
+         d="m 775.125,443.29435 -22.2258,0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5242"
+         d="m 774.69758,445.64516 -20.72984,0.64113"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5244"
+         d="m 774.48387,447.56855 -20.51613,1.70967"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5246"
+         d="m 774.69758,449.49193 -20.94355,2.77823"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(-221.23318,388.06476)"
+       id="g5263">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.61895859;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5265"
+         width="202.32228"
+         height="82.718704"
+         x="744.09656"
+         y="398.84021" />
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5267"
+         width="170.45836"
+         height="20.551716"
+         x="774.92059"
+         y="430.65353" />
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5269"
+         width="26.596338"
+         height="35.058811"
+         x="785.8009"
+         y="422.19107" />
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5271"
+         width="29.014189"
+         height="37.476658"
+         x="816.02405"
+         y="420.98215" />
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5273"
+         width="39.894531"
+         height="47.148067"
+         x="796.68127"
+         y="414.9375" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 774.69758,434.31855 -21.15726,-6.19758"
+         id="path5275"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 774.69758,436.45564 -21.37097,-4.27419"
+         id="path5277"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 774.69758,438.59274 -21.37097,-2.56452"
+         id="path5279"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 774.92059,440.9294 -21.59398,-1.26811"
+         id="path5281"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 775.125,443.29435 -22.2258,0"
+         id="path5283"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 774.69758,445.64516 -20.72984,0.64113"
+         id="path5285"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 774.48387,447.56855 -20.51613,1.70967"
+         id="path5287"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 774.69758,449.49193 -20.94355,2.77823"
+         id="path5289"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

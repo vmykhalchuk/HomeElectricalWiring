@@ -1,0 +1,2887 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1220"
+   height="900.0000000000001"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="gen_main_floor_v0.5.svg">
+  <metadata
+     id="metadata337">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs335" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1416"
+     inkscape:window-height="804"
+     id="namedview333"
+     showgrid="false"
+     inkscape:zoom="0.7186987"
+     inkscape:cx="543.89265"
+     inkscape:cy="578.72451"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer3" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Info"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <circle
+       style="fill:#00bf00;stroke:#00bf00;stroke-width:2"
+       r="6.5"
+       id="svg_9"
+       cy="838.53009"
+       cx="61.517406" />
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_10"
+       cy="795.99036"
+       cx="59.490009" />
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_12"
+       height="10.00001"
+       width="18.500011"
+       y="774.51501"
+       x="49.498672" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_13"
+       y="783.51355"
+       x="54.998417"
+       stroke-opacity="null">N</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_19"
+       y="783.01361"
+       x="70.998375"
+       fill-opacity="null"
+       stroke-opacity="null">Socket 80-90cm</text>
+    <rect
+       style="fill:#0000bf;stroke:#0000bf"
+       id="svg_21"
+       height="10.00001"
+       width="18.500011"
+       y="756.51508"
+       x="50.498669" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_22"
+       y="765.51361"
+       x="55.998409"
+       stroke-opacity="null">N</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_23"
+       y="765.51361"
+       x="71.498367"
+       fill-opacity="null"
+       stroke-opacity="null">Socket 30cm</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_59"
+       y="817.02264"
+       x="72.486916"
+       fill-opacity="null"
+       stroke-opacity="null">Switch</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_305"
+       y="797.52679"
+       x="70.998375"
+       fill-opacity="null"
+       stroke-opacity="null">Light/sensor</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_306"
+       d="m 53.857059,815.42126 7,-9 6.999958,9 -6.999958,8.99994 -7,-8.99994 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_307"
+       y="819.01117"
+       x="57.969543"
+       stroke-opacity="null">3</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_308"
+       y="841.04456"
+       x="71.986458"
+       fill-opacity="null"
+       stroke-opacity="null">Box</text>
+    <circle
+       style="fill:#999999;stroke:#999999;stroke-width:2"
+       r="6.5"
+       id="svg_309"
+       cy="857.69928"
+       cx="61.193325" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_310"
+       y="858.56055"
+       x="71.986458"
+       fill-opacity="null"
+       stroke-opacity="null">Вихід на горище</text>
+    <circle
+       style="fill:#ff00ff;stroke:#ff00ff;stroke-width:2"
+       r="6.5"
+       id="svg_311"
+       cy="877.94098"
+       cx="61.423328" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_312"
+       y="879.57971"
+       x="71.986458"
+       fill-opacity="null"
+       stroke-opacity="null">Лампа бра (H5 нижче H6)</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_313"
+       height="19.999975"
+       width="21.500006"
+       y="752.97894"
+       x="210.1501" />
+    <rect
+       style="fill:#7f0000;stroke:#7f0000"
+       id="svg_314"
+       height="19.999975"
+       width="21.500006"
+       y="779.98523"
+       x="210.17438" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_315"
+       y="765.99805"
+       x="236.64951"
+       fill-opacity="null"
+       stroke-opacity="null">Коробка внизу</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_316"
+       y="792.52228"
+       x="237.14996"
+       fill-opacity="null"
+       stroke-opacity="null">Коробка зверху</text>
+  </g>
+  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Frame"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2"
+       id="svg_2"
+       height="302.99997"
+       width="407"
+       y="97"
+       x="71" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2"
+       id="svg_3"
+       height="64"
+       width="11"
+       y="308"
+       x="472"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2"
+       id="svg_4"
+       height="88"
+       width="13"
+       y="181"
+       x="64"
+       stroke-opacity="null" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2"
+       transform="matrix(0,1,-1,0,0,0)"
+       id="svg_5"
+       height="51.999996"
+       width="13"
+       y="-159.5"
+       x="90.5"
+       stroke-opacity="null" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2"
+       id="svg_6"
+       height="183"
+       width="141"
+       y="97"
+       x="478"
+       stroke-opacity="null" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2"
+       transform="matrix(0,1,-1,0,0,0)"
+       id="svg_7"
+       height="64"
+       width="11"
+       y="-576.5"
+       x="274.5"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2"
+       id="svg_90"
+       height="215.49991"
+       width="189.49986"
+       y="64.500092"
+       x="620.49957"
+       stroke-opacity="null" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2"
+       transform="matrix(0,1,-1,0,0,0)"
+       id="svg_92"
+       height="77.499969"
+       width="19.999973"
+       y="-698.49994"
+       x="259.49969"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2"
+       transform="matrix(0,1,-1,0,0,0)"
+       id="svg_106"
+       height="51.999996"
+       width="13"
+       y="-732.49799"
+       x="58.500401"
+       stroke-opacity="null" />
+    <text
+       style="font-style:italic;font-weight:bold;font-size:12px;font-family:Georgia, Times, 'Times New Roman', serif;fill:#7f7f7f;stroke:#000000;stroke-width:0"
+       x="626"
+       y="43"
+       id="svg_26"
+       font-size="12"
+       text-anchor="left"
+       xml:space="preserve"
+       font-style="italic"
+       font-weight="bold">FLOOR &lt;&lt;2&gt;&gt;</text>
+    <text
+       style="font-style:italic;font-weight:bold;font-size:12px;font-family:Georgia, Times, 'Times New Roman', serif;fill:#7f7f7f;stroke:#999999;stroke-width:0"
+       x="522"
+       y="42"
+       id="svg_32"
+       font-size="12"
+       text-anchor="left"
+       xml:space="preserve"
+       font-style="italic"
+       font-weight="bold">FLOOR &lt;&lt;1&gt;&gt;</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:1.5"
+       x1="559"
+       y1="96"
+       x2="561"
+       y2="45"
+       id="svg_33"
+       stroke-linejoin="undefined"
+       stroke-linecap="undefined" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:1.5"
+       x1="659"
+       y1="63"
+       x2="659"
+       y2="45"
+       id="svg_34"
+       stroke-linejoin="undefined"
+       stroke-linecap="undefined" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2"
+       transform="matrix(0,1,-1,0,0,0)"
+       id="svg_91"
+       height="64"
+       width="11"
+       y="-798.99902"
+       x="275.00031"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_130"
+       y2="405.5"
+       x2="618.99994"
+       y1="281"
+       x1="619.49994"
+       stroke-width="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_131"
+       y2="405.5"
+       x2="703.99994"
+       y1="281"
+       x1="704.49994"
+       stroke-width="null" />
+    <line
+       style="fill:none;stroke:#000000"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_132"
+       y2="342.5"
+       x2="703.99994"
+       y1="342.5"
+       x1="619.49994"
+       stroke-width="null" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2"
+       id="svg_155"
+       height="42.5"
+       width="11"
+       y="290"
+       x="805"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2"
+       id="svg_156"
+       height="42.5"
+       width="11"
+       y="357"
+       x="805.5"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2"
+       transform="matrix(0,1,-1,0,0,0)"
+       id="svg_163"
+       height="64"
+       width="11"
+       y="-787.5"
+       x="401.00043"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2"
+       id="svg_126"
+       height="277.49994"
+       width="307.49982"
+       y="64.500092"
+       x="810.49957"
+       stroke-opacity="null" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2"
+       id="svg_127"
+       height="277.49994"
+       width="307.49982"
+       y="342.50009"
+       x="810.49957"
+       stroke-opacity="null" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2"
+       id="svg_129"
+       height="214.49994"
+       width="191.49982"
+       y="405.50009"
+       x="618.49957"
+       stroke-opacity="null" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2"
+       transform="matrix(0,1,-1,0,0,0)"
+       id="svg_164"
+       height="74.999992"
+       width="13"
+       y="-748.5"
+       x="613.5"
+       stroke-opacity="null" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2"
+       id="svg_210"
+       height="48.501316"
+       width="11"
+       y="109.01687"
+       x="1112.4457"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2"
+       id="svg_211"
+       height="101.99677"
+       width="11"
+       y="158.01271"
+       x="1112.4457"
+       stroke-opacity="null" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2"
+       id="svg_233"
+       height="126.99464"
+       width="11"
+       y="397.4924"
+       x="1112.4457"
+       stroke-opacity="null" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2"
+       transform="matrix(0,1,-1,0,0,0)"
+       id="svg_234"
+       height="64"
+       width="11"
+       y="-1091.4701"
+       x="613.98663"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_259"
+       y2="726.85767"
+       x2="71.06485"
+       y1="400.3342"
+       x1="71.06485"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_260"
+       y2="726.995"
+       x2="71.202087"
+       y1="726.995"
+       x1="619.42792"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2"
+       id="svg_261"
+       height="127.03562"
+       width="13"
+       y="492.78445"
+       x="65.000916"
+       stroke-opacity="null" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2"
+       transform="matrix(0,1,-1,0,0,0)"
+       id="svg_282"
+       height="179.116"
+       width="13"
+       y="-414.73267"
+       x="721.07483"
+       stroke-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_258"
+       y2="727.35815"
+       x2="618.56439"
+       y1="618.53333"
+       x1="618.56439"
+       fill-opacity="null"
+       stroke-opacity="null" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 1">
+    <circle
+       style="fill:#00bf00;stroke:#00bf00;stroke-width:2"
+       r="6.5"
+       id="svg_8"
+       cy="225.5"
+       cx="87.5" />
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_11"
+       cy="190.5"
+       cx="79.5" />
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_14"
+       height="10.00001"
+       width="18.500011"
+       y="130.50111"
+       x="77.000015" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_15"
+       y="139.49968"
+       x="82.499756"
+       stroke-opacity="null">3</text>
+    <rect
+       style="fill:#0000bf;stroke:#0000bf"
+       id="svg_16"
+       height="10.00001"
+       width="18.500011"
+       y="146.00107"
+       x="86.999985" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_17"
+       y="154.99963"
+       x="92.499725"
+       stroke-opacity="null">3</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_18"
+       y="137.99969"
+       x="96.999718"
+       fill-opacity="null"
+       stroke-opacity="null">SK3</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_20"
+       y="154.99963"
+       x="107.99969"
+       fill-opacity="null"
+       stroke-opacity="null">SK4</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_24"
+       cy="106.00024"
+       cx="147.9998" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_25"
+       y="228.49942"
+       x="96.499718"
+       fill-opacity="null"
+       stroke-opacity="null">OK1</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_27"
+       y2="145.99966"
+       x2="71.999786"
+       y1="135.49969"
+       x1="76.999779"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_28"
+       y2="144.99966"
+       x2="71.499794"
+       y1="150.99965"
+       x1="85.999748"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_29"
+       height="10.00001"
+       width="18.500011"
+       y="386.5004"
+       x="86.499992" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_30"
+       y="395.49896"
+       x="92.499733"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_31"
+       y="383.99899"
+       x="88.499748"
+       fill-opacity="null"
+       stroke-opacity="null">SK5</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_36"
+       height="10.00001"
+       width="18.500011"
+       y="387.0004"
+       x="226.99957" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_37"
+       y="395.99896"
+       x="232.49931"
+       stroke-opacity="null">3</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_38"
+       y="384.99899"
+       x="228.99933"
+       fill-opacity="null"
+       stroke-opacity="null">SK6</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_39"
+       height="10.00001"
+       width="18.500011"
+       y="386.5004"
+       x="429.49899" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_40"
+       y="395.49896"
+       x="434.99872"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_41"
+       y="384.49899"
+       x="431.49875"
+       fill-opacity="null"
+       stroke-opacity="null">SK7</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_42"
+       height="10.00001"
+       width="18.500011"
+       y="99.501228"
+       x="387.49911" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_43"
+       y="108.49979"
+       x="393.49884"
+       stroke-opacity="null">4</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_44"
+       y="116.99976"
+       x="389.49887"
+       fill-opacity="null"
+       stroke-opacity="null">SK1</text>
+    <rect
+       style="fill:#7f0000;stroke:#7f0000"
+       id="svg_45"
+       height="10.00001"
+       width="18.500011"
+       y="99.501228"
+       x="263.99948" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_46"
+       y="108.49979"
+       x="269.99921"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_47"
+       y="116.99976"
+       x="265.99924"
+       fill-opacity="null"
+       stroke-opacity="null">SK8</text>
+    <rect
+       style="fill:#0000bf;stroke:#0000bf"
+       id="svg_48"
+       height="10.00001"
+       width="18.500011"
+       y="100.00123"
+       x="199.99966" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_49"
+       y="108.99979"
+       x="205.9994"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_50"
+       y="117.49976"
+       x="201.99942"
+       fill-opacity="null"
+       stroke-opacity="null">SK2</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_51"
+       cy="274.49985"
+       cx="186.99971" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_52"
+       y="277.49927"
+       x="195.99942"
+       fill-opacity="null"
+       stroke-opacity="null">LK1</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_53"
+       cy="170.50015"
+       cx="322.4993" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_54"
+       y="173.49959"
+       x="331.49902"
+       fill-opacity="null"
+       stroke-opacity="null">LK2</text>
+    <path
+       style="fill:#56aaff;stroke:#56aaff;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_55"
+       d="m 433.8862,283.09821 8.2121,0 2.5379,-7.63916 2.53787,7.63916 8.21207,0 -6.64392,4.72168 2.53787,7.63906 -6.64389,-4.72168 -6.64395,4.72168 2.5379,-7.63906 -6.64395,-4.72168 0,0 z" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_56"
+       y="305.49921"
+       x="436.99872"
+       fill-opacity="null"
+       stroke-opacity="null">MK1</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_60"
+       d="m 460.38614,289.4093 7,-9 6.99997,9 -6.99997,8.99994 -7,-8.99994 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_61"
+       y="292.99921"
+       x="464.49863"
+       stroke-opacity="null">3</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_62"
+       y="278.49927"
+       x="459.99866"
+       fill-opacity="null"
+       stroke-opacity="null">WK1</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_63"
+       d="m 490.88608,267.90936 7,-9 6.99997,9 -6.99997,8.99994 -7,-8.99994 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_64"
+       y="271.4993"
+       x="494.99854"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_65"
+       y="256.99933"
+       x="490.49857"
+       fill-opacity="null"
+       stroke-opacity="null">WT1</text>
+    <rect
+       style="fill:#0000bf;stroke:#0000bf"
+       id="svg_66"
+       height="10.00001"
+       width="18.500011"
+       y="208.00089"
+       x="480.49881" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_67"
+       y="216.99945"
+       x="485.99857"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_68"
+       y="205.9995"
+       x="481.4986"
+       fill-opacity="null"
+       stroke-opacity="null">ST1</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_69"
+       cy="147.50023"
+       cx="538.49872" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_70"
+       y="138.49968"
+       x="531.49847"
+       fill-opacity="null"
+       stroke-opacity="null">LT1</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_71"
+       cy="219.50002"
+       cx="538.99866" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_72"
+       y="210.49948"
+       x="531.99847"
+       fill-opacity="null"
+       stroke-opacity="null">LT2</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_73"
+       height="19.999975"
+       width="21.500006"
+       y="229.00084"
+       x="591.99847" />
+    <rect
+       style="fill:#bf00bf;stroke:#bf00bf"
+       id="svg_74"
+       height="19.999975"
+       width="21.500006"
+       y="223.00085"
+       x="566.4986" />
+    <rect
+       style="fill:#7f0000;stroke:#7f0000"
+       id="svg_75"
+       height="19.999975"
+       width="21.500006"
+       y="249.00078"
+       x="565.4986" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_76"
+       y2="265.49933"
+       x2="617.49817"
+       y1="241.99939"
+       x1="587.49829" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_77"
+       y2="265.49933"
+       x2="617.49817"
+       y1="260.49933"
+       x1="586.99829" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_78"
+       y="226.49942"
+       x="594.49829"
+       fill-opacity="null"
+       stroke-opacity="null">BT1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_79"
+       y="220.49945"
+       x="569.99835"
+       fill-opacity="null"
+       stroke-opacity="null">BT2</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_80"
+       y="261.49933"
+       x="548.99841"
+       fill-opacity="null"
+       stroke-opacity="null">VT1</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_81"
+       d="m 587.3858,291.40927 7,-9 6.99994,9 -6.99994,8.99994 -7,-8.99994 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_82"
+       y="294.99921"
+       x="591.49823"
+       stroke-opacity="null">2</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_83"
+       y="309.49918"
+       x="586.99829"
+       fill-opacity="null"
+       stroke-opacity="null">WH1</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_84"
+       cy="337.49966"
+       cx="486.49884" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_85"
+       y="340.49908"
+       x="495.49857"
+       fill-opacity="null"
+       stroke-opacity="null">RH1</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_86"
+       cy="335.99966"
+       cx="538.99872" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_87"
+       y="350.99905"
+       x="530.99847"
+       fill-opacity="null"
+       stroke-opacity="null">MH1</text>
+    <circle
+       style="fill:#00bf00;stroke:#00bf00;stroke-width:2"
+       r="6.5"
+       id="svg_88"
+       cy="117.50132"
+       cx="608.49841" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_89"
+       y="132.49971"
+       x="599.49811"
+       fill-opacity="null"
+       stroke-opacity="null">OT1</text>
+    <rect
+       style="fill:#7f0000;stroke:#7f0000"
+       id="svg_93"
+       height="19.999975"
+       width="21.500006"
+       y="234.33405"
+       x="649.3313" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_94"
+       y2="258.49918"
+       x2="636.99774"
+       y1="250.99918"
+       x1="649.99768" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_95"
+       y="250.66533"
+       x="671.8299"
+       fill-opacity="null"
+       stroke-opacity="null">VB1</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_96"
+       cy="106.50034"
+       cx="656.99835" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_97"
+       y="122.49973"
+       x="649.99811"
+       fill-opacity="null"
+       stroke-opacity="null">LB2</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_98"
+       cy="104.00036"
+       cx="753.49805" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_99"
+       y="119.99974"
+       x="746.4978"
+       fill-opacity="null"
+       stroke-opacity="null">LB1</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_100"
+       cy="205.50006"
+       cx="659.99835" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_101"
+       y="221.49945"
+       x="652.99811"
+       fill-opacity="null"
+       stroke-opacity="null">LB3</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_102"
+       cy="207.00005"
+       cx="758.49805" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_103"
+       y="222.99944"
+       x="751.4978"
+       fill-opacity="null"
+       stroke-opacity="null">LB4</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_104"
+       cy="157.5002"
+       cx="707.99817" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_105"
+       y="173.49959"
+       x="700.99799"
+       fill-opacity="null"
+       stroke-opacity="null">LB5</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_107"
+       cy="73.000366"
+       cx="723.49805" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_108"
+       y="88.499794"
+       x="715.49792"
+       fill-opacity="null"
+       stroke-opacity="null">MB2</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_109"
+       height="10.00001"
+       width="18.500011"
+       y="67.50132"
+       x="775.49799" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_110"
+       y="76.499886"
+       x="781.49774"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_111"
+       y="84.999863"
+       x="777.49774"
+       fill-opacity="null"
+       stroke-opacity="null">SB2</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_112"
+       height="10.00001"
+       width="18.500011"
+       y="67.001328"
+       x="639.49835" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_113"
+       y="75.999886"
+       x="645.49811"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_114"
+       y="84.499863"
+       x="641.49811"
+       fill-opacity="null"
+       stroke-opacity="null">SB1</text>
+    <rect
+       style="fill:#0000bf;stroke:#0000bf"
+       id="svg_115"
+       height="10.00001"
+       width="18.500011"
+       y="174.50101"
+       x="788.49792" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_116"
+       y="183.49957"
+       x="794.49768"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_117"
+       y="171.4996"
+       x="788.49768"
+       fill-opacity="null"
+       stroke-opacity="null">SB3</text>
+    <rect
+       style="fill:#0000bf;stroke:#0000bf"
+       id="svg_118"
+       height="10.00001"
+       width="18.500011"
+       y="241.50082"
+       x="789.49792" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_119"
+       y="250.49937"
+       x="795.49768"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_120"
+       y="238.49942"
+       x="789.49768"
+       fill-opacity="null"
+       stroke-opacity="null">SB4</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_121"
+       d="m 710.38544,268.40936 7,-9 7,9 -7,8.99994 -7,-8.99994 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_122"
+       y="271.99927"
+       x="714.49786"
+       stroke-opacity="null">2</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_123"
+       y="257.49933"
+       x="709.99792"
+       fill-opacity="null"
+       stroke-opacity="null">WB1</text>
+    <circle
+       style="fill:#999999;stroke:#999999;stroke-width:2"
+       r="6.5"
+       id="svg_124"
+       cy="268.49988"
+       cx="697.99823" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_125"
+       y="271.4993"
+       x="672.49805"
+       fill-opacity="null"
+       stroke-opacity="null">MB1</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_133"
+       d="m 622.38544,393.40936 7,-9 7,9 -7,8.99994 -7,-8.99994 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_134"
+       y="396.99927"
+       x="626.49786"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_135"
+       y="382.49933"
+       x="621.99792"
+       fill-opacity="null"
+       stroke-opacity="null">WH2</text>
+    <circle
+       style="fill:#999999;stroke:#999999;stroke-width:2"
+       r="6.5"
+       id="svg_136"
+       cy="291.49988"
+       cx="620.99823" />
+    <circle
+       style="fill:#999999;stroke:#999999;stroke-width:2"
+       r="6.5"
+       id="svg_137"
+       cy="307.99988"
+       cx="620.99823" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_138"
+       y="293.9993"
+       x="631.99805"
+       fill-opacity="null"
+       stroke-opacity="null">MB1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_139"
+       y="309.9993"
+       x="631.49805"
+       fill-opacity="null"
+       stroke-opacity="null">MC1,MH3</text>
+    <circle
+       style="fill:#ff00ff;stroke:#ff00ff;stroke-width:2"
+       r="6.5"
+       id="svg_140"
+       cy="289.99988"
+       cx="692.99823" />
+    <circle
+       style="fill:#ff00ff;stroke:#ff00ff;stroke-width:2"
+       r="6.5"
+       id="svg_141"
+       cy="394.49988"
+       cx="691.49823" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_142"
+       y="305.4993"
+       x="684.49805"
+       fill-opacity="null"
+       stroke-opacity="null">RH3</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_143"
+       y="385.4993"
+       x="683.49805"
+       fill-opacity="null"
+       stroke-opacity="null">RH4</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_144"
+       cy="341.49966"
+       cx="713.49872" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_145"
+       y="356.49905"
+       x="705.49847"
+       fill-opacity="null"
+       stroke-opacity="null">MH2</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_146"
+       cy="342.99966"
+       cx="802.49884" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_147"
+       y="357.99908"
+       x="788.49854"
+       fill-opacity="null"
+       stroke-opacity="null">RH2</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_148"
+       d="m 781.3858,342.40927 7,-9 6.99994,9 -6.99994,8.99994 -7,-8.99994 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_149"
+       y="345.99921"
+       x="785.49823"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_150"
+       y="344.49933"
+       x="760.99792"
+       fill-opacity="null"
+       stroke-opacity="null">WH3</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_151"
+       d="m 790.3858,298.90927 7,-9 6.99994,9 -6.99994,8.99994 -7,-8.99994 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_152"
+       y="302.49921"
+       x="794.49823"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_153"
+       y="303.49933"
+       x="768.49792"
+       fill-opacity="null"
+       stroke-opacity="null">WH4</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_154"
+       y2="292.49918"
+       x2="800.49774"
+       y1="281.49924"
+       x1="803.99768" />
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_157"
+       cy="333.99966"
+       cx="821.49884" />
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_158"
+       cy="349.49966"
+       cx="820.99884" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_159"
+       y="335.99933"
+       x="830.49792"
+       fill-opacity="null"
+       stroke-opacity="null">MS1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_160"
+       y="351.49933"
+       x="829.49792"
+       fill-opacity="null"
+       stroke-opacity="null">MG4</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_161"
+       cy="333.49966"
+       cx="1106.9988" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_162"
+       y="336.99933"
+       x="1080.4979"
+       fill-opacity="null"
+       stroke-opacity="null">MS3</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_165"
+       cy="415.99966"
+       cx="628.49872" />
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_166"
+       cy="609.49969"
+       cx="798.49872" />
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_167"
+       cy="611.49969"
+       cx="681.99872" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_168"
+       y="418.49905"
+       x="636.99847"
+       fill-opacity="null"
+       stroke-opacity="null">MC5</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_169"
+       y="602.49908"
+       x="673.49847"
+       fill-opacity="null"
+       stroke-opacity="null">MC3</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_170"
+       y="612.99908"
+       x="773.49847"
+       fill-opacity="null"
+       stroke-opacity="null">MC4</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_171"
+       cy="505.99966"
+       cx="714.49872" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_172"
+       y="521.49908"
+       x="706.49847"
+       fill-opacity="null"
+       stroke-opacity="null">LC1</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_173"
+       height="10.00001"
+       width="18.500011"
+       y="607.00043"
+       x="625.99896" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_174"
+       y="615.99896"
+       x="631.49872"
+       stroke-opacity="null">3</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_175"
+       y="604.99902"
+       x="627.99872"
+       fill-opacity="null"
+       stroke-opacity="null">SC3</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_176"
+       height="10.00001"
+       width="18.500011"
+       y="583.00244"
+       x="787.98523" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_177"
+       y="592.00098"
+       x="793.48499"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_178"
+       y="581.50098"
+       x="790.48499"
+       fill-opacity="null"
+       stroke-opacity="null">SC2</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_179"
+       height="10.00001"
+       width="18.500011"
+       y="427.01566"
+       x="789.48511" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_180"
+       y="436.01422"
+       x="794.98486"
+       stroke-opacity="null">1</text>
+    <ellipse
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       ry="5.0001268"
+       rx="5.7500629"
+       id="svg_181"
+       cy="414.01624"
+       cx="799.7486" />
+    <line
+       style="fill:none;stroke:#bf005f;stroke-width:2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_182"
+       y2="410.46808"
+       x2="799.43219"
+       y1="405.46851"
+       x1="799.43219"
+       fill-opacity="null" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_183"
+       y="422.50745"
+       x="776.49249"
+       fill-opacity="null"
+       stroke-opacity="null">MC2</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_184"
+       y="444.5126"
+       x="790.48499"
+       fill-opacity="null"
+       stroke-opacity="null">SC1</text>
+    <circle
+       style="fill:#999999;stroke:#999999;stroke-width:2"
+       r="6.5"
+       id="svg_186"
+       cy="414.49084"
+       cx="697.9917" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_187"
+       y="416.49026"
+       x="672.49457"
+       fill-opacity="null"
+       stroke-opacity="null">MC1</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_188"
+       d="m 706.3858,417.39673 7,-9 7,9 -7,8.99994 -7,-8.99994 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_189"
+       y="420.98663"
+       x="710.49823"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_190"
+       y="435.48425"
+       x="704.49835"
+       fill-opacity="null"
+       stroke-opacity="null">WC1</text>
+    <circle
+       style="fill:#00bf00;stroke:#00bf00;stroke-width:2"
+       r="6.5"
+       id="svg_191"
+       cy="603.9679"
+       cx="710.4472" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_192"
+       y="606.96735"
+       x="719.4469"
+       fill-opacity="null"
+       stroke-opacity="null">OC1</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_193"
+       d="m 813.88306,255.91659 7,-9 6.99994,9 -6.99994,8.99997 -7,-8.99997 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_194"
+       y="259.50656"
+       x="817.99548"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_195"
+       y="258.0032"
+       x="832.49249"
+       fill-opacity="null"
+       stroke-opacity="null">WS1</text>
+    <circle
+       style="fill:#999999;stroke:#999999;stroke-width:2"
+       r="6.5"
+       id="svg_196"
+       cy="177.00763"
+       cx="820.48785" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_197"
+       y="167.5081"
+       x="815.4859"
+       fill-opacity="null"
+       stroke-opacity="null">MS5</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_198"
+       height="10.00001"
+       width="18.500011"
+       y="85.999756"
+       x="812.99481" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_199"
+       y="94.998314"
+       x="818.99457"
+       stroke-opacity="null">3</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_200"
+       cy="73.50032"
+       cx="819.48993" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_201"
+       y="75.000938"
+       x="828.48834"
+       fill-opacity="null"
+       stroke-opacity="null">MS2</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_202"
+       y="104.9984"
+       x="816.48938"
+       fill-opacity="null"
+       stroke-opacity="null">SS3</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_203"
+       cy="192.49724"
+       cx="957.97699" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_204"
+       y="208.49661"
+       x="950.97675"
+       fill-opacity="null"
+       stroke-opacity="null">LS1</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_207"
+       height="10.00001"
+       width="18.500011"
+       y="279.98331"
+       x="1095.9708" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_208"
+       y="288.98187"
+       x="1101.9706"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_209"
+       y="298.98193"
+       x="1099.4653"
+       fill-opacity="null"
+       stroke-opacity="null">SS2</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_212"
+       cy="249.50679"
+       cx="1108.4987" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_213"
+       y="252.5065"
+       x="1083.4977"
+       fill-opacity="null"
+       stroke-opacity="null">MS4</text>
+    <circle
+       style="fill:#00bf00;stroke:#00bf00;stroke-width:2"
+       r="6.5"
+       id="svg_214"
+       cy="206.49377"
+       cx="1103.4564" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_215"
+       y="209.49318"
+       x="1080.4574"
+       fill-opacity="null"
+       stroke-opacity="null">OS1</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_216"
+       d="m 1100.3588,100.42978 7,-9.000001 6.9998,9.000001 -6.9998,8.99995 -7,-8.99995 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_217"
+       y="104.01973"
+       x="1104.4712"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_218"
+       y="106.51604"
+       x="1078.9716"
+       fill-opacity="null"
+       stroke-opacity="null">WS2</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_219"
+       height="10.00001"
+       width="18.500011"
+       y="75.000687"
+       x="1096.4708" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_220"
+       y="83.999252"
+       x="1102.4706"
+       stroke-opacity="null">3</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_221"
+       y="83.000259"
+       x="1078.9672"
+       fill-opacity="null"
+       stroke-opacity="null">SS1</text>
+    <rect
+       style="fill:#7f0000;stroke:#7f0000"
+       id="svg_222"
+       height="10.00001"
+       width="18.500011"
+       y="74.503349"
+       x="1120.4269" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_224"
+       y="82.000343"
+       x="1140.4619"
+       fill-opacity="null"
+       stroke-opacity="null">SS4</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_225"
+       cy="98.019638"
+       cx="1127.9971" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_226"
+       y="101.01933"
+       x="1136.9932"
+       fill-opacity="null"
+       stroke-opacity="null">RS1</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_227"
+       height="10.00001"
+       width="18.500011"
+       y="345.47775"
+       x="1080.972" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_228"
+       y="354.47632"
+       x="1086.9718"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_229"
+       y="363.97644"
+       x="1081.9668"
+       fill-opacity="null"
+       stroke-opacity="null">SG1</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_230"
+       d="m 813.88306,417.40289 7,-9 6.99994,9 -6.99994,8.99997 -7,-8.99997 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_231"
+       y="420.99286"
+       x="817.99548"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_232"
+       y="419.4895"
+       x="831.49255"
+       fill-opacity="null"
+       stroke-opacity="null">WG1</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_235"
+       cy="512.4845"
+       cx="1107.9988" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_236"
+       y="515.98419"
+       x="1081.4978"
+       fill-opacity="null"
+       stroke-opacity="null">MG1</text>
+    <circle
+       style="fill:#00bf00;stroke:#00bf00;stroke-width:2"
+       r="6.5"
+       id="svg_237"
+       cy="461.97995"
+       cx="1102.4139" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_238"
+       y="465.97931"
+       x="1077.4165"
+       fill-opacity="null"
+       stroke-opacity="null">OG1</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_239"
+       cy="472.5025"
+       cx="968.97711" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_240"
+       y="488.00189"
+       x="960.97687"
+       fill-opacity="null"
+       stroke-opacity="null">LG1</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_241"
+       height="10.00001"
+       width="18.500011"
+       y="579.95789"
+       x="1096.4708" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_242"
+       y="588.95642"
+       x="1102.4706"
+       stroke-opacity="null">3</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_243"
+       y="577.95831"
+       x="1096.4656"
+       fill-opacity="null"
+       stroke-opacity="null">SG2</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_244"
+       cy="610.97614"
+       cx="1107.9988" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_245"
+       y="602.47681"
+       x="1096.9965"
+       fill-opacity="null"
+       stroke-opacity="null">MG5</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_246"
+       cy="610.97614"
+       cx="1039.0046" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_247"
+       y="602.47681"
+       x="1029.5022"
+       fill-opacity="null"
+       stroke-opacity="null">MG2</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_248"
+       cy="629.47461"
+       cx="1018.0064" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_249"
+       y="644.97321"
+       x="1009.004"
+       fill-opacity="null"
+       stroke-opacity="null">RG1</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_250"
+       height="10.00001"
+       width="18.500011"
+       y="555.45996"
+       x="813.99475" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_251"
+       y="564.4585"
+       x="819.99451"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_252"
+       y="553.46039"
+       x="813.98956"
+       fill-opacity="null"
+       stroke-opacity="null">SG3</text>
+    <circle
+       style="fill:#999999;stroke:#999999;stroke-width:2"
+       r="6.5"
+       id="svg_253"
+       cy="610.97418"
+       cx="915.97321" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_254"
+       y="601.47693"
+       x="905.51276"
+       fill-opacity="null"
+       stroke-opacity="null">MG3</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_255"
+       d="m 1006.3668,608.38672 7,-9 6.9999,9 -6.9999,8.99994 -7,-8.99994 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_256"
+       y="611.97668"
+       x="1010.4792"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_257"
+       y="594.47467"
+       x="1000.9782"
+       fill-opacity="null"
+       stroke-opacity="null">WG2</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_262"
+       height="10.00001"
+       width="18.500011"
+       y="403.51593"
+       x="102.01414" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_263"
+       y="412.5145"
+       x="108.01389"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_264"
+       y="422.03369"
+       x="102.51253"
+       fill-opacity="null"
+       stroke-opacity="null">SV3</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_265"
+       height="10.00001"
+       width="18.500011"
+       y="439.04834"
+       x="245.14474" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_266"
+       y="448.04691"
+       x="251.14449"
+       stroke-opacity="null">4</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_267"
+       height="19.999975"
+       width="21.500006"
+       y="442.69583"
+       x="216.15558" />
+    <rect
+       style="fill:#0000bf;stroke:#0000bf"
+       id="svg_268"
+       height="10.00001"
+       width="18.500011"
+       y="425.1684"
+       x="264.51895" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_269"
+       y="434.16696"
+       x="270.51871"
+       stroke-opacity="null">3</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_270"
+       y2="441.87213"
+       x2="225.70593"
+       y1="400.83469"
+       x1="233.21278"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_271"
+       y2="401.33514"
+       x2="237.71689"
+       y1="438.36893"
+       x1="254.23196"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:2"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       id="svg_272"
+       y2="401.33514"
+       x2="240.21918"
+       y1="424.35614"
+       x1="273.24933"
+       fill-opacity="null"
+       stroke-opacity="null" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_273"
+       y="457.56522"
+       x="246.01486"
+       fill-opacity="null"
+       stroke-opacity="null">SV1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_274"
+       y="443.05197"
+       x="266.03311"
+       fill-opacity="null"
+       stroke-opacity="null">SV2</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_275"
+       y="470.57709"
+       x="218.9902"
+       fill-opacity="null"
+       stroke-opacity="null">BV1</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_276"
+       cy="410.1236"
+       cx="79.901993" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_277"
+       y="425.134"
+       x="73.38755"
+       fill-opacity="null"
+       stroke-opacity="null">MV2</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_278"
+       cy="504.20944"
+       cx="78.40062" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_279"
+       y="506.70844"
+       x="86.899879"
+       fill-opacity="null"
+       stroke-opacity="null">MV5</text>
+    <circle
+       style="fill:#00bf00;stroke:#00bf00;stroke-width:2"
+       r="6.5"
+       id="svg_280"
+       cy="553.29907"
+       cx="86.499084" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_281"
+       y="556.29852"
+       x="95.498802"
+       fill-opacity="null"
+       stroke-opacity="null">OV1</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_283"
+       cy="714.40125"
+       cx="81.403358" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_284"
+       y="704.38879"
+       x="75.389381"
+       fill-opacity="null"
+       stroke-opacity="null">MV1</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_285"
+       height="10.00001"
+       width="18.500011"
+       y="712.7981"
+       x="99.511864" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_286"
+       y="721.79669"
+       x="105.5116"
+       stroke-opacity="null">3</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_287"
+       y="710.39429"
+       x="100.91267"
+       fill-opacity="null"
+       stroke-opacity="null">SV4</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_288"
+       cy="718.40491"
+       cx="244.55222" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_289"
+       y="708.89288"
+       x="236.53642"
+       fill-opacity="null"
+       stroke-opacity="null">MV4</text>
+    <circle
+       style="fill:#00bf00;stroke:#00bf00;stroke-width:2"
+       r="6.5"
+       id="svg_290"
+       cy="715.44702"
+       cx="316.20868" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_291"
+       y="706.93597"
+       x="308.69333"
+       fill-opacity="null"
+       stroke-opacity="null">OV2</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_292"
+       height="10.00001"
+       width="18.500011"
+       y="714.2995"
+       x="506.88354" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_293"
+       y="723.29803"
+       x="512.8833"
+       stroke-opacity="null">3</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_294"
+       y="711.89563"
+       x="508.28436"
+       fill-opacity="null"
+       stroke-opacity="null">SV5</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_295"
+       height="10.00001"
+       width="18.500011"
+       y="605.70038"
+       x="595.46436" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_296"
+       y="614.69897"
+       x="601.46411"
+       stroke-opacity="null">1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_297"
+       y="603.29657"
+       x="596.86517"
+       fill-opacity="null"
+       stroke-opacity="null">SV6</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_298"
+       cy="717.90442"
+       cx="607.88373" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_299"
+       y="708.39246"
+       x="599.86792"
+       fill-opacity="null"
+       stroke-opacity="null">MV3</text>
+    <path
+       style="fill:#0000bf;stroke:#0000bf;stroke-width:2"
+       inkscape:connector-curvature="0"
+       id="svg_300"
+       d="m 600.36536,425.4386 7,-9 7,9 -7,8.99994 -7,-8.99994 z" />
+    <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_301"
+       y="429.0285"
+       x="604.47778"
+       stroke-opacity="null">3</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_302"
+       y="430.04272"
+       x="578.95862"
+       fill-opacity="null"
+       stroke-opacity="null">WV1</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_303"
+       cy="542.74463"
+       cx="327.12756" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_304"
+       y="545.74402"
+       x="336.12729"
+       fill-opacity="null"
+       stroke-opacity="null">LV1</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_35"
+       y="193.49928"
+       x="88.999428"
+       fill-opacity="null"
+       stroke-opacity="null">MK3</text>
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_57"
+       cy="390.5"
+       cx="75.5" />
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_58"
+       cy="106.5"
+       cx="80.5" />
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_128"
+       cy="393.5"
+       cx="470.5" />
+    <circle
+       style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+       r="6.5"
+       id="svg_185"
+       cy="106.5"
+       cx="467.5" />
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_205"
+       y="117.49928"
+       x="86.999428"
+       fill-opacity="null"
+       stroke-opacity="null">MK4</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_206"
+       y="374.49927"
+       x="71.999428"
+       fill-opacity="null"
+       stroke-opacity="null">MK5</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_223"
+       y="383.49927"
+       x="455.99942"
+       fill-opacity="null"
+       stroke-opacity="null">MK6</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_317"
+       y="120.49928"
+       x="457.99942"
+       fill-opacity="null"
+       stroke-opacity="null">MK7</text>
+    <rect
+       style="fill:#00bf00;stroke:#00bf00"
+       id="svg_318"
+       height="19.999975"
+       width="21.500006"
+       y="230.00081"
+       x="622.66406" />
+    <text
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_319"
+       y="228.49936"
+       x="625.49713"
+       fill-opacity="null"
+       stroke-opacity="null"
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0">BB2</text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="140.44759"
+       y="119.79033"
+       id="text4008"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4010"
+         x="140.44759"
+         y="119.79033"
+         style="font-size:7.5px;fill:#ff0000">MK2</tspan></text>
+    <circle
+       cx="178.4998"
+       cy="105.01637"
+       id="circle4036"
+       r="6.5"
+       style="fill:#ff6600;stroke:#7f0000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none" />
+    <text
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="170.13652"
+       y="119.46703"
+       id="text4038"
+       font-size="8"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:125%;font-family:Helvetica, Arial, sans-serif;-inkscape-font-specification:'Helvetica, Arial, sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:linespacing="125%"><tspan
+         y="119.46703"
+         x="170.13652"
+         sodipodi:role="line"
+         id="tspan4040">HK1</tspan></text>
+    <circle
+       style="fill:#ff6600;stroke:#7f0000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+       r="6.5"
+       id="circle4049"
+       cy="250.62927"
+       cx="465.29819" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00000012px;line-height:125%;font-family:Helvetica, Arial, sans-serif;-inkscape-font-specification:'Helvetica, Arial, sans-serif, Normal';text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       font-size="8"
+       id="text4051"
+       y="241.95895"
+       x="456.93491"
+       fill-opacity="null"
+       stroke-opacity="null"><tspan
+         sodipodi:role="line"
+         id="tspan4058">HK2</tspan></text>
+    <circle
+       cx="468.74173"
+       cy="261.45184"
+       id="circle4060"
+       r="6.5"
+       style="fill:#6c6753;stroke:#000000;stroke-width:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <text
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="445.62039"
+       y="264.09604"
+       id="text4862"
+       font-size="8"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00000012px;line-height:125%;font-family:Helvetica, Arial, sans-serif;-inkscape-font-specification:'Helvetica, Arial, sans-serif, Normal';text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4866">HK3</tspan></text>
+    <circle
+       cx="421.02399"
+       cy="391.81476"
+       id="circle4868"
+       r="6.5"
+       style="fill:#ff6600;stroke:#7f0000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none" />
+    <text
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="412.66071"
+       y="383.14444"
+       id="text4870"
+       font-size="8"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00000012px;line-height:125%;font-family:Helvetica, Arial, sans-serif;-inkscape-font-specification:'Helvetica, Arial, sans-serif, Normal';text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4880">HK4</tspan></text>
+    <circle
+       style="fill:#ff6600;stroke:#7f0000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+       r="6.5"
+       id="circle4874"
+       cy="391.81476"
+       cx="113.56431" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00000012px;line-height:125%;font-family:Helvetica, Arial, sans-serif;-inkscape-font-specification:'Helvetica, Arial, sans-serif, Normal';text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       font-size="8"
+       id="text4876"
+       y="383.14444"
+       x="105.20103"
+       fill-opacity="null"
+       stroke-opacity="null"><tspan
+         sodipodi:role="line"
+         id="tspan4882">HK5</tspan></text>
+  </g>
+</svg>
