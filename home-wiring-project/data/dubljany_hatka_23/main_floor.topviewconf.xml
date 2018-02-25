@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<top-view-TVConfiguration>
+    <points-collection areaCode="K">
+        <point code="WK99">
+            <topViewSymbol x="0" y="995" textX="0" textY="1005" textRotation="0"/>
+        </point>
+        <group id="Kitchen-Sockets-Group">
+            <topViewSymbol x="500" y="1230" textX="1240" textY="1250" textRotation="270"/>
+            <point code="SK1">
+                <topViewSymbol dY="0" textDY="0"/>
+            </point>
+            <group code="SK2x">
+                <topViewSymbol dY="10" textDY="10"/>
+            </group>
+            <point code="SK5">
+                <topViewSymbol dY="20" textDY="20"/>
+            </point>
+        </group>
+    </points-collection>
+</top-view-TVConfiguration>

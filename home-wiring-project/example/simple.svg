@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="500"
+        height="500"
+        id="svg2"
+        version="1.1">
+    <g>
+        <rect style="fill:none;stroke:#000000;stroke-width:2" id="svg_ex3rec111"
+              y="0" x="0" height="500" width="500"/>
+
+
+        <path style="fill:#0000bf;stroke:#0000bf;stroke-width:1" id="svg_60"
+              d="m 0,10 7,-9 6.99997,9 -6.99997,8.99994 -7,-8.99994 z"/>
+        <text style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+              y="13.5" x="4.2">6</text>
+        <text style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+              y="26" x="0">WK1</text>
+
+        <rect style="fill:none;stroke:#000000;stroke-width:1" id="svg_ex3rec111"
+              y="0" x="0" height="26.5" width="15"/>
+
+
+        <path style="fill:#0000bf;stroke:#0000bf;stroke-width:1" id="svg_60"
+              d="m 15,90 7,-9 6.99997,9 -6.99997,8.99994 -7,-8.99994 z"/>
+        <text style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+              y="93.5" x="19.2">6</text>
+        <text style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+              y="106" x="15">WK1</text>
+        <path style="fill:#000000;stroke:#000000;stroke-width:1"
+              d="m 0,0 30,10 z"/>
+
+        <!--
+        <rect style="fill:#00bf00;stroke:#00bfff;stroke-width:0.1" id="svg_ex3" height="10" width="18"
+              y="0" x="0"/>
+        <text style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0" xml:space="preserve"
+              font-weight="bold" text-anchor="left" font-size="11" id="svg_ex4"
+              y="9.1" x="5" stroke-opacity="null">N</text>
+
+         <circle style="fill:#00bf00" r="10" id="svg_ex1" cy="10" cx="10"/>
+         <circle style="fill:#00bf00;stroke:#00bfff;stroke-width:1" r="9.5" id="svg_ex2" cy="30" cx="10"/>
+         -->
+
+        <rect style="fill:#00bf00;stroke:#00bfff;stroke-width:0.1" id="svg_ex3" height="10" width="18"
+              y="40.5" x="0.5"/>
+        <text style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0" xml:space="preserve"
+              font-weight="bold" text-anchor="left" font-size="11" id="svg_ex4"
+              y="49.6" x="5.5" stroke-opacity="null">N</text>
+
+
+        <!-- Switch example -->
+        <path style="fill:#0000bf;stroke:#0000bf;stroke-width:1" id="svg_60"
+                d="m 460.38614,289.4093 7,-9 6.99997,9 -6.99997,8.99994 -7,-8.99994 z"/>
+        <text style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+                font-weight="bold" text-anchor="left" font-size="11" id="svg_61"
+                y="292.99921" x="464.49863" stroke-opacity="null">6</text>
+        <text style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+                text-anchor="left" font-size="8" id="svg_62"
+                y="278.49927" x="459.99866" fill-opacity="null" stroke-opacity="null">WK1</text>
+
+        <!-- The rest is example -->
+        <circle
+                style="fill:#00bf00;stroke:#00bf00;stroke-width:2"
+                r="6.5"
+                id="svg_9"
+                cy="838.53009"
+                cx="61.517406"/>
+        <circle
+                style="fill:#7f0000;stroke:#7f0000;stroke-width:2"
+                r="6.5"
+                id="svg_10"
+                cy="795.99036"
+                cx="59.490009"/>
+        <rect
+                style="fill:#00bf00;stroke:#00bf00"
+                id="svg_12"
+                height="10.00001"
+                width="18.500011"
+                y="774.51501"
+                x="49.498672"/>
+        <text
+       style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="11"
+       id="svg_13"
+       y="783.51355"
+       x="54.998417"
+       stroke-opacity="null">N</text>
+    <text
+       style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
+       xml:space="preserve"
+       text-anchor="left"
+       font-size="8"
+       id="svg_19"
+       y="783.01361"
+       x="70.998375"
+       fill-opacity="null"
+       stroke-opacity="null">Socket 80-90cm</text>
+
+
+    </g>
+</svg>

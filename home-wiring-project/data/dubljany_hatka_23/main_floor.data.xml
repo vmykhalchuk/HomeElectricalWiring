@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<home-wiring-data>
+    <areas>
+        <area code="K" name="Kitchen" x="" y="" z="" xW="" yL="" zH="">
+            <item type="door" x="" y="" z="" xWidth="" yLength="" zHeight=""/>
+            <item type="window" x="" y="" z="" xW="" yL="" zH=""/>
+        </area>
+    </areas>
+
+
+    <!-- Kitchen Points -->
+    <points-collection areaCode="K" pointTypeResolver="Resolvers.getByCodeResolver()">
+        <!-- Sockets group -->
+        <group z="30cm" type="S" id="Kitchen-Sockets-Group">
+            <point code="SK1" x="30cm" y="0"/>
+            <group code="SK2x" x="0" y="20cm">
+                <point code="SK21" dX="0"/>
+                <point code="SK22" dX="5cm"/>
+            </group>
+            <!-- some socket with slightly different Z -->
+            <point code="SK5" x="250cm" y="250cm" dZ="-7cm"/>
+            <!-- some socket with its own Z -->
+            <point code="SK6" x="250cm" y="100cm" z="80cm"/>
+        </group>
+        <!-- Some misc point -->
+        <point code="MK1" type="M" x="12cm" y="12cm" z="12cm" />
+
+        <!-- Here type of point is resolved automatically with pointTypeResolver -->
+        <point code="WK99" x="22cm" y="22cm" z="22cm" />
+    </points-collection>
+</home-wiring-data>
