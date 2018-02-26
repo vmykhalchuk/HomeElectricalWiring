@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <home-wiring-data>
     <areas>
-        <area code="K" name="Kitchen" x="" y="" z="" xW="" yL="" zH="">
-            <item type="door" x="" y="" z="" xWidth="" yLength="" zHeight=""/>
-            <item type="window" x="" y="" z="" xW="" yL="" zH=""/>
+        <area code="K" name="Kitchen" x="100" y="100" z="3500" xW="4600" yLength="5000" zH="2900">
+            <item type="door" x="-1" y="-1" z="-1" xWidth="-1" yLength="-1" zHeight="-1"/>
+            <item type="window" x="-1" y="-1" z="-1" xW="-1" yL="-1" zH="-1"/>
         </area>
     </areas>
 

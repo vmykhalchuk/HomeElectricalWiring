@@ -3,6 +3,7 @@ package org.home.homewiring;
 import org.home.homewiring.data3d_to_topview.Data3DToTopViewGenerator;
 import org.home.homewiring.data3dmodel.model.Area;
 import org.home.homewiring.data3dmodel.xmlload.XMLDataLoader;
+import org.home.homewiring.data3dmodel.xmlload.XMLDataLoader2;
 import org.home.homewiring.topview.TopViewSymbolsPlacer;
 import org.home.homewiring.topview.model.TopViewModel;
 import org.home.homewiring.topview.renderer.TopViewRenderingEngine;
@@ -16,9 +17,11 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        final XMLDataLoader loader = new XMLDataLoader("data/dubljany_hatka_23/main_floor.data.xml");
-        loader.loadData();
-        final List<Area> areaList = loader.getAreaList();
+//        final XMLDataLoader loader = new XMLDataLoader("data/dubljany_hatka_23/main_floor.data.xml");
+//        loader.loadData();
+//        final List<Area> areaList = loader.getAreaList();
+
+        final List<Area> areaList = XMLDataLoader2.getAreaList(new File("data/dubljany_hatka_23/main_floor.data.xml"));
 
         final TopViewModel topViewModel = Data3DToTopViewGenerator.generate(areaList);
         final TopViewRenderingEngine renderingEngine = new SVGRenderingEngine(); // we will use SVG rendering engine

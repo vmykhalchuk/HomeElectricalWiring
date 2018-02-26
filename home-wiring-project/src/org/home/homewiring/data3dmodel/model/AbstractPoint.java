@@ -125,7 +125,7 @@ public abstract class AbstractPoint {
 
     public String getCalculatedType() {
         if (type == null) {
-            String type = parent.getCalculatedType();
+            String type = parent == null ? null : parent.getCalculatedType();
             if (type == null) {
                 // TODO: load type resolver here and call it to run below logic
                 return code == null || code.length() == 0 ? null : code.substring(0, 1);

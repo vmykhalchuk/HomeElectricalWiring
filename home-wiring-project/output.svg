@@ -16,23 +16,11 @@
             <g>
                 <!-- tvSymbol(type:S) here-->
                 <path style="fill:#000000;stroke:#000000;stroke-width:1"
-                      d="m 470.0,210.0 -14.25,0.0 z"/>
-                <rect style="fill:#0000ff;stroke:#0000ff;stroke-width:0" id="svg_1002" height="10" width="18"
-                      x="446.5" y="205.0"/>
-                <text style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
-                      id="svg_1003"
-                      x="451.5" y="214.1">7</text>
-                <text style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
-                      x="424.5" y="211.5">ZK99</text>
-            </g>
-            <g>
-                <!-- tvSymbol(type:S) here-->
-                <path style="fill:#000000;stroke:#000000;stroke-width:1"
                       d="m 40.0,10.0 -8.25,10.0 z"/>
-                <rect style="fill:#0000ff;stroke:#0000ff;stroke-width:0" id="svg_1004" height="10" width="18"
+                <rect style="fill:#0000ff;stroke:#0000ff;stroke-width:0" id="svg_1002" height="10" width="18"
                       x="22.5" y="15.0"/>
                 <text style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
-                      id="svg_1005"
+                      id="svg_1003"
                       x="27.5" y="24.1"></text>
                 <text style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
                       x="41.0" y="21.5">SK1</text>
@@ -41,10 +29,10 @@
                 <!-- tvSymbol(type:S) here-->
                 <path style="fill:#000000;stroke:#000000;stroke-width:1"
                       d="m 10.0,30.0 14.25,10.0 z"/>
-                <rect style="fill:#990000;stroke:#990000;stroke-width:0" id="svg_1006" height="10" width="18"
+                <rect style="fill:#0000ff;stroke:#0000ff;stroke-width:0" id="svg_1004" height="10" width="18"
                       x="15.0" y="35.0"/>
                 <text style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
-                      id="svg_1007"
+                      id="svg_1005"
                       x="20.0" y="44.1">2</text>
                 <text style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
                       x="33.5" y="41.5">SK2x</text>
@@ -53,10 +41,10 @@
                 <!-- tvSymbol(type:S) here-->
                 <path style="fill:#000000;stroke:#000000;stroke-width:1"
                       d="m 260.0,260.0 0.0,10.0 z"/>
-                <rect style="fill:#0000ff;stroke:#0000ff;stroke-width:0" id="svg_1008" height="10" width="18"
+                <rect style="fill:#0000ff;stroke:#0000ff;stroke-width:0" id="svg_1006" height="10" width="18"
                       x="250.75" y="265.0"/>
                 <text style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
-                      id="svg_1009"
+                      id="svg_1007"
                       x="255.75" y="274.1"></text>
                 <text style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
                       x="250.75" y="281.5">SK5</text>
@@ -65,10 +53,10 @@
                 <!-- tvSymbol(type:S) here-->
                 <path style="fill:#000000;stroke:#000000;stroke-width:1"
                       d="m 260.0,110.0 0.0,10.0 z"/>
-                <rect style="fill:#00ff00;stroke:#00ff00;stroke-width:0" id="svg_1010" height="10" width="18"
+                <rect style="fill:#00ff00;stroke:#00ff00;stroke-width:0" id="svg_1008" height="10" width="18"
                       x="250.75" y="115.0"/>
                 <text style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
-                      id="svg_1011"
+                      id="svg_1009"
                       x="255.75" y="124.1"></text>
                 <text style="font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0"
                       x="250.75" y="131.5">SK6</text>
@@ -88,7 +76,7 @@
                 <!-- tvSymbol(type:W) here-->
                 <path style="fill:#000000;stroke:#000000;stroke-width:1"
                       d="m 32.0,32.0 -9.25,14.75 z"/>
-                <path style="fill:#0000ff;stroke:#0000ff;stroke-width:1" id="svg_1012"
+                <path style="fill:#0000ff;stroke:#0000ff;stroke-width:1" id="svg_1010"
                       d="m 15.0,47.0 7,-9 6.99997,9 -6.99997,8.99994 -7,-8.99994 z"/>
                 <text style="font-weight:bold;font-size:11px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff;stroke:#000000;stroke-width:0"
                       x="19.2" y="50.5"></text>

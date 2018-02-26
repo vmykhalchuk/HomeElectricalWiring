@@ -3,7 +3,7 @@ package org.home.homewiring.data3dmodel.model;
 import java.util.List;
 
 public class Area {
-    private String uid;
+    private String id;
     private String code;
     private String name;
     private String description;
@@ -17,12 +17,12 @@ public class Area {
     private List<AreaItem> items;
     private List<PointsCollection> pointsCollectionList;
 
-    public String getUid() {
-        return uid;
+    public String getId() {
+        return id;
     }
 
-    public void setUid(String uid) {
-        this.uid = uid;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getCode() {
