@@ -6,6 +6,9 @@ import org.home.homewiring.data3dmodel.model.AreaItem;
 import org.home.homewiring.data3dmodel.model.Point;
 import org.home.homewiring.data3dmodel.model.PointGroup;
 import org.home.homewiring.data3dmodel.model.PointsCollection;
+import org.home.homewiring.util.Pair;
+import org.home.homewiring.util.Props;
+import org.home.homewiring.util.Tripple;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -20,13 +23,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Loads data from *.data.xml file into {@link org.home.homewiring.data3dmodel} data models.
+ */
 public class XMLDataLoader2 {
 
     public static List<Area> getAreaList(File file) {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 
         List<Area> areaList = new ArrayList<>();
-        List<PointsCollection> pointsCollectionsList = new ArrayList<>();
+        List<PairOfPointCollections> pointsCollectionsList = new ArrayList<>();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document document = builder.parse(file);
@@ -58,17 +64,37 @@ public class XMLDataLoader2 {
             }
         }
 
-        // now match Areas to PointsCollections
-        for (PointsCollection pointsCollection : pointsCollectionsList) {
+        // now match Areas to PointsCollections and put PointsCollections into Area
+        for (PairOfPointCollections pointsCollectionPair : pointsCollectionsList) {
+            PointsCollection pointsCollection = pointsCollectionPair.getU();
             String areaCode = pointsCollection.getAreaCode();
             Area area = areaList.stream().filter((a) -> areaCode.equals(a.getCode())).findFirst().orElse(null);
             if (area == null) {
                 throw new RuntimeException(String.format("No area with code: '%s' found! Cannot set pointsCollection for this Area!", areaCode));
             }
             area.getPointsCollectionList().add(pointsCollection);
+
+            // now fix dimensions of X, Y, Z (all occurences of areaXWidth, areaYLength and areaZHeight!
+            fixOccurencesOfDimensions(pointsCollectionPair.getV(), area);
         }
 
         return areaList;
+    }
+
+    private static void fixOccurencesOfDimensions(List<APTripple> apTripples, Area area) {
+        for (APTripple apTripple : apTripples) {
+            AbstractPoint aPoint = apTripple.getU();
+            Props props = apTripple.getV();
+            if (props.containsKey("x-areaXWidth-computation") && props.get("x-areaXWidth-computation").equals(true)) {
+                aPoint.setX(area.getxWidth() + aPoint.getX());
+            }
+            if (props.containsKey("y-areaYLength-computation") && props.get("y-areaYLength-computation").equals(true)) {
+                aPoint.setY(area.getyLength() + aPoint.getY());
+            }
+            if (props.containsKey("z-areaZHeight-computation") && props.get("z-areaZHeight-computation").equals(true)) {
+                aPoint.setZ(area.getzHeight() + aPoint.getZ());
+            }
+        }
     }
 
     private static List<Area> processAreasElement(Element elemAreas) {
@@ -104,7 +130,7 @@ public class XMLDataLoader2 {
             Node node = nodeList.item(i);
 
             if (node.getNodeType() == Node.ELEMENT_NODE && "item".equals(node.getNodeName())) {
-                area.getItems().add(processAreaItemElement((Element) node));
+                area.getItems().add(processAreaItemElement((Element) node, area));
             }
         }
 
@@ -112,12 +138,17 @@ public class XMLDataLoader2 {
         return area;
     }
 
-    private static AreaItem processAreaItemElement(Element elemItem) {
+    private static AreaItem processAreaItemElement(Element elemItem, Area area) {
         AreaItem item = new AreaItem();
         item.setType(getMandatoryAttribute(elemItem, "type"));
-        item.setX(Utils.parseMeasures(getMandatoryAttribute(elemItem, "x")));
-        item.setY(Utils.parseMeasures(getMandatoryAttribute(elemItem, "y")));
-        item.setZ(Utils.parseMeasures(getMandatoryAttribute(elemItem, "z")));
+
+        Pair<Double, Utils.AreaRef> xMeasures = Utils.parseMeasuresWithAreaRef(getMandatoryAttribute(elemItem, "x"), Utils.AreaRef.areaXWidth);
+        item.setX(xMeasures.getV() == Utils.AreaRef.areaXWidth ? area.getxWidth() + xMeasures.getU() : xMeasures.getU());
+        Pair<Double, Utils.AreaRef> yMeasures = Utils.parseMeasuresWithAreaRef(getMandatoryAttribute(elemItem, "y"), Utils.AreaRef.areaYLength);
+        item.setY(yMeasures.getV() == Utils.AreaRef.areaYLength ? area.getyLength() + yMeasures.getU() : yMeasures.getU());
+        Pair<Double, Utils.AreaRef> zMeasures = Utils.parseMeasuresWithAreaRef(getMandatoryAttribute(elemItem, "z"), Utils.AreaRef.areaZHeight);
+        item.setZ(zMeasures.getV() == Utils.AreaRef.areaZHeight ? area.getzHeight() + zMeasures.getU() : zMeasures.getU());
+
         item.setxWidth(Utils.parseMeasures(getOneOfAttributes(elemItem, "xWidth", "xW")));
         item.setyLength(Utils.parseMeasures(getOneOfAttributes(elemItem, "yLength", "yL")));
         item.setzHeight(Utils.parseMeasures(getOneOfAttributes(elemItem, "zHeight", "zH")));
@@ -130,6 +161,10 @@ public class XMLDataLoader2 {
 
     private static Double getOptionalMeasuresAttribute(Element elem, String attrName) {
         return elem.hasAttribute(attrName) ? Utils.parseMeasures(elem.getAttribute(attrName)) : null;
+    }
+
+    private static Pair<Double, Utils.AreaRef> getOptionalMeasuresAttributeWithAreaRef(Element elem, String attrName, Utils.AreaRef allowedAreaRef) {
+        return elem.hasAttribute(attrName) ? Utils.parseMeasuresWithAreaRef(elem.getAttribute(attrName), allowedAreaRef) : null;
     }
 
     private static String getMandatoryAttribute(Element elem, String attrName) {
@@ -155,29 +190,44 @@ public class XMLDataLoader2 {
         }
     }
 
+    private static class PairOfPointCollections extends Pair<PointsCollection, List<APTripple>> {
+        public PairOfPointCollections(PointsCollection pointsCollection, List<APTripple> apTripples) {
+            super(pointsCollection, apTripples);
+        }
+    }
 
-    private static PointsCollection processPointsCollectionElement(Element elemPointsCollection) {
+    private static PairOfPointCollections processPointsCollectionElement(Element elemPointsCollection) {
         PointsCollection pointsCollection = new PointsCollection();
         pointsCollection.setAreaCode(getMandatoryAttribute(elemPointsCollection, "areaCode"));
         pointsCollection.setPointTypeResolver(getOptionalAttribute(elemPointsCollection, "pointTypeResolver"));
 
         pointsCollection.setPoints(new ArrayList<>());
+        List<APTripple> aChildren = new ArrayList<>();
         NodeList nodeList = elemPointsCollection.getChildNodes();
         for (int i = 0; i < nodeList.getLength(); i++) {
             Node node = nodeList.item(i);
 
             if (node.getNodeType() == Node.ELEMENT_NODE) {
-                AbstractPoint point = processPointsCollectionSubElement((Element) node, null);
-                pointsCollection.getPoints().add(point);
+                APTripple res = processPointsCollectionSubElement((Element) node, null);
+                pointsCollection.getPoints().add(res.getU());
+                aChildren.add(res);
             }
         }
 
 
-        return pointsCollection;
+        return new PairOfPointCollections(pointsCollection, aChildren);
     }
 
-    private static AbstractPoint processPointsCollectionSubElement(Element elemPoint, AbstractPoint parent) {
-        AbstractPoint result;
+    public static class APTripple extends Tripple<AbstractPoint, Props, List<APTripple>> {
+
+        public APTripple(AbstractPoint abstractPoint, Props sp, List<APTripple> apTrippleList) {
+            super(abstractPoint, sp, apTrippleList);
+        }
+    }
+
+    private static APTripple processPointsCollectionSubElement(Element elemPoint, AbstractPoint parent) {
+        List<APTripple> aChildren = new ArrayList<>();
+        AbstractPoint aPoint;
         if ("group".equals(elemPoint.getNodeName())) {
             PointGroup pointGroup = new PointGroup();
 
@@ -188,34 +238,49 @@ public class XMLDataLoader2 {
                 Node node = nodeList.item(i);
 
                 if (node.getNodeType() == Node.ELEMENT_NODE) {
-                    AbstractPoint child = processPointsCollectionSubElement((Element) node, pointGroup);
-                    pointGroup.getChildren().add(child);
+                    APTripple child = processPointsCollectionSubElement((Element) node, pointGroup);
+                    pointGroup.getChildren().add(child.getU());
+                    aChildren.add(child);
                 }
             }
 
-            result = pointGroup;
+            aPoint = pointGroup;
         } else if ("point".equals(elemPoint.getNodeName())) {
-            result = new Point();
+            aPoint = new Point();
         } else {
             throw new RuntimeException("Unexpected sub-element for points-collection elements: " + elemPoint);
         }
 
         // load attributes
-        result.setId(getOptionalAttribute(elemPoint, "id"));
-        result.setCode(getOptionalAttribute(elemPoint, "code"));
-        result.setName(getOptionalAttribute(elemPoint, "name"));
-        result.setDescription(getOptionalAttribute(elemPoint, "description"));
+        aPoint.setId(getOptionalAttribute(elemPoint, "id"));
+        aPoint.setCode(getOptionalAttribute(elemPoint, "code"));
+        aPoint.setName(getOptionalAttribute(elemPoint, "name"));
+        aPoint.setDescription(getOptionalAttribute(elemPoint, "description"));
 
-        result.setType(getOptionalAttribute(elemPoint, "type"));
-        result.setX(getOptionalMeasuresAttribute(elemPoint, "x"));
-        result.setY(getOptionalMeasuresAttribute(elemPoint, "y"));
-        result.setZ(getOptionalMeasuresAttribute(elemPoint, "z"));
-        result.setdX(getOptionalMeasuresAttribute(elemPoint, "dX"));
-        result.setdY(getOptionalMeasuresAttribute(elemPoint, "dY"));
-        result.setdZ(getOptionalMeasuresAttribute(elemPoint, "dZ"));
+        aPoint.setType(getOptionalAttribute(elemPoint, "type"));
+        Pair<Double, Utils.AreaRef> xMeasures = getOptionalMeasuresAttributeWithAreaRef(elemPoint, "x", Utils.AreaRef.areaXWidth);
+        Pair<Double, Utils.AreaRef> yMeasures = getOptionalMeasuresAttributeWithAreaRef(elemPoint, "y", Utils.AreaRef.areaYLength);
+        Pair<Double, Utils.AreaRef> zMeasures = getOptionalMeasuresAttributeWithAreaRef(elemPoint, "z", Utils.AreaRef.areaZHeight);
+        aPoint.setX(xMeasures != null ? xMeasures.getU() : null);
+        aPoint.setY(yMeasures != null ? yMeasures.getU() : null);
+        aPoint.setZ(zMeasures != null ? zMeasures.getU() : null);
+        aPoint.setdX(getOptionalMeasuresAttribute(elemPoint, "dX"));
+        aPoint.setdY(getOptionalMeasuresAttribute(elemPoint, "dY"));
+        aPoint.setdZ(getOptionalMeasuresAttribute(elemPoint, "dZ"));
 
-        result.setParent(parent);
-        return result;
+        aPoint.setParent(parent);
+
+        Props stringProp = new Props();
+        if (xMeasures != null && xMeasures.getV() != null) {
+            stringProp.put("x-areaXWidth-computation", true);
+        }
+        if (yMeasures != null && yMeasures.getV() != null) {
+            stringProp.put("y-areaYLength-computation", true);
+        }
+        if (zMeasures != null && zMeasures.getV() != null) {
+            stringProp.put("z-areaZHeight-computation", true);
+        }
+        return new APTripple(aPoint, stringProp, aChildren);
     }
 
 }

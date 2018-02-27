@@ -2,7 +2,7 @@
 <home-wiring-data>
     <areas>
         <area code="K" name="Kitchen" x="0.1m" y="0.1m" z="3.5m" xW="4.6m" yLength="5m" zH="2.9m">
-            <item type="door" x="-1" y="-1" z="-1" xWidth="-1" yLength="-1" zHeight="-1"/>
+            <item type="door" x="areaXWidth" y="areaYLength-270cm" z="5cm" xWidth="0" yLength="80cm" zHeight="2.2m"/>
             <item type="window" x="-1" y="-1" z="-1" xW="-1" yL="-1" zH="-1"/>
         </area>
     </areas>
@@ -24,10 +24,14 @@
         </group>
         <!-- Some misc point -->
         <point code="MK1" type="M" x="12cm" y="12cm" z="12cm" />
+    </points-collection>
 
+    <!-- Kitchen Points (Testing collection) -->
+    <points-collection areaCode="K" pointTypeResolver="Resolvers.getByCodeResolver()">
         <!-- Here type of point is resolved automatically with pointTypeResolver -->
         <point code="WK99" x="22cm" y="22cm" z="22cm" />
+        <point code="ZK199" type="S" x="areaXWidth" y="areaYLength-50cm" z="22cm" />
 
-        <point code="ZK99" type="S" x="areaXWidth" y="areaYLength-200cm" z="22cm" />
+        <point code="ZK99" type="S" x="4.6m" y="2m" z="22cm" />
     </points-collection>
 </home-wiring-data>

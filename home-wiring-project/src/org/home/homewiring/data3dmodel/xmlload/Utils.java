@@ -1,5 +1,7 @@
 package org.home.homewiring.data3dmodel.xmlload;
 
+import org.home.homewiring.util.Pair;
+
 import java.util.Arrays;
 
 public class Utils {
@@ -17,9 +19,9 @@ public class Utils {
      * @param measuresStr
      * @return
      */
-    public static Double parseMeasures(final String measuresStr) {
+    public static Pair<Double, AreaRef> parseMeasuresWithAreaRef(final String measuresStr, AreaRef allowedAreaRef) {
         final String measuresStrTrimmed = measuresStr.trim();
-        int areaRefVarCount;
+
         AreaRef areaRef = Arrays.stream(AreaRef.values()).filter(a -> measuresStrTrimmed.startsWith(a.name())).
                 findAny().orElse(null);
         final String measuresValueStr;
@@ -29,7 +31,9 @@ public class Utils {
             measuresValueStr = measuresStrTrimmed;
         }
 
-        // FIXME find a way to propagate this areaRef value!
+        if (areaRef != null && allowedAreaRef != null && areaRef != allowedAreaRef) {
+            throw new RuntimeException(String.format("areaRef '%s' not allowed! Allowed is: %s. InputString: %s", areaRef, allowedAreaRef, measuresStr));
+        }
 
         Units units;
         int unitCharsCount;
@@ -54,23 +58,31 @@ public class Utils {
         double val = measuresVal.isEmpty() ? 0 : Double.parseDouble(measuresVal);
         switch (units) {
             case mm:
-                return val;
+                return new Pair<>(val, areaRef);
             case cm:
-                return val * 10;
+                return new Pair<>(val * 10, areaRef);
             case dm:
-                return val * 100;
+                return new Pair<>(val * 100, areaRef);
             case m:
-                return val * 1000;
+                return new Pair<>(val * 1000, areaRef);
             default:
                 throw new RuntimeException();
         }
+    }
+
+    public static Double parseMeasures(final String measuresStr) {
+        Pair<Double, AreaRef> parsedVal = parseMeasuresWithAreaRef(measuresStr, null);
+        if (parsedVal.getV() != null) {
+            throw new RuntimeException("Not allowed to use areaXWidth, areaYLength or areaZHeight in here! For inputString: " + measuresStr);
+        }
+        return parsedVal.getU();
     }
 
     private enum Units {
         mm, cm, m, dm
     }
 
-    private enum AreaRef {
+    public enum AreaRef {
         areaXWidth, areaYLength, areaZHeight
     }
 }

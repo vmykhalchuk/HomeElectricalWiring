@@ -8,9 +8,9 @@ import java.util.List;
 /**
  * Loads data from *.data.xml file into {@link org.home.homewiring.data3dmodel} data models.
  */
-public class XMLDataLoader {
+public class XMLDataLoaderDummy {
 
-    public XMLDataLoader(String fileName) {
+    public XMLDataLoaderDummy(String fileName) {
 
     }
 

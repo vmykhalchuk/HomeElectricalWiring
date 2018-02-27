@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<top-view-TVConfiguration>
+<top-view-configuration>
     <points-collection areaCode="K">
         <point code="WK99">
             <topViewSymbol x="0" y="995" textX="0" textY="1005" textRotation="0"/>
@@ -17,4 +17,4 @@
             </point>
         </group>
     </points-collection>
-</top-view-TVConfiguration>
+</top-view-configuration>
