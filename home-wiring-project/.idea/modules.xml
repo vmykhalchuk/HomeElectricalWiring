@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/home-wiring-project.iml" filepath="$PROJECT_DIR$/home-wiring-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/generator-tool.iml" filepath="$PROJECT_DIR$/.idea/modules/generator-tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/generator-tool_main.iml" filepath="$PROJECT_DIR$/.idea/modules/generator-tool_main.iml" group="generator-tool" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/generator-tool_test.iml" filepath="$PROJECT_DIR$/.idea/modules/generator-tool_test.iml" group="generator-tool" />
     </modules>
   </component>
 </project>
