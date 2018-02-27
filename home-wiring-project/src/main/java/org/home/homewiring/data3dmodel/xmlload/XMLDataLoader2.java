@@ -3,6 +3,7 @@ package org.home.homewiring.data3dmodel.xmlload;
 import org.home.homewiring.data3dmodel.model.AbstractPoint;
 import org.home.homewiring.data3dmodel.model.Area;
 import org.home.homewiring.data3dmodel.model.AreaItem;
+import org.home.homewiring.data3dmodel.model.HomeWiringData;
 import org.home.homewiring.data3dmodel.model.Point;
 import org.home.homewiring.data3dmodel.model.PointGroup;
 import org.home.homewiring.data3dmodel.model.PointsCollection;
@@ -22,13 +23,14 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Loads data from *.data.xml file into {@link org.home.homewiring.data3dmodel} data models.
  */
 public class XMLDataLoader2 {
 
-    public static List<Area> getAreaList(File file) {
+    public static HomeWiringData getAreaList(File file) {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 
         List<Area> areaList = new ArrayList<>();
@@ -78,7 +80,7 @@ public class XMLDataLoader2 {
             fixOccurencesOfDimensions(pointsCollectionPair.getV(), area);
         }
 
-        return areaList;
+        return new HomeWiringData(areaList, pointsCollectionsList.stream().map(a -> a.getU()).collect(Collectors.toList()));
     }
 
     private static void fixOccurencesOfDimensions(List<APTripple> apTripples, Area area) {
