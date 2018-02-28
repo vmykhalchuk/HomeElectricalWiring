@@ -1,21 +1,19 @@
 package org.home.homewiring;
 
 import org.home.homewiring.data3d_to_topview.Data3DToTopViewGenerator;
-import org.home.homewiring.data3dmodel.model.AbstractPoint;
-import org.home.homewiring.data3dmodel.model.Area;
+import org.home.homewiring.data3d_to_topview.mappers.TopViewAreaMapper;
 import org.home.homewiring.data3dmodel.model.HomeWiringData;
-import org.home.homewiring.data3dmodel.model.PointGroup;
-import org.home.homewiring.data3dmodel.model.PointsCollection;
 import org.home.homewiring.data3dmodel.xmlload.XMLDataLoader2;
 import org.home.homewiring.data3dmodel.yamlload.YAMLDataLoader;
 import org.home.homewiring.topview.TopViewSymbolsPlacer;
+import org.home.homewiring.topview.model.TopViewArea;
 import org.home.homewiring.topview.model.TopViewModel;
 import org.home.homewiring.topview.renderer.TopViewRenderingEngine;
 import org.home.homewiring.topview.renderer.svg.SVGRenderingEngine;
+import org.mapstruct.factory.Mappers;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.List;
 
 public class Main {
 
@@ -39,6 +37,10 @@ public class Main {
         System.out.println("Ok!");
 
         YAMLDataLoader.writeToFile(new File("output.data.yaml"), homeWiringData);
+
+        TopViewAreaMapper mapper = Mappers.getMapper(TopViewAreaMapper.class);
+        TopViewArea area = mapper.areaToTopViewArea(homeWiringData.getAreas().get(0));
+        System.out.println("area: " + area);
     }
 
 }

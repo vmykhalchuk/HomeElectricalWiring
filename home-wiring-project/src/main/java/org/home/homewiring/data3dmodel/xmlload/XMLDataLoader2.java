@@ -216,7 +216,6 @@ public class XMLDataLoader2 {
             }
         }
 
-
         return new PairOfPointCollections(pointsCollection, aChildren);
     }
 
