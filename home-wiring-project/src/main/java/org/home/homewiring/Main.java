@@ -2,6 +2,7 @@ package org.home.homewiring;
 
 import org.home.homewiring.data3d_to_topview.Data3DToTopViewGenerator;
 import org.home.homewiring.data3d_to_topview.mappers.TopViewAreaMapper;
+import org.home.homewiring.data3dmodel.model.AreaItem;
 import org.home.homewiring.data3dmodel.model.HomeWiringData;
 import org.home.homewiring.data3dmodel.xmlload.XMLDataLoader2;
 import org.home.homewiring.data3dmodel.yamlload.YAMLDataLoader;
@@ -12,8 +13,13 @@ import org.home.homewiring.topview.renderer.TopViewRenderingEngine;
 import org.home.homewiring.topview.renderer.svg.SVGRenderingEngine;
 import org.mapstruct.factory.Mappers;
 
+import javax.validation.ConstraintViolation;
+import javax.validation.Validation;
+import javax.validation.Validator;
+import javax.validation.ValidatorFactory;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Set;
 
 public class Main {
 
@@ -26,6 +32,7 @@ public class Main {
 //        final List<Area> areaList = loader.getAreaList();
 
         final HomeWiringData homeWiringData = XMLDataLoader2.getAreaList(new File("data/dubljany_hatka_23/main_floor.data.xml"));
+        validate(homeWiringData);
 
         final TopViewModel topViewModel = Data3DToTopViewGenerator.generate(homeWiringData.getAreas());
         final TopViewRenderingEngine renderingEngine = new SVGRenderingEngine(); // we will use SVG rendering engine
@@ -41,6 +48,13 @@ public class Main {
         TopViewAreaMapper mapper = Mappers.getMapper(TopViewAreaMapper.class);
         TopViewArea area = mapper.areaToTopViewArea(homeWiringData.getAreas().get(0));
         System.out.println("area: " + area);
+    }
+
+    private static void validate(HomeWiringData homeWiringData) {
+        ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+        Validator validator = factory.getValidator();
+        Set<ConstraintViolation<HomeWiringData>> violationSet = validator.validate(homeWiringData);
+        System.out.println(violationSet);
     }
 
 }

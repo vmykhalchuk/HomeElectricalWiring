@@ -1,8 +1,10 @@
 package org.home.homewiring.data3dmodel.model;
 
+import javax.validation.Valid;
 import java.util.List;
 
 public class HomeWiringData {
+    @Valid
     private List<Area> areas;
     private List<PointsCollection> pointsCollections;
 

@@ -13,7 +13,9 @@ public class AreaItem {
     private Double z;
     @Min(0)
     private Double xWidth;
+    @Min(0)
     private Double yLength;
+    @Min(0)
     private Double zHeight;
 
     public String getType() {

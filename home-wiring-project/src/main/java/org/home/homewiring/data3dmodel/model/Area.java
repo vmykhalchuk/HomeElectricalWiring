@@ -1,5 +1,6 @@
 package org.home.homewiring.data3dmodel.model;
 
+import javax.validation.Valid;
 import java.util.List;
 
 public class Area {
@@ -14,6 +15,7 @@ public class Area {
     private Double yLength;
     private Double zHeight;
 
+    @Valid
     private List<AreaItem> items;
     private List<PointsCollection> pointsCollectionList;
 
