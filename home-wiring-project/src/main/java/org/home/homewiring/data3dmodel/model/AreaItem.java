@@ -1,5 +1,7 @@
 package org.home.homewiring.data3dmodel.model;
 
+import javax.validation.constraints.Min;
+
 public class AreaItem {
     /**
      * DOOR, WINDOW, OPENING, etc
@@ -9,6 +11,7 @@ public class AreaItem {
     private Double x;
     private Double y;
     private Double z;
+    @Min(0)
     private Double xWidth;
     private Double yLength;
     private Double zHeight;
