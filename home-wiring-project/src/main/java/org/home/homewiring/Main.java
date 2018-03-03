@@ -2,7 +2,6 @@ package org.home.homewiring;
 
 import org.home.homewiring.data3d_to_topview.Data3DToTopViewGenerator;
 import org.home.homewiring.data3d_to_topview.mappers.TopViewAreaMapper;
-import org.home.homewiring.data3dmodel.model.AreaItem;
 import org.home.homewiring.data3dmodel.model.HomeWiringData;
 import org.home.homewiring.data3dmodel.xmlload.XMLDataLoader2;
 import org.home.homewiring.data3dmodel.yamlload.YAMLDataLoader;
@@ -34,7 +33,7 @@ public class Main {
         final HomeWiringData homeWiringData = XMLDataLoader2.getAreaList(new File("data/dubljany_hatka_23/main_floor.data.xml"));
         validate(homeWiringData);
 
-        final TopViewModel topViewModel = Data3DToTopViewGenerator.generate(homeWiringData.getAreas());
+        final TopViewModel topViewModel = Data3DToTopViewGenerator.generate(homeWiringData);
         final TopViewRenderingEngine renderingEngine = new SVGRenderingEngine(); // we will use SVG rendering engine
 
         TopViewSymbolsPlacer.placeSymbolsProperly(topViewModel, renderingEngine);
@@ -54,7 +53,9 @@ public class Main {
         ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
         Validator validator = factory.getValidator();
         Set<ConstraintViolation<HomeWiringData>> violationSet = validator.validate(homeWiringData);
-        System.out.println(violationSet);
+        for (ConstraintViolation<HomeWiringData> violation : violationSet) {
+            System.err.println(violation);
+        }
     }
 
 }

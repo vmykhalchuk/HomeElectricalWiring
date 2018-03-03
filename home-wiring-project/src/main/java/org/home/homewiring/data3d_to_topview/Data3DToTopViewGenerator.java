@@ -1,17 +1,14 @@
 package org.home.homewiring.data3d_to_topview;
 
-import org.home.homewiring.data3dmodel.model.AbstractPoint;
-import org.home.homewiring.data3dmodel.model.Area;
-import org.home.homewiring.data3dmodel.model.PointGroup;
-import org.home.homewiring.data3dmodel.model.PointsCollection;
+import org.home.homewiring.data3d_to_topview.mappers.TopViewAreaMapper;
+import org.home.homewiring.data3dmodel.model.*;
 import org.home.homewiring.topview.Utils;
-import org.home.homewiring.topview.model.TopViewArea;
-import org.home.homewiring.topview.model.TopViewConfiguration;
-import org.home.homewiring.topview.model.TopViewModel;
-import org.home.homewiring.topview.model.TopViewSymbol;
+import org.home.homewiring.topview.model.*;
+import org.mapstruct.factory.Mappers;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Data3DToTopViewGenerator {
 
@@ -33,11 +30,14 @@ public class Data3DToTopViewGenerator {
         }
     }
 
-    public static TopViewModel generate(List<Area> areaList) {
+    /**
+     * Generate TopView 2D model out of 3D input data model
+     */
+    public static TopViewModel generate(HomeWiringData homeWiringData) {
         TopViewModel topViewModel = new TopViewModel();
         topViewModel.setTopViewConfiguration(TopViewConfiguration.getInstance());
         topViewModel.setAreas(new ArrayList<>());
-        for (Area area : areaList) {
+        for (Area area : homeWiringData.getAreas()) {
             TopViewArea tvArea = new TopViewArea();
             topViewModel.getAreas().add(tvArea);
             tvArea.setSymbols(new ArrayList<>());
@@ -48,14 +48,39 @@ public class Data3DToTopViewGenerator {
                 flattenPointsList(pointsCollection.getPoints(), flattenedPointsList);
             }
 
-            generateTopViewSymbols(area, flattenedPointsList, tvArea, topViewModel);
+            generateTopViewSymbols(area, flattenedPointsList, tvArea, topViewModel.getConfiguration());
+            tvArea.setItems(generateTopViewAreaItems(area.getItems(), topViewModel.getConfiguration()));
         }
         return topViewModel;
     }
 
+    private static List<TopViewAreaItem> generateTopViewAreaItems(List<AreaItem> areaItems, TopViewConfiguration config) {
+        TopViewAreaMapper mapper = Mappers.getMapper(TopViewAreaMapper.class);
+        return areaItems.stream().map(item -> {
+            TopViewAreaItem tvItem = new TopViewAreaItem();
+            tvItem.setType(convertType(item.getType()));
+            tvItem.setX(item.getX() * config.getDataScaleFactor());
+            tvItem.setY(item.getY() * config.getDataScaleFactor());
+            tvItem.setxWidth(item.getxWidth() * config.getDataScaleFactor());
+            tvItem.setyLength(item.getyLength() * config.getDataScaleFactor());
+            return tvItem;
+        }).collect(Collectors.toList());
+    }
 
-    private static void generateTopViewSymbols(Area area, List<AbstractPoint> flattenedPointsList, TopViewArea tvArea, TopViewModel topViewModel) {
-        TopViewConfiguration config = topViewModel.getConfiguration();
+    private static TopViewAreaItem.Type convertType(String areaItemType) {
+        switch (areaItemType) {
+            case "door":
+                return TopViewAreaItem.Type.door;
+            case "window":
+                return TopViewAreaItem.Type.window;
+            case "opening":
+                return TopViewAreaItem.Type.opening;
+            default:
+                throw new RuntimeException("Wrong Area Item Type: " + areaItemType);
+        }
+    }
+
+    private static void generateTopViewSymbols(Area area, List<AbstractPoint> flattenedPointsList, TopViewArea tvArea, TopViewConfiguration config) {
         for (AbstractPoint point : flattenedPointsList) {
             TopViewSymbol tvSymbol = new TopViewSymbol();
             tvArea.getSymbols().add(tvSymbol);

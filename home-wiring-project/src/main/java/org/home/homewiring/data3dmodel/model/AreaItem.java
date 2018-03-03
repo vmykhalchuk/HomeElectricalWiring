@@ -4,7 +4,7 @@ import javax.validation.constraints.Min;
 
 public class AreaItem {
     /**
-     * DOOR, WINDOW, OPENING, etc
+     * door, window, opening, etc
      */
     private String type;
 

@@ -1,6 +1,7 @@
 package org.home.homewiring.topview.renderer.svg;
 
 import org.home.homewiring.topview.model.TopViewArea;
+import org.home.homewiring.topview.model.TopViewAreaItem;
 import org.home.homewiring.topview.model.TopViewModel;
 import org.home.homewiring.topview.model.TopViewSymbol;
 import org.home.homewiring.topview.renderer.TopViewRenderingEngine;
@@ -43,6 +44,7 @@ public class SVGRendererHelper {
                     printlnF("<rect style=\"fill:none;stroke:#000000;stroke-width:2\" id=\"%s\"", nextSvgId());
                     printlnF("      y=\"%s\" x=\"%s\" height=\"%s\" width=\"%s\"/>", tvArea.getY(), tvArea.getX(), tvArea.getyLength(), tvArea.getxWidth());
                     // FIXME Now we have to print AreaItems
+                    printAreaItems(tvArea);
                 });
                 printlnF("<!-- Area: %s, Symbols data -->", tvArea.getCode());
                 gWrap(new AreaSymbolsWorker(tvArea));
@@ -50,6 +52,37 @@ public class SVGRendererHelper {
         }
 
         writer.print("</svg>\n");
+    }
+
+    private void printAreaItems(TopViewArea area) {
+        for (final TopViewAreaItem item : area.getItems()) {
+            String fill = "none";
+            String stroke = "#000000";
+            String strokeWidth = "2";
+            switch (item.getType()) {
+                case door:
+                    fill = "#ffffff";
+                    break;
+                case opening:
+                    fill = "#ffffff";
+                    stroke = "#ffffff";
+                    strokeWidth = "0";
+                    break;
+            }
+
+            printlnF("<rect style=\"fill:%s;stroke:%s;stroke-width:%s\"", fill, stroke, strokeWidth);
+            double x = item.getX(), y = item.getY();
+            double width = item.getxWidth(), length = item.getyLength();
+            if (width <= 0.001) {
+                width = 10;
+                x -= 5;
+            } else {
+                length = 10;
+                y -= 5;
+            }
+            printlnF("      x=\"%s\" y=\"%s\"", area.getX() + x, area.getY() + y);
+            printlnF("      width=\"%s\" height=\"%s\"/>", width, length);
+        }
     }
 
     private String nextSvgId() {

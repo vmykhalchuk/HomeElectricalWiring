@@ -3,7 +3,7 @@
     <areas>
         <area code="K" name="Kitchen" x="0.1m" y="0.1m" z="3.5m" xW="4.6m" yLength="5m" zH="2.9m">
             <item type="door" x="areaXWidth" y="areaYLength-270cm" z="5cm" xWidth="0" yLength="80cm" zHeight="2.2m"/>
-            <item type="window" x="-1" y="-1" z="-1" xW="-1" yL="-1" zH="-1"/>
+            <item type="window" x="50cm" y="0" z="120cm" xW="50cm" yL="0" zH="90cm"/>
         </area>
     </areas>
 

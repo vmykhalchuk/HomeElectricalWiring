@@ -1,23 +1,19 @@
 package org.home.homewiring.topview.model;
 
-import java.util.List;
+public class TopViewAreaItem {
 
-public class TopViewArea {
-    private String code;
+    private Type type;
     private Double x;
     private Double y;
     private Double xWidth;
     private Double yLength;
 
-    private List<TopViewAreaItem> items;
-    private List<TopViewSymbol> symbols;
-
-    public String getCode() {
-        return code;
+    public Type getType() {
+        return type;
     }
 
-    public void setCode(String code) {
-        this.code = code;
+    public void setType(Type type) {
+        this.type = type;
     }
 
     public Double getX() {
@@ -52,19 +48,7 @@ public class TopViewArea {
         this.yLength = yLength;
     }
 
-    public List<TopViewAreaItem> getItems() {
-        return items;
-    }
-
-    public void setItems(List<TopViewAreaItem> items) {
-        this.items = items;
-    }
-
-    public List<TopViewSymbol> getSymbols() {
-        return symbols;
-    }
-
-    public void setSymbols(List<TopViewSymbol> symbols) {
-        this.symbols = symbols;
+    public enum Type {
+        door, window, opening
     }
 }
