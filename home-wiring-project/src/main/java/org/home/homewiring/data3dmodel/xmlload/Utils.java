@@ -20,7 +20,7 @@ public class Utils {
      * @return
      */
     public static Pair<Double, AreaRef> parseMeasuresWithAreaRef(final String measuresStr, AreaRef allowedAreaRef) {
-        final String measuresStrTrimmed = measuresStr.trim();
+        final String measuresStrTrimmed = measuresStr == null ? "" : measuresStr.trim();
 
         AreaRef areaRef = Arrays.stream(AreaRef.values()).filter(a -> measuresStrTrimmed.startsWith(a.name())).
                 findAny().orElse(null);

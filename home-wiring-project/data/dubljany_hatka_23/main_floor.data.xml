@@ -2,14 +2,19 @@
 <home-wiring-data>
     <areas>
         <area code="K" name="Kitchen" x="0.1m" y="0.1m" z="3.5m" xW="4.6m" yLength="5m" zH="2.9m">
+
+            <!-- All item coordinates are relative to Area -->
             <item type="door" x="areaXWidth" y="areaYLength-270cm" z="5cm" xWidth="0" yLength="80cm" zHeight="2.2m"/>
-            <item type="window" x="50cm" y="0" z="120cm" xW="50cm" yL="0" zH="90cm"/>
+            <item type="window" x="50cm" y="0" z="120cm" xW="50cm" zH="90cm"/>
+            <item type="window" x="0" y="120cm" z="120cm" yL="110cm" zH="90cm"/>
         </area>
     </areas>
 
 
     <!-- Kitchen Points -->
     <points-collection areaCode="K" pointTypeResolver="Resolvers.getByCodeResolver()">
+        <!-- All point coordinates are relative to Area (int this case to Kitchen) -->
+
         <!-- Sockets group -->
         <group z="30cm" type="S" id="Kitchen-Sockets-Group">
             <point code="SK1" x="30cm" y="0"/>
