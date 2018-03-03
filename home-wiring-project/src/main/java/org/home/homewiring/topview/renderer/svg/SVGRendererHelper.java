@@ -115,7 +115,7 @@ public class SVGRendererHelper {
         }
     }
 
-    private double getSymbolSignXRelative(TopViewSymbol tvSymbol, double symbolXWidth, double symbolSignXWidth) {
+    public static double getSymbolSignXRelative(TopViewSymbol tvSymbol, double symbolXWidth, double symbolSignXWidth) {
         switch (tvSymbol.getLabelAlignment()) {
             case LEFT:
                 return symbolXWidth - symbolSignXWidth;
@@ -129,7 +129,7 @@ public class SVGRendererHelper {
         }
     }
 
-    private double getSymbolSignYRelative(TopViewSymbol tvSymbol, double symbolYLength, double symbolSignYLength) {
+    public static double getSymbolSignYRelative(TopViewSymbol tvSymbol, double symbolYLength, double symbolSignYLength) {
         switch (tvSymbol.getLabelAlignment()) {
             case LEFT:
             case RIGHT:
