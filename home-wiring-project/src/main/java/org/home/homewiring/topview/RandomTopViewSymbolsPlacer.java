@@ -5,105 +5,53 @@ import org.home.homewiring.topview.model.TopViewModel;
 import org.home.homewiring.topview.model.TopViewSymbol;
 import org.home.homewiring.topview.renderer.Snapshot;
 import org.home.homewiring.topview.renderer.TopViewRenderingEngine;
-import org.home.homewiring.util.Pair;
-import org.home.homewiring.util.Tripple;
+import org.home.utils.MyMath;
+import org.home.utils.Point;
+import org.home.utils.Rect;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.home.homewiring.topview.renderer.svg.SVGRendererHelper.getSymbolSignXRelative;
-import static org.home.homewiring.topview.renderer.svg.SVGRendererHelper.getSymbolSignYRelative;
 
 public class RandomTopViewSymbolsPlacer {
 
     public static double POINT_BORDER_MARGIN = 5; // 5 points from border // FIXME This constant depends on SVG / PNG Rendering engine!
-    private static List<Pair<Double, Double>> snapshot = new ArrayList<>();
 
-    private RandomTopViewSymbolsPlacer() {
+    protected TopViewModel topViewModel;
+    protected TopViewRenderingEngine renderingEngine;
+
+    public RandomTopViewSymbolsPlacer(TopViewModel topViewModel, TopViewRenderingEngine renderingEngine) {
+        this.topViewModel = topViewModel;
+        this.renderingEngine = renderingEngine;
     }
 
-    private static void populateLabelAlignment(final TopViewSymbol tvSymbol, final TopViewArea tvArea) {
-        final Utils.POINT_LOCATION location = Utils.locatePoint(tvSymbol.getPointX(), tvSymbol.getPointY(), tvArea.getxWidth(), tvArea.getyLength());
-        switch (location) {
-            case LEFT:
-            case TOP_LEFT:
-            case BOTTOM_LEFT:
-                tvSymbol.setLabelAlignment(TopViewSymbol.Label2SymbolAlignment.RIGHT);
-                break;
-            case RIGHT:
-            case TOP_RIGHT:
-            case BOTTOM_RIGHT:
-                tvSymbol.setLabelAlignment(TopViewSymbol.Label2SymbolAlignment.LEFT);
-                break;
-            case TOP:
-            case MIDDLE:
-                tvSymbol.setLabelAlignment(TopViewSymbol.Label2SymbolAlignment.BELOW);
-                break;
-            case BOTTOM:
-                tvSymbol.setLabelAlignment(TopViewSymbol.Label2SymbolAlignment.ABOVE);
-                break;
-            default:
-                throw new RuntimeException(location.name());
-        }
-    }
+    public void placeSymbolsProperly() {
+        TopViewSymbolsPlacer.placeSymbolsProperly(topViewModel, renderingEngine);
 
-    public static void placeSymbolsProperly(final TopViewModel topViewModel, final TopViewRenderingEngine renderingEngine) {
         for (final TopViewArea tvArea : topViewModel.getAreas()) {
-            final List<SymbolWidthLengthTripple> symbolsList = new ArrayList<>();
+            final List<SymbolData> symbolsList = new ArrayList<>();
             for (final TopViewSymbol tvSymbol : tvArea.getSymbols()) {
-                // FIXME Detect which tvSymbol is placed manually - so we do not override its configuration!
-
-                populateLabelAlignment(tvSymbol, tvArea);
-
-                double symbolXWidth = renderingEngine.getSymbolXWidth(tvSymbol);
-                double symbolYLength = renderingEngine.getSymbolYLength(tvSymbol);
-                Utils.POINT_LOCATION location = Utils.locatePoint(tvSymbol.getPointX(), tvSymbol.getPointY(), tvArea.getxWidth(), tvArea.getyLength());
-
-                switch (location) {
-                    case LEFT:
-                        tvSymbol.setX(tvSymbol.getPointX() + POINT_BORDER_MARGIN);
-                        tvSymbol.setY(tvSymbol.getPointY() - symbolYLength / 2);
-                        break;
-                    case RIGHT:
-                    case TOP_RIGHT: // FIXME assure Y is not out of range
-                    case BOTTOM_RIGHT: // FIXME assure Y is not out of range
-                        tvSymbol.setX(tvSymbol.getPointX() - symbolXWidth - POINT_BORDER_MARGIN);
-                        tvSymbol.setY(tvSymbol.getPointY() - symbolYLength / 2);
-                        break;
-                    case TOP:
-                    case TOP_LEFT:
-                    case MIDDLE:
-                        tvSymbol.setX(Math.max(tvSymbol.getPointX() - symbolXWidth / 2, POINT_BORDER_MARGIN));
-                        tvSymbol.setY(tvSymbol.getPointY() + POINT_BORDER_MARGIN);
-                        break;
-                    case BOTTOM:
-                    case BOTTOM_LEFT:
-                        tvSymbol.setX(Math.max(tvSymbol.getPointX() - symbolXWidth / 2, POINT_BORDER_MARGIN));
-                        tvSymbol.setY(tvSymbol.getPointY() - symbolYLength - POINT_BORDER_MARGIN);
-                        break;
-                }
-
-                symbolsList.add(new SymbolWidthLengthTripple(tvSymbol, symbolXWidth, symbolYLength));
+                symbolsList.add(new SymbolData(tvSymbol, renderingEngine));
             }
 
             // now place symbols randomly
-            randomizedPlacing(tvArea, symbolsList, renderingEngine);
+            randomizedPlacing(tvArea, symbolsList);
         }
     }
 
-    private static void randomizedPlacing(final TopViewArea tvArea, final List<SymbolWidthLengthTripple> symbolsList, final TopViewRenderingEngine renderingEngine) {
+    private void randomizedPlacing(TopViewArea tvArea, List<SymbolData> symbolsList) {
         // find colliding symbols (to be placed randomly)
-        final List<SymbolWidthLengthTripple> collidingSymbols = symbolsList.stream().filter(a -> symbolCollides(a, symbolsList)).collect(Collectors.toList());
+        List<SymbolData> collidingSymbols = symbolsList.stream().filter(a -> symbolCollides(a, symbolsList)).collect(Collectors.toList());
 
         // try to find placement most optimal
-        Snapshot snapshot = new Snapshot(symbolsList.stream().map(a -> a.getU()).collect(Collectors.toList()));
+        Snapshot snapshot = new Snapshot(symbolsList.stream().map(a -> a.getTopViewSymbol()).collect(Collectors.toList()));
         double best = Math.max(tvArea.getxWidth(), tvArea.getyLength()) * 2;
         snapshot.save();
         for (int i = 0; i < 1000000; i++) {
-            placeRandomlyCollidingSymbols(tvArea, symbolsList, collidingSymbols);
+            randomlyPlaceSymbols(tvArea, symbolsList, collidingSymbols);
             // check if new setup is better then previous best
-            double stats = getStatisticMeasurements(collidingSymbols, renderingEngine);
+            double stats = getStatisticMeasurements(collidingSymbols);
             System.out.println(String.format("Statistic #%s: %s", i, stats));
             if (stats < best) {
                 best = stats;
@@ -114,58 +62,48 @@ public class RandomTopViewSymbolsPlacer {
         snapshot.load();
     }
 
-    private static double getStatisticMeasurements(final List<SymbolWidthLengthTripple> symbolsList, final TopViewRenderingEngine renderingEngine) {
+    private double getStatisticMeasurements(List<SymbolData> symbolsList) {
         double accumulatedLength = 0;
         double maxLength = -1;
         double minLength = -1;
-        for (SymbolWidthLengthTripple s : symbolsList) {
-            double pointX = s.getU().getPointX();
-            double pointY = s.getU().getPointY();
-            double symbolX = s.getU().getX();
-            double symbolY = s.getU().getY();
-            double symbolXWidth = s.getXWidth();
-            double symbolYLength = s.getYLength();
-            double symbolSignXWidth = renderingEngine.getSymbolSignXWidth(s.getU().getPointType());
-            double symbolSignYLength = renderingEngine.getSymbolSignYLength(s.getU().getPointType());
-            double symbolSignX = symbolX + getSymbolSignXRelative(s.getU(), symbolXWidth, symbolSignXWidth);
-            double symbolSignY = symbolY + getSymbolSignYRelative(s.getU(), symbolYLength, symbolSignYLength);
-            double symbolSignXCentre = symbolSignX + symbolSignXWidth / 2;
-            double symbolSignYCentre = symbolSignY + symbolSignYLength / 2;
-
-            double lineLengthOnX = (symbolSignXCentre - pointX);
-            lineLengthOnX *= lineLengthOnX;
-            double lineLengthOnY = (symbolSignYCentre - pointY);
-            lineLengthOnY *= lineLengthOnY;
-            double lineLength = Math.sqrt(lineLengthOnX + lineLengthOnY);
+        for (SymbolData s : symbolsList) {
+            double lineLength = MyMath.lineLength(s.getSymbolSignCentre(), s.getPointPoint());
 
             accumulatedLength += lineLength;
-
             maxLength = Math.max(maxLength, lineLength);
-
             minLength = minLength == -1 ? lineLength : Math.min(minLength, lineLength);
         }
-        //return accumulatedLength / symbolsList.size();
-        return maxLength;
-        //return minLength;
-        //return accumulatedLength;
+
+        switch ("max") {
+            case "av":
+                return accumulatedLength / symbolsList.size();
+            case "max":
+                return maxLength;
+            case "min":
+                return minLength;
+            case "accum":
+                return accumulatedLength;
+            default:
+                throw new RuntimeException();
+        }
     }
 
-    private static void placeRandomlyCollidingSymbols(final TopViewArea tvArea, final List<SymbolWidthLengthTripple> symbolsList, final List<SymbolWidthLengthTripple> collidingSymbolsList) {
+    private void randomlyPlaceSymbols(TopViewArea tvArea, List<SymbolData> symbolsList, List<SymbolData> symbolsToPlaceList) {
         // reset coordinates, so colliding symbols can be placed afterwards
-        for (SymbolWidthLengthTripple s : collidingSymbolsList) {
-            s.getU().setX(-1000000d);
-            s.getU().setY(-1000000d);
+        for (SymbolData s : symbolsToPlaceList) {
+            s.setX(-1000000d);
+            s.setY(-1000000d);
         }
 
-        int attemptsCount = 1000 * collidingSymbolsList.size();
-        for (SymbolWidthLengthTripple s : collidingSymbolsList) {
+        int attemptsCount = 1000 * symbolsToPlaceList.size();
+        for (SymbolData s : symbolsToPlaceList) {
             while (attemptsCount >= 0) {
                 attemptsCount--;
 
                 double x = POINT_BORDER_MARGIN + nextC(tvArea.getxWidth() - 2 * POINT_BORDER_MARGIN - s.getXWidth());
                 double y = POINT_BORDER_MARGIN + nextC(tvArea.getyLength() - 2 * POINT_BORDER_MARGIN - s.getYLength());
-                s.getU().setX(x);
-                s.getU().setY(y);
+                s.setX(x);
+                s.setY(y);
                 // check if no collision, then break
                 if (!symbolCollides(s, symbolsList)) {
                     break;
@@ -178,15 +116,15 @@ public class RandomTopViewSymbolsPlacer {
         return Math.random() * max;
     }
 
-    private static boolean symbolCollides(final SymbolWidthLengthTripple s1, final List<SymbolWidthLengthTripple> symbolsList) {
+    public static boolean symbolCollides(SymbolData s1, List<SymbolData> symbolsList) {
         // check if collides with other symbols
-        for (SymbolWidthLengthTripple s2 : symbolsList) {
+        for (SymbolData s2 : symbolsList) {
             if (s2 != s1 && twoSymbolsCollide(s1, s2)) {
                 return true;
             }
         }
-        // check if collides with points (dotswhere every symbol originates at)
-        for (SymbolWidthLengthTripple point : symbolsList) {
+        // check if collides with points (dot where every symbol originates at)
+        for (SymbolData point : symbolsList) {
             if (symbolCollidesWithPoint(s1, point)) {
                 return true;
             }
@@ -194,95 +132,154 @@ public class RandomTopViewSymbolsPlacer {
         return false;
     }
 
-    private static boolean twoSymbolsCollide(SymbolWidthLengthTripple s1, SymbolWidthLengthTripple s2) {
-        return rectanglesCollide(s1.getX(), s1.getY(), s1.getX2(), s1.getY2(), s2.getX(), s2.getY(), s2.getX2(), s2.getY2());
+    private static boolean twoSymbolsCollide(SymbolData s1, SymbolData s2) {
+        return MyMath.rectanglesCollide(s1.getSymbolRect(), s2.getSymbolRect());
     }
 
-    private static boolean symbolCollidesWithPoint(SymbolWidthLengthTripple s1, SymbolWidthLengthTripple p2) {
-        return rectanglesCollide(s1.getX(), s1.getY(), s1.getX2(), s1.getY2(), p2.getPointX1(), p2.getPointY1(), p2.getPointX2(), p2.getPointY2());
+    private static boolean symbolCollidesWithPoint(SymbolData s1, SymbolData p2) {
+        return MyMath.rectanglesCollide(s1.getSymbolRect(), p2.getPointRect());
     }
 
-    private static boolean rectanglesCollide(double r1x1, double r1y1, double r1x2, double r1y2, double r2x1, double r2y1, double r2x2, double r2y2) {
-        // check if any of points of R2 are within R1
-        if (pointInRectangle(r1x1, r1y1, r1x2, r1y2, r2x1, r2y1)) {
-            return true;
-        }
-        if (pointInRectangle(r1x1, r1y1, r1x2, r1y2, r2x2, r2y1)) {
-            return true;
-        }
-        if (pointInRectangle(r1x1, r1y1, r1x2, r1y2, r2x2, r2y2)) {
-            return true;
-        }
-        if (pointInRectangle(r1x1, r1y1, r1x2, r1y2, r2x1, r2y2)) {
-            return true;
+    public static class SymbolData {
+        private TopViewSymbol topViewSymbol;
+        private TopViewRenderingEngine renderingEngine;
+
+        private Rect symbolRect;
+        private Double xWidth, yLength; // symbol rectangle dimensions
+
+        private Rect pointRect;
+        private Point pointPoint;
+
+        private Double symbolSignXWidth, symbolSignYLength;
+        private Double symbolSignCentreXRelative, symbolSignCentreYRelative;
+        private Point symbolSignPoint1;
+        private Point symbolSignCentrePoint;
+
+        public SymbolData(TopViewSymbol topViewSymbol, TopViewRenderingEngine renderingEngine) {
+            this.topViewSymbol = topViewSymbol;
+            this.renderingEngine = renderingEngine;
         }
 
-        // check if any of points of R1 are within R2
-        if (pointInRectangle(r2x1, r2y1, r2x2, r2y2, r1x1, r1y1)) {
-            return true;
-        }
-        if (pointInRectangle(r2x1, r2y1, r2x2, r2y2, r1x2, r1y1)) {
-            return true;
-        }
-        if (pointInRectangle(r2x1, r2y1, r2x2, r2y2, r1x2, r1y2)) {
-            return true;
-        }
-        if (pointInRectangle(r2x1, r2y1, r2x2, r2y2, r1x1, r1y2)) {
-            return true;
+        public TopViewSymbol getTopViewSymbol() {
+            return topViewSymbol;
         }
 
-        // otherwise
-        return false;
-    }
-
-    private static boolean pointInRectangle(double rx1, double ry1, double rx2, double ry2, double px, double py) {
-        return px >= rx1 && px <= rx2 && py >= ry1 && py <= ry2;
-    }
-
-    public static class SymbolWidthLengthTripple extends Tripple<TopViewSymbol, Double, Double> {
-        public SymbolWidthLengthTripple(TopViewSymbol topViewSymbol, Double width, Double length) {
-            super(topViewSymbol, width, length);
+        public void setX(double x) {
+            resetSymbolXYRelatedData();
+            topViewSymbol.setX(x);
         }
 
-        public Double getX() {
-            return getU().getX();
+        public void setY(double y) {
+            resetSymbolXYRelatedData();
+            topViewSymbol.setY(y);
         }
 
-        public Double getY() {
-            return getU().getY();
+        private void resetSymbolXYRelatedData() {
+            symbolRect = null;
+            symbolSignPoint1 = null;
+            symbolSignCentrePoint = null;
         }
 
-        public Double getX2() {
-            return getU().getX() + getXWidth();
+        public void setLabelAlignment(TopViewSymbol.Label2SymbolAlignment labelAlignment) {
+            resetSymbolXYRelatedData();
+            xWidth = yLength = null;
+            symbolSignXWidth = symbolSignYLength = null;
+            symbolSignCentreXRelative = symbolSignCentreYRelative = null;
+
+            topViewSymbol.setLabelAlignment(labelAlignment);
         }
 
-        public Double getY2() {
-            return getU().getY() + getYLength();
+        public Rect getSymbolRect() {
+            if (symbolRect == null) {
+                symbolRect = new Rect(topViewSymbol.getX(), topViewSymbol.getY(), topViewSymbol.getX() + getXWidth(),
+                        topViewSymbol.getY() + getYLength());
+            }
+            return symbolRect;
         }
 
         public Double getXWidth() {
-            return getV();
+            if (xWidth == null) {
+                xWidth = renderingEngine.getSymbolXWidth(topViewSymbol);
+            }
+            return xWidth;
         }
 
         public Double getYLength() {
-            return getW();
+            if (yLength == null) {
+                yLength = renderingEngine.getSymbolYLength(topViewSymbol);
+            }
+            return yLength;
         }
 
-        public Double getPointX1() {
-            return getU().getPointX() - 2;
+        public Point getPointPoint() {
+            if (pointPoint == null) {
+                pointPoint = new Point(topViewSymbol.getPointX(), topViewSymbol.getPointY());
+            }
+            return pointPoint;
         }
 
-        public Double getPointY1() {
-            return getU().getPointY() - 2;
+        public Rect getPointRect() {
+            if (pointRect == null) {
+                pointRect = new Rect(topViewSymbol.getPointX() - 2, topViewSymbol.getPointY() - 2,
+                        topViewSymbol.getPointX() + 2, topViewSymbol.getPointY() + 2);
+            }
+            return pointRect;
         }
 
-        public Double getPointX2() {
-            return getU().getPointX() + 2;
+
+        public Double getSymbolSignXWidth() {
+            if (symbolSignXWidth == null) {
+                symbolSignXWidth = renderingEngine.getSymbolSignXWidth(topViewSymbol.getPointType());
+            }
+            return symbolSignXWidth;
         }
 
-        public Double getPointY2() {
-            return getU().getPointY() + 2;
+        public Double getSymbolSignYLength() {
+            if (symbolSignYLength == null) {
+                symbolSignYLength = renderingEngine.getSymbolSignYLength(topViewSymbol.getPointType());
+            }
+            return symbolSignYLength;
         }
+
+        public Double getSymbolSignCentreXRelative() {
+            if (symbolSignCentreXRelative == null) {
+                symbolSignCentreXRelative = renderingEngine.getSymbolSignXRelative(topViewSymbol) + getSymbolSignXWidth() / 2.0;
+            }
+            return symbolSignCentreXRelative;
+        }
+
+        public Double getSymbolSignCentreYRelative() {
+            if (symbolSignCentreYRelative == null) {
+                symbolSignCentreYRelative = renderingEngine.getSymbolSignXRelative(topViewSymbol) + getSymbolSignYLength() / 2.0;
+            }
+            return symbolSignCentreYRelative;
+        }
+
+        public Point getSymbolSignPoint1() {
+            if (symbolSignPoint1 == null) {
+                double symbolSignX = getSymbolRect().getX1() + renderingEngine.getSymbolSignXRelative(topViewSymbol);
+                double symbolSignY = getSymbolRect().getY1() + renderingEngine.getSymbolSignYRelative(topViewSymbol);
+                symbolSignPoint1 = new Point(symbolSignX, symbolSignY);
+            }
+            return symbolSignPoint1;
+        }
+
+        public Point getSymbolSignCentre() {
+            if (symbolSignCentrePoint == null) {
+                double symbolSignXCentre;
+                double symbolSignYCentre;
+                if (true) {
+                    symbolSignXCentre = getSymbolRect().getX1() + getSymbolSignCentreXRelative();
+                    symbolSignYCentre = getSymbolRect().getY1() + getSymbolSignCentreYRelative();
+                } else {
+                    symbolSignXCentre = getSymbolSignPoint1().getX() + getSymbolSignXWidth() / 2.0;
+                    symbolSignYCentre = getSymbolSignPoint1().getY() + getSymbolSignYLength() / 2.0;
+                }
+                symbolSignCentrePoint = new Point(symbolSignXCentre, symbolSignYCentre);
+            }
+            return symbolSignCentrePoint;
+        }
+
     }
 
 }

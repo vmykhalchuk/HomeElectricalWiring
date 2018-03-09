@@ -115,59 +115,6 @@ public class SVGRendererHelper {
         }
     }
 
-    public static double getSymbolSignXRelative(TopViewSymbol tvSymbol, double symbolXWidth, double symbolSignXWidth) {
-        switch (tvSymbol.getLabelAlignment()) {
-            case LEFT:
-                return symbolXWidth - symbolSignXWidth;
-            case RIGHT:
-                return 0;
-            case ABOVE:
-            case BELOW:
-                return (symbolXWidth - symbolSignXWidth) / 2;
-            default:
-                throw new RuntimeException("" + tvSymbol.getLabelAlignment());
-        }
-    }
-
-    public static double getSymbolSignYRelative(TopViewSymbol tvSymbol, double symbolYLength, double symbolSignYLength) {
-        switch (tvSymbol.getLabelAlignment()) {
-            case LEFT:
-            case RIGHT:
-            case BELOW:
-                return 0;
-            case ABOVE:
-                return symbolYLength - symbolSignYLength;
-            default:
-                throw new RuntimeException("" + tvSymbol.getLabelAlignment());
-        }
-    }
-
-    private double getSymbolLableXRelative(TopViewSymbol tvSymbol, double symbolXWidth, double symbolSignXWidth) {
-        switch (tvSymbol.getLabelAlignment()) {
-            case LEFT:
-            case ABOVE:
-            case BELOW:
-                return 0;
-            case RIGHT:
-                return symbolSignXWidth;
-            default:
-                throw new RuntimeException("" + tvSymbol.getLabelAlignment());
-        }
-    }
-
-    private double getSymbolLableYRelative(TopViewSymbol tvSymbol, double symbolYLength, double symbolSignYLength) {
-        switch (tvSymbol.getLabelAlignment()) {
-            case LEFT:
-            case RIGHT:
-            case ABOVE:
-                return 0;
-            case BELOW:
-                return symbolSignYLength;
-            default:
-                throw new RuntimeException("" + tvSymbol.getLabelAlignment());
-        }
-    }
-
     private void printSvgLine(double x1, double y1, double x2, double y2) {
         printlnF("<path style=\"fill:#000000;stroke:#000000;stroke-width:1\"");
         printlnF("      d=\"m %s,%s %s,%s z\"/>", x1, y1, x2 - x1, y2 - y1);
@@ -199,12 +146,12 @@ public class SVGRendererHelper {
                     double symbolYLength = tvRenderingEngine.getSymbolYLength(tvSymbol);
                     double symbolSignXWidth = tvRenderingEngine.getSymbolSignXWidth(tvSymbol.getPointType());
                     double symbolSignYLength = tvRenderingEngine.getSymbolSignYLength(tvSymbol.getPointType());
-                    double symbolSignX = symbolX + getSymbolSignXRelative(tvSymbol, symbolXWidth, symbolSignXWidth);
-                    double symbolSignY = symbolY + getSymbolSignYRelative(tvSymbol, symbolYLength, symbolSignYLength);
+                    double symbolSignX = symbolX + tvRenderingEngine.getSymbolSignXRelative(tvSymbol);
+                    double symbolSignY = symbolY + tvRenderingEngine.getSymbolSignYRelative(tvSymbol);
                     double symbolSignXCentre = symbolSignX + symbolSignXWidth / 2;
                     double symbolSignYCentre = symbolSignY + symbolSignYLength / 2;
-                    double symbolLabelX = symbolX + getSymbolLableXRelative(tvSymbol, symbolXWidth, symbolSignXWidth);
-                    double symbolLabelY = symbolY + getSymbolLableYRelative(tvSymbol, symbolYLength, symbolSignYLength);
+                    double symbolLabelX = symbolX + tvRenderingEngine.getSymbolLableXRelative(tvSymbol);
+                    double symbolLabelY = symbolY + tvRenderingEngine.getSymbolLableYRelative(tvSymbol);
                     String symbolInnerText = tvSymbol.getInnerText() == null ? "" : tvSymbol.getInnerText();
 
                     // print line from Symbol Sign to Point location

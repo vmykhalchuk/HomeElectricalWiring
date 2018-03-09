@@ -23,5 +23,11 @@ public interface TopViewRenderingEngine {
     double getSymbolSignXWidth(String pointType);
     double getSymbolSignYLength(String pointType);
 
+    double getSymbolSignXRelative(TopViewSymbol tvSymbol);
+    double getSymbolSignYRelative(TopViewSymbol tvSymbol);
+
+    double getSymbolLableXRelative(TopViewSymbol tvSymbol);
+    double getSymbolLableYRelative(TopViewSymbol tvSymbol);
+
     void generateFile(File file, TopViewModel topViewModel) throws FileNotFoundException;
 }

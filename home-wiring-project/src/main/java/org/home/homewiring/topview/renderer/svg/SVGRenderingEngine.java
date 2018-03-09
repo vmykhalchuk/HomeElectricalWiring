@@ -73,6 +73,69 @@ public class SVGRenderingEngine implements TopViewRenderingEngine {
     }
 
     @Override
+    public double getSymbolSignXRelative(TopViewSymbol tvSymbol) {
+        double symbolXWidth = getSymbolXWidth(tvSymbol);
+        double symbolSignXWidth = getSymbolSignXWidth(tvSymbol.getPointType());
+        switch (tvSymbol.getLabelAlignment()) {
+            case LEFT:
+                return symbolXWidth - symbolSignXWidth;
+            case RIGHT:
+                return 0;
+            case ABOVE:
+            case BELOW:
+                return (symbolXWidth - symbolSignXWidth) / 2;
+            default:
+                throw new RuntimeException("" + tvSymbol.getLabelAlignment());
+        }
+    }
+
+    @Override
+    public double getSymbolSignYRelative(TopViewSymbol tvSymbol) {
+        double symbolYLength = getSymbolYLength(tvSymbol);
+        double symbolSignYLength = getSymbolSignYLength(tvSymbol.getPointType());
+        switch (tvSymbol.getLabelAlignment()) {
+            case LEFT:
+            case RIGHT:
+            case BELOW:
+                return 0;
+            case ABOVE:
+                return symbolYLength - symbolSignYLength;
+            default:
+                throw new RuntimeException("" + tvSymbol.getLabelAlignment());
+        }
+    }
+
+    @Override
+    public double getSymbolLableXRelative(TopViewSymbol tvSymbol) {
+        double symbolSignXWidth = getSymbolSignXWidth(tvSymbol.getPointType());
+        switch (tvSymbol.getLabelAlignment()) {
+            case LEFT:
+            case ABOVE:
+            case BELOW:
+                return 0;
+            case RIGHT:
+                return symbolSignXWidth;
+            default:
+                throw new RuntimeException("" + tvSymbol.getLabelAlignment());
+        }
+    }
+
+    @Override
+    public double getSymbolLableYRelative(TopViewSymbol tvSymbol) {
+        double symbolSignYLength = getSymbolSignYLength(tvSymbol.getPointType());
+        switch (tvSymbol.getLabelAlignment()) {
+            case LEFT:
+            case RIGHT:
+            case ABOVE:
+                return 0;
+            case BELOW:
+                return symbolSignYLength;
+            default:
+                throw new RuntimeException("" + tvSymbol.getLabelAlignment());
+        }
+    }
+
+    @Override
     public void generateFile(File file, TopViewModel topViewModel) throws FileNotFoundException {
         try (final PrintWriter writer = new PrintWriter(new FileOutputStream(file))) {
             new SVGRendererHelper(writer, topViewModel, this).writeToStream();

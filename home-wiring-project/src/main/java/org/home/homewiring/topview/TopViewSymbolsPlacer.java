@@ -12,7 +12,7 @@ public class TopViewSymbolsPlacer {
     private TopViewSymbolsPlacer() {
     }
 
-    private static void populateLabelAlignment(final TopViewSymbol tvSymbol, final TopViewArea tvArea) {
+    public static void populateLabelAlignment(TopViewSymbol tvSymbol, TopViewArea tvArea) {
         final Utils.POINT_LOCATION location = Utils.locatePoint(tvSymbol.getPointX(), tvSymbol.getPointY(), tvArea.getxWidth(), tvArea.getyLength());
         switch (location) {
             case LEFT:
@@ -37,7 +37,7 @@ public class TopViewSymbolsPlacer {
         }
     }
 
-    public static void placeSymbolsProperly(final TopViewModel topViewModel, final TopViewRenderingEngine renderingEngine) {
+    public static void placeSymbolsProperly(TopViewModel topViewModel, TopViewRenderingEngine renderingEngine) {
         for (final TopViewArea tvArea : topViewModel.getAreas()) {
             for (final TopViewSymbol tvSymbol : tvArea.getSymbols()) {
                 // FIXME Detect which tvSymbol is placed manually - so we do not override its configuration!

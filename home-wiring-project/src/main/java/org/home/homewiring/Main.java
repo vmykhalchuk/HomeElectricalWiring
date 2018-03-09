@@ -37,7 +37,7 @@ public class Main {
         final TopViewModel topViewModel = Data3DToTopViewGenerator.generate(homeWiringData);
         final TopViewRenderingEngine renderingEngine = new SVGRenderingEngine(); // we will use SVG rendering engine
 
-        RandomTopViewSymbolsPlacer.placeSymbolsProperly(topViewModel, renderingEngine);
+        new RandomTopViewSymbolsPlacer(topViewModel, renderingEngine).placeSymbolsProperly();
 
         renderingEngine.generateFile(new File("output.svg"), topViewModel);
 
