@@ -5,8 +5,8 @@ import org.home.homewiring.data3d_to_topview.mappers.TopViewAreaMapper;
 import org.home.homewiring.data3dmodel.model.HomeWiringData;
 import org.home.homewiring.data3dmodel.xmlload.XMLDataLoader2;
 import org.home.homewiring.data3dmodel.yamlload.YAMLDataLoader;
-import org.home.homewiring.topview.RandomTopViewSymbolsPlacer;
-import org.home.homewiring.topview.TopViewSymbolsPlacer;
+import org.home.homewiring.topview.symbolsplacer.GeneticSymbolsPlacer;
+import org.home.homewiring.topview.symbolsplacer.RandomTopViewSymbolsPlacer;
 import org.home.homewiring.topview.model.TopViewArea;
 import org.home.homewiring.topview.model.TopViewModel;
 import org.home.homewiring.topview.renderer.TopViewRenderingEngine;
@@ -37,7 +37,7 @@ public class Main {
         final TopViewModel topViewModel = Data3DToTopViewGenerator.generate(homeWiringData);
         final TopViewRenderingEngine renderingEngine = new SVGRenderingEngine(); // we will use SVG rendering engine
 
-        new RandomTopViewSymbolsPlacer(topViewModel, renderingEngine).placeSymbolsProperly();
+        new GeneticSymbolsPlacer(topViewModel, renderingEngine).placeSymbolsProperly();
 
         renderingEngine.generateFile(new File("output.svg"), topViewModel);
 

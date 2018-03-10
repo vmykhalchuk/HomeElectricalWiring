@@ -7,9 +7,9 @@ import org.home.homewiring.data3dmodel.model.HomeWiringData;
 import org.home.homewiring.data3dmodel.model.Point;
 import org.home.homewiring.data3dmodel.model.PointGroup;
 import org.home.homewiring.data3dmodel.model.PointsCollection;
-import org.home.homewiring.util.Pair;
-import org.home.homewiring.util.Props;
-import org.home.homewiring.util.Tripple;
+import org.home.utils.Pair;
+import org.home.utils.Props;
+import org.home.utils.Tripple;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -28,8 +28,10 @@ import java.util.stream.Collectors;
 /**
  * Loads data from *.data.xml file into {@link org.home.homewiring.data3dmodel} data models.
  */
+@Deprecated
 public class XMLDataLoader2 {
 
+    @Deprecated
     public static HomeWiringData getAreaList(File file) {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 

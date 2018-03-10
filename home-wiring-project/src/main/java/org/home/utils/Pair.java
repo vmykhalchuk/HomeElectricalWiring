@@ -1,4 +1,4 @@
-package org.home.homewiring.util;
+package org.home.utils;
 
 public class Pair<U, V> {
     private U u;

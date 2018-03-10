@@ -1,18 +1,18 @@
-package org.home.homewiring.topview.renderer;
+package org.home.homewiring.topview.symbolsplacer.utils;
 
-import org.home.homewiring.topview.model.TopViewSymbol;
+import org.home.homewiring.topview.symbolsplacer.SymbolData;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Snapshot {
 
-    private List<TopViewSymbol> symbolsList;
+    private List<SymbolData> symbolsList;
     private List<Double> symbolsXList = new ArrayList<>();
     private List<Double> symbolsYList = new ArrayList<>();
     private boolean saved = false;
 
-    public Snapshot(List<TopViewSymbol> symbolsList) {
+    public Snapshot(List<SymbolData> symbolsList) {
         this.symbolsList = symbolsList;
     }
 
@@ -22,8 +22,7 @@ public class Snapshot {
             return false;
         }
         for (int i = 0; i < symbolsList.size(); i++) {
-            symbolsList.get(i).setX(symbolsXList.get(i));
-            symbolsList.get(i).setY(symbolsYList.get(i));
+            symbolsList.get(i).setXY(symbolsXList.get(i), symbolsYList.get(i));
         }
         return true;
     }
@@ -31,9 +30,9 @@ public class Snapshot {
     public void save() {
         symbolsXList.clear();
         symbolsYList.clear();
-        for (TopViewSymbol s : symbolsList) {
-            symbolsXList.add(s.getX());
-            symbolsYList.add(s.getY());
+        for (SymbolData s : symbolsList) {
+            symbolsXList.add(s.getRect().getX1());
+            symbolsYList.add(s.getRect().getY1());
         }
         saved = true;
     }

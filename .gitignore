@@ -1,7 +1,11 @@
 /home-wiring-project/.gradle
 /home-wiring-project/.idea
 /home-wiring-project/build
+/home-wiring-project/generator-tool*
+/home-wiring-project/gradle/
+/home-wiring-project/gradlew
+/home-wiring-project/gradlew.bat
 /home-wiring-project/out
 /home-wiring-project/output.svg
 /home-wiring-project/output.data.yaml
-/home-wiring-project/generator-tool*
+

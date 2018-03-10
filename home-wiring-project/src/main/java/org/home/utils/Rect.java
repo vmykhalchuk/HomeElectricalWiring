@@ -11,6 +11,14 @@ public class Rect {
         this.y2 = y2;
     }
 
+    public Rect(Point p1, double xWidth, double yLength) {
+        this.p1 = p1;
+        this.x1 = p1.getX();
+        this.y1 = p1.getY();
+        this.x2 = p1.getX() + xWidth;
+        this.y2 = p1.getY() + yLength;
+    }
+
     public double getX1() {
         return x1;
     }
@@ -64,5 +72,19 @@ public class Rect {
             p4 = new Point(x1, y2);
         }
         return p4;
+    }
+
+    public boolean equals(Object rect2) {
+        if (this == rect2) {
+            return true;
+        } else {
+            if (rect2 instanceof Rect) {
+                Rect r2 = (Rect) rect2;
+                return this.x1 == r2.x1 && this.y1 == r2.y1 &&
+                        this.x2 == r2.x2 && this.y2 == r2.y2;
+            } else {
+                return false;
+            }
+        }
     }
 }

@@ -1,5 +1,6 @@
-package org.home.homewiring.topview;
+package org.home.homewiring.topview.symbolsplacer;
 
+import org.home.homewiring.topview.Utils;
 import org.home.homewiring.topview.model.TopViewArea;
 import org.home.homewiring.topview.model.TopViewModel;
 import org.home.homewiring.topview.model.TopViewSymbol;
@@ -9,10 +10,15 @@ public class TopViewSymbolsPlacer {
 
     public static double POINT_BORDER_MARGIN = 5; // 5 points from border // FIXME This constant depends on SVG / PNG Rendering engine!
 
-    private TopViewSymbolsPlacer() {
+    protected TopViewModel topViewModel;
+    protected TopViewRenderingEngine renderingEngine;
+
+    public TopViewSymbolsPlacer(TopViewModel topViewModel, TopViewRenderingEngine renderingEngine) {
+        this.topViewModel = topViewModel;
+        this.renderingEngine = renderingEngine;
     }
 
-    public static void populateLabelAlignment(TopViewSymbol tvSymbol, TopViewArea tvArea) {
+    public void populateInitialLabelAlignment(TopViewSymbol tvSymbol, TopViewArea tvArea) {
         final Utils.POINT_LOCATION location = Utils.locatePoint(tvSymbol.getPointX(), tvSymbol.getPointY(), tvArea.getxWidth(), tvArea.getyLength());
         switch (location) {
             case LEFT:
@@ -37,12 +43,12 @@ public class TopViewSymbolsPlacer {
         }
     }
 
-    public static void placeSymbolsProperly(TopViewModel topViewModel, TopViewRenderingEngine renderingEngine) {
+    public void placeSymbolsProperly() {
         for (final TopViewArea tvArea : topViewModel.getAreas()) {
             for (final TopViewSymbol tvSymbol : tvArea.getSymbols()) {
                 // FIXME Detect which tvSymbol is placed manually - so we do not override its configuration!
 
-                populateLabelAlignment(tvSymbol, tvArea);
+                populateInitialLabelAlignment(tvSymbol, tvArea);
 
                 Utils.POINT_LOCATION location = Utils.locatePoint(tvSymbol.getPointX(), tvSymbol.getPointY(), tvArea.getxWidth(), tvArea.getyLength());
                 double symbolXWidth = renderingEngine.getSymbolXWidth(tvSymbol);

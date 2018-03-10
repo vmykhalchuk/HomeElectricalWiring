@@ -36,6 +36,12 @@ public class MyMath {
      * then it is not counted as colliding, so false will be returned..
      */
     public static boolean rectanglesCollideExcludeAdjacent(Rect rect1, Rect rect2) {
+        if (rect1.equals(rect2)) {
+            // this is an corner case - in which two rectangles with same coordinates
+            // will show falsely that they are not colliding
+            return true;
+        }
+
         // check if any of points of R2 are within R1
         if (rect1.isPointInsideExcludeBorders(rect2.getPoint1()) || rect1.isPointInsideExcludeBorders(rect2.getPoint2())) {
             return true;

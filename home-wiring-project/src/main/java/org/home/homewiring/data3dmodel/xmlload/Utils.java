@@ -1,6 +1,6 @@
 package org.home.homewiring.data3dmodel.xmlload;
 
-import org.home.homewiring.util.Pair;
+import org.home.utils.Pair;
 
 import java.util.Arrays;
 

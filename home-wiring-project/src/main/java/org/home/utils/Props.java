@@ -1,4 +1,4 @@
-package org.home.homewiring.util;
+package org.home.utils;
 
 import java.util.HashMap;
 
