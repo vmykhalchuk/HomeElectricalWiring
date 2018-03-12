@@ -8,6 +8,7 @@ import org.home.utils.Rect;
 public class SymbolData {
 
     private TopViewSymbol tvSymbol;
+    private double relativeX, relativeY;
     private TopViewRenderingEngine renderingEngine;
 
     private Rect rect;
@@ -23,6 +24,13 @@ public class SymbolData {
     private Rect signRect;
 
     public SymbolData(TopViewSymbol topViewSymbol, TopViewRenderingEngine renderingEngine) {
+        this.tvSymbol = topViewSymbol;
+        this.renderingEngine = renderingEngine;
+    }
+
+    public SymbolData(Point relativeFrom, TopViewSymbol topViewSymbol, TopViewRenderingEngine renderingEngine) {
+        relativeX = relativeFrom != null ? relativeFrom.getX() : 0;
+        relativeY = relativeFrom != null ? relativeFrom.getY() : 0;
         this.tvSymbol = topViewSymbol;
         this.renderingEngine = renderingEngine;
     }
@@ -58,8 +66,8 @@ public class SymbolData {
 
     public Rect getRect() {
         if (rect == null) {
-            rect = new Rect(tvSymbol.getX(), tvSymbol.getY(), tvSymbol.getX() + getXWidth(),
-                    tvSymbol.getY() + getYLength());
+            rect = new Rect(relativeX + tvSymbol.getX(), relativeY + tvSymbol.getY(),
+                    relativeX + tvSymbol.getX() + getXWidth(), relativeY + tvSymbol.getY() + getYLength());
         }
         return rect;
     }
@@ -80,15 +88,15 @@ public class SymbolData {
 
     public Point getPointPoint() {
         if (pointPoint == null) {
-            pointPoint = new Point(tvSymbol.getPointX(), tvSymbol.getPointY());
+            pointPoint = new Point(relativeX + tvSymbol.getPointX(), relativeY + tvSymbol.getPointY());
         }
         return pointPoint;
     }
 
     public Rect getPointRect() {
         if (pointRect == null) {
-            pointRect = new Rect(tvSymbol.getPointX() - 2, tvSymbol.getPointY() - 2,
-                    tvSymbol.getPointX() + 2, tvSymbol.getPointY() + 2);
+            pointRect = new Rect(relativeX + tvSymbol.getPointX() - 2, relativeY + tvSymbol.getPointY() - 2,
+                    relativeX + tvSymbol.getPointX() + 2, relativeY + tvSymbol.getPointY() + 2);
         }
         return pointRect;
     }
@@ -117,7 +125,7 @@ public class SymbolData {
 
     protected Double getSignCentreYRelative() {
         if (signCentreYRelative == null) {
-            signCentreYRelative = renderingEngine.getSymbolSignXRelative(tvSymbol) + getSignYLength() / 2.0;
+            signCentreYRelative = renderingEngine.getSymbolSignYRelative(tvSymbol) + getSignYLength() / 2.0;
         }
         return signCentreYRelative;
     }

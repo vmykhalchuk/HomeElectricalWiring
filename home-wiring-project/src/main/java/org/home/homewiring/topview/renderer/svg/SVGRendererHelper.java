@@ -5,6 +5,8 @@ import org.home.homewiring.topview.model.TopViewAreaItem;
 import org.home.homewiring.topview.model.TopViewModel;
 import org.home.homewiring.topview.model.TopViewSymbol;
 import org.home.homewiring.topview.renderer.TopViewRenderingEngine;
+import org.home.homewiring.topview.symbolsplacer.SymbolData;
+import org.home.utils.Point;
 
 import java.io.PrintWriter;
 
@@ -115,6 +117,10 @@ public class SVGRendererHelper {
         }
     }
 
+    private void printSvgLine(Point p1, Point p2) {
+        printSvgLine(p1.getX(), p1.getY(), p2.getX(), p2.getY());
+    }
+
     private void printSvgLine(double x1, double y1, double x2, double y2) {
         printlnF("<path style=\"fill:#000000;stroke:#000000;stroke-width:1\"");
         printlnF("      d=\"m %s,%s %s,%s z\"/>", x1, y1, x2 - x1, y2 - y1);
@@ -138,24 +144,21 @@ public class SVGRendererHelper {
                 final String pointType = tvSymbol.getPointType();
                 gWrap(() -> {
                     printlnF("<!-- tvSymbol(type:%s) here-->", pointType);
-                    double pointX = tvArea.getX() + tvSymbol.getPointX();
-                    double pointY = tvArea.getY() + tvSymbol.getPointY();
-                    double symbolX = tvArea.getX() + tvSymbol.getX();
-                    double symbolY = tvArea.getY() + tvSymbol.getY();
-                    double symbolXWidth = tvRenderingEngine.getSymbolXWidth(tvSymbol);
-                    double symbolYLength = tvRenderingEngine.getSymbolYLength(tvSymbol);
-                    double symbolSignXWidth = tvRenderingEngine.getSymbolSignXWidth(tvSymbol.getPointType());
-                    double symbolSignYLength = tvRenderingEngine.getSymbolSignYLength(tvSymbol.getPointType());
-                    double symbolSignX = symbolX + tvRenderingEngine.getSymbolSignXRelative(tvSymbol);
-                    double symbolSignY = symbolY + tvRenderingEngine.getSymbolSignYRelative(tvSymbol);
-                    double symbolSignXCentre = symbolSignX + symbolSignXWidth / 2;
-                    double symbolSignYCentre = symbolSignY + symbolSignYLength / 2;
-                    double symbolLabelX = symbolX + tvRenderingEngine.getSymbolLableXRelative(tvSymbol);
-                    double symbolLabelY = symbolY + tvRenderingEngine.getSymbolLableYRelative(tvSymbol);
+
                     String symbolInnerText = tvSymbol.getInnerText() == null ? "" : tvSymbol.getInnerText();
+                    SymbolData symbolData = new SymbolData(new Point(tvArea.getX(), tvArea.getY()), tvSymbol, tvRenderingEngine);
 
                     // print line from Symbol Sign to Point location
-                    printSvgLine(pointX, pointY, symbolSignXCentre, symbolSignYCentre);
+                    printSvgLine(symbolData.getPointPoint(), symbolData.getSignCentre());
+
+                    final double symbolX = symbolData.getRect().getX1();
+                    final double symbolY = symbolData.getRect().getY1();
+                    final double symbolSignX = symbolData.getSignPoint1().getX();
+                    final double symbolSignY = symbolData.getSignPoint1().getY();
+                    final double symbolSignXCentre = symbolData.getSignCentre().getX();
+                    final double symbolSignYCentre = symbolData.getSignCentre().getY();
+                    final double symbolLabelX = symbolX + tvRenderingEngine.getSymbolLabelXRelative(tvSymbol);
+                    final double symbolLabelY = symbolY + tvRenderingEngine.getSymbolLabelYRelative(tvSymbol);
 
                     // print symbol sign
                     switch (pointType) {
@@ -186,17 +189,17 @@ public class SVGRendererHelper {
                     printlnF("<text style=\"font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0\"");
                     printlnF("      x=\"%s\" y=\"%s\">%s</text>", symbolLabelX, symbolLabelY + 6.5, tvSymbol.getLabelText());
 
-                    if (false) {
+                    if (true) {
+                        // print debug rectangle
+                        printlnF("<rect style=\"fill:none;stroke:#000000;stroke-width:1\" width=\"%s\" height=\"%s\"", symbolData.getXWidth(), symbolData.getYLength());
+                        printlnF("      x=\"%s\" y=\"%s\"/>", symbolX, symbolY);
+
                         // print symbol label rectangle - for debug purposes
-                        printlnF("<rect style=\"fill:none;stroke:#000000;stroke-width:1\" width=\"%s\" height=\"%s\"", 17, 7);
+                        printlnF("<rect style=\"fill:none;stroke:#555555;stroke-width:1\" width=\"%s\" height=\"%s\"", 5, 5);
                         printlnF("      x=\"%s\" y=\"%s\"/>", symbolLabelX, symbolLabelY);
 
                         // print line from Symbol Sign to Point location (debug purposes - so line appears above symbol sign)
-                        printSvgLine(pointX, pointY, symbolSignXCentre, symbolSignYCentre);
-
-                        // print debug rectangle
-                        printlnF("<rect style=\"fill:none;stroke:#000000;stroke-width:1\" width=\"%s\" height=\"%s\"", symbolXWidth, symbolYLength);
-                        printlnF("      x=\"%s\" y=\"%s\"/>", symbolX, symbolY);
+                        printSvgLine(symbolData.getPointPoint(), symbolData.getSignCentre());
                     }
                 });
             }

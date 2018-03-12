@@ -6,7 +6,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 
-// http://mapstruct.org/documentation/stable/reference/html/
+// http://mapstruct.org/
 @Mapper
 public interface TopViewAreaMapper {
 

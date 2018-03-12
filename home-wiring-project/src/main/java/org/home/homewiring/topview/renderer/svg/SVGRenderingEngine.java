@@ -106,7 +106,7 @@ public class SVGRenderingEngine implements TopViewRenderingEngine {
     }
 
     @Override
-    public double getSymbolLableXRelative(TopViewSymbol tvSymbol) {
+    public double getSymbolLabelXRelative(TopViewSymbol tvSymbol) {
         double symbolSignXWidth = getSymbolSignXWidth(tvSymbol.getPointType());
         switch (tvSymbol.getLabelAlignment()) {
             case LEFT:
@@ -121,7 +121,7 @@ public class SVGRenderingEngine implements TopViewRenderingEngine {
     }
 
     @Override
-    public double getSymbolLableYRelative(TopViewSymbol tvSymbol) {
+    public double getSymbolLabelYRelative(TopViewSymbol tvSymbol) {
         double symbolSignYLength = getSymbolSignYLength(tvSymbol.getPointType());
         switch (tvSymbol.getLabelAlignment()) {
             case LEFT:

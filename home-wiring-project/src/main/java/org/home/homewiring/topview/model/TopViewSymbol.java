@@ -5,6 +5,10 @@ package org.home.homewiring.topview.model;
  * pointType, pointX and pointY - represent physical location of Point on the drawing.<br>
  * x, y - represent top-left corner of the box in which symbol and label are rendered.<br>
  * <b>Note:</b> all coordinates are relative to area in which symbol is located!
+ * <br>
+ * <br>
+ * <b>Note:</b> Check here to understand
+ * <a href="{@docRoot}/doc-files/symbol_explained.png">Symbol layout<img src="{@docRoot}/doc-files/symbol_explained.png" width="20%" height="20%"/></a>
  */
 public class TopViewSymbol {
 
