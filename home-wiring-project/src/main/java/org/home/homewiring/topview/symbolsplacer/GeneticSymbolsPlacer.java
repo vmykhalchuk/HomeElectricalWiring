@@ -3,10 +3,10 @@ package org.home.homewiring.topview.symbolsplacer;
 import org.home.homewiring.topview.model.TopViewArea;
 import org.home.homewiring.topview.model.TopViewModel;
 import org.home.homewiring.topview.renderer.TopViewRenderingEngine;
-import org.home.homewiring.topview.symbolsplacer.utils.CoordinatesNavigator;
-import org.home.homewiring.topview.symbolsplacer.utils.PlacementNormalizer;
-import org.home.utils.MyMath;
-import org.home.utils.Point;
+import org.home.homewiring.topview.utils.CoordinatesNavigator;
+import org.home.homewiring.topview.utils.PlacementNormalizer;
+import org.home.homewiring.utils.MyMath;
+import org.home.homewiring.utils.Point;
 
 import java.util.*;
 import java.util.function.Function;
@@ -31,6 +31,9 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
     protected void placeSymbolsProperlyForArea(TopViewArea tvArea, List<SymbolData> symbolsList) {
         // find colliding symbols (to be placed randomly)
         List<SymbolData> collidingSymbols = symbolsList.stream().filter(a -> symbolCollides(a, symbolsList, false)).collect(Collectors.toList());
+        for (SymbolData s : collidingSymbols) {
+            s.setXY(-1000000d, -1000000d);
+        }
 
         List<Integer> prioritiesList = new ArrayList<>(collidingSymbols.size());
         for (int i = 0; i < collidingSymbols.size(); i++) {
@@ -99,11 +102,13 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
             return null;
         };
 
+        final double initialX = symbolToPlace.getPointPoint().getX() - symbolToPlace.getSignCentreXRelative();
+        final double initialY = symbolToPlace.getPointPoint().getY() - symbolToPlace.getSignCentreYRelative();
 
-        state.x = symbolToPlace.getPointRect().getX2();
+        state.x = initialX;
 
         // Move from left to right by dragging right border of the symbol
-        state.y = symbolToPlace.getPointPoint().getY() - symbolToPlace.getSignCentreYRelative();
+        state.y = initialY;
         boolean lastOne = false;
         do {
             // decide if we are far enough to stop cycle
@@ -128,11 +133,11 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
 
 
         // Move from right to left by dragging left border of the symbol
-        state.y = symbolToPlace.getPointPoint().getY() - symbolToPlace.getSignCentreYRelative();
+        state.y = initialY;
         lastOne = false;
         do {
             // decide if we are far enough to stop cycle
-            if (!isCurrentXYBetterThenBest(state)) {
+            if (state.x < initialX && !isCurrentXYBetterThenBest(state)) {
                 break;
             }
 
@@ -152,11 +157,11 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
         } while (true);
 
         // Move from left to right by dragging right border of the symbol
-        state.y = symbolToPlace.getPointPoint().getY() - symbolToPlace.getSignCentreYRelative();
+        state.y = initialY;
         lastOne = false;
         do {
             // decide if we are far enough to stop cycle
-            if (!isCurrentXYBetterThenBest(state)) {
+            if (state.x > initialX && !isCurrentXYBetterThenBest(state)) {
                 break;
             }
 
@@ -197,12 +202,12 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
             state.symbolToPlace.setXY(normalizedX, normalizedY);
 
             double newLength = MyMath.lineLength(state.symbolToPlace.getPointPoint(), state.symbolToPlace.getSignCentre());
-            boolean betterLength = state.best == null ? true : newLength > state.best.getLength();
-            if (!betterLength) {
-                break; // already given length was best - we couldn't find any better
-            }
+            boolean betterLength = state.best == null ? true : newLength < state.best.getLength();
+            //if (!betterLength) {
+            //    break; // already given length was best - we couldn't find any better
+            //}
             if (betterLength && !symbolCollides(state.symbolToPlace, state.placedSymbolsList, true) /*FIXME try to avoid this adjacent!*/) {
-                state.best = new PlacementResult(newLength, normalizedX, normalizedY);
+                state.best = new PlacementResult(normalizedX, normalizedY, newLength);
                 break;
             } else {
                 if (lastOne) {
@@ -228,16 +233,6 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
                 }
             }
         }
-    }
-
-    private void placeSymbolOptimallyBelowFromPoint(TopViewArea tvArea, List<SymbolData> symbolsList, SymbolData symbolToPlace) {
-        double startPointX = symbolToPlace.getPointPoint().getX();
-        double startPointY = symbolToPlace.getPointRect().getY2();
-        double symbolSignCentreXRelative = symbolToPlace.getSignCentre().getX() - symbolToPlace.getRect().getX1();
-
-        double startingX = startPointX - symbolSignCentreXRelative;
-        double startingY = startPointY;
-
     }
 
     private static class State {

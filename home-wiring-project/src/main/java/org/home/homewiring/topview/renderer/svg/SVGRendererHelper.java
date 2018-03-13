@@ -6,7 +6,7 @@ import org.home.homewiring.topview.model.TopViewModel;
 import org.home.homewiring.topview.model.TopViewSymbol;
 import org.home.homewiring.topview.renderer.TopViewRenderingEngine;
 import org.home.homewiring.topview.symbolsplacer.SymbolData;
-import org.home.utils.Point;
+import org.home.homewiring.utils.Point;
 
 import java.io.PrintWriter;
 
@@ -15,13 +15,15 @@ public class SVGRendererHelper {
     private PrintWriter writer;
     private TopViewModel topViewModel;
     private TopViewRenderingEngine tvRenderingEngine;
+    private boolean debugEnabled;
     private int indent = 0;
     private int identifier = 1000;
 
-    public SVGRendererHelper(PrintWriter writer, TopViewModel topViewModel, TopViewRenderingEngine tvRenderingEngine) {
+    public SVGRendererHelper(PrintWriter writer, TopViewModel topViewModel, TopViewRenderingEngine tvRenderingEngine, boolean debugEnabled) {
         this.writer = writer;
         this.topViewModel = topViewModel;
         this.tvRenderingEngine = tvRenderingEngine;
+        this.debugEnabled = debugEnabled;
     }
 
     public void writeToStream() {
@@ -189,7 +191,7 @@ public class SVGRendererHelper {
                     printlnF("<text style=\"font-size:8px;font-family:Helvetica, Arial, sans-serif;fill:#000000;stroke:#000000;stroke-width:0\"");
                     printlnF("      x=\"%s\" y=\"%s\">%s</text>", symbolLabelX, symbolLabelY + 6.5, tvSymbol.getLabelText());
 
-                    if (true) {
+                    if (debugEnabled) {
                         // print debug rectangle
                         printlnF("<rect style=\"fill:none;stroke:#000000;stroke-width:1\" width=\"%s\" height=\"%s\"", symbolData.getXWidth(), symbolData.getYLength());
                         printlnF("      x=\"%s\" y=\"%s\"/>", symbolX, symbolY);

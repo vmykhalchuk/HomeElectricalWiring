@@ -1,4 +1,4 @@
-package org.home.utils;
+package org.home.homewiring.utils;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
@@ -21,6 +21,14 @@ public class MyMathTest {
         Rect rect2 = new Rect(50, 100.01, 200, 200);
 
         assertEquals(false, MyMath.rectanglesCollide(rect1, rect2));
+    }
+
+    @Test
+    public void testRectanglesCollideExcludeAdjacent() {
+        Rect rect1 = new Rect(20.75, 5.0, 55.75, 15.0);
+        Rect rect2 = new Rect(20.00, 5.0, 60.50, 15.0);
+
+        assertEquals(true, MyMath.rectanglesCollideExcludeAdjacent(rect1, rect2));
     }
 
     @Test

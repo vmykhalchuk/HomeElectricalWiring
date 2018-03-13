@@ -2,8 +2,8 @@ package org.home.homewiring.topview.symbolsplacer;
 
 import org.home.homewiring.topview.model.TopViewSymbol;
 import org.home.homewiring.topview.renderer.TopViewRenderingEngine;
-import org.home.utils.Point;
-import org.home.utils.Rect;
+import org.home.homewiring.utils.Point;
+import org.home.homewiring.utils.Rect;
 
 public class SymbolData {
 

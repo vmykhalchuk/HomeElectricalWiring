@@ -1,4 +1,4 @@
-package org.home.homewiring.topview.symbolsplacer.utils;
+package org.home.homewiring.topview.utils;
 
 import org.home.homewiring.topview.model.TopViewArea;
 import org.home.homewiring.topview.model.TopViewSymbol;
@@ -8,7 +8,7 @@ import org.home.homewiring.topview.symbolsplacer.SymbolData;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static org.home.utils.MyMathTest.ASSERTION_DELTA;
+import static org.home.homewiring.utils.MyMathTest.ASSERTION_DELTA;
 import static org.junit.Assert.assertEquals;
 
 public class PlacementNormalizerTest {

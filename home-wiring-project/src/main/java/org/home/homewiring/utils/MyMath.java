@@ -1,10 +1,6 @@
-package org.home.utils;
+package org.home.homewiring.utils;
 
 public class MyMath {
-
-//    public static boolean rectanglesCollide(double r1x1, double r1y1, double r1x2, double r1y2, double r2x1, double r2y1, double r2x2, double r2y2) {
-//
-//    }
 
     /**
      * If any of the rectangles collide - true is returned. If rectangle is on the same line as the other rectangle - they are colliding too.
@@ -49,12 +45,25 @@ public class MyMath {
         if (rect1.isPointInsideExcludeBorders(rect2.getPoint3()) || rect1.isPointInsideExcludeBorders(rect2.getPoint4())) {
             return true;
         }
+        if (rect1.isPointInsideExcludeBorders(rect2.getDiamondP1()) || rect1.isPointInsideExcludeBorders(rect2.getDiamondP2())) {
+            return true;
+        }
+        if (rect1.isPointInsideExcludeBorders(rect2.getDiamondP3()) || rect1.isPointInsideExcludeBorders(rect2.getDiamondP4())) {
+            return true;
+        }
+
 
         // check if any of points of R1 are within R2
         if (rect2.isPointInsideExcludeBorders(rect1.getPoint1()) || rect2.isPointInsideExcludeBorders(rect1.getPoint2())) {
             return true;
         }
         if (rect2.isPointInsideExcludeBorders(rect1.getPoint3()) || rect2.isPointInsideExcludeBorders(rect1.getPoint4())) {
+            return true;
+        }
+        if (rect2.isPointInsideExcludeBorders(rect1.getDiamondP1()) || rect2.isPointInsideExcludeBorders(rect1.getDiamondP2())) {
+            return true;
+        }
+        if (rect2.isPointInsideExcludeBorders(rect1.getDiamondP3()) || rect2.isPointInsideExcludeBorders(rect1.getDiamondP4())) {
             return true;
         }
 

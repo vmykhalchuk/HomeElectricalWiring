@@ -136,9 +136,9 @@ public class SVGRenderingEngine implements TopViewRenderingEngine {
     }
 
     @Override
-    public void generateFile(File file, TopViewModel topViewModel) throws FileNotFoundException {
+    public void generateFile(File file, TopViewModel topViewModel, boolean debugEnabled) throws FileNotFoundException {
         try (final PrintWriter writer = new PrintWriter(new FileOutputStream(file))) {
-            new SVGRendererHelper(writer, topViewModel, this).writeToStream();
+            new SVGRendererHelper(writer, topViewModel, this, debugEnabled).writeToStream();
         }
     }
 }

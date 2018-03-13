@@ -1,4 +1,4 @@
-package org.home.homewiring.topview.symbolsplacer.utils;
+package org.home.homewiring.topview.utils;
 
 import org.home.homewiring.topview.symbolsplacer.SymbolData;
 

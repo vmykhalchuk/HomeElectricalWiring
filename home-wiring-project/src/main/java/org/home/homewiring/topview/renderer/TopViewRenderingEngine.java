@@ -29,5 +29,5 @@ public interface TopViewRenderingEngine {
     double getSymbolLabelXRelative(TopViewSymbol tvSymbol);
     double getSymbolLabelYRelative(TopViewSymbol tvSymbol);
 
-    void generateFile(File file, TopViewModel topViewModel) throws FileNotFoundException;
+    void generateFile(File file, TopViewModel topViewModel, boolean debugEnabled) throws FileNotFoundException;
 }

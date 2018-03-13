@@ -1,6 +1,6 @@
-package org.home.homewiring.topview.symbolsplacer.utils;
+package org.home.homewiring.topview.utils;
 
-import org.home.utils.Rect;
+import org.home.homewiring.utils.Rect;
 
 import java.util.LinkedList;
 import java.util.ListIterator;
@@ -21,6 +21,7 @@ public class CoordinatesNavigator {
         gtp.registerNewCoordinateInPlacedList(1.5, gtp.placedSymbolsXCoordinatesSorted);
         gtp.registerNewCoordinateInPlacedList(0.5, gtp.placedSymbolsXCoordinatesSorted);
         System.out.println(gtp.placedSymbolsXCoordinatesSorted);
+        System.out.println(gtp.findPrevX(1.52, 1.55));
     }
 
     private void registerNewCoordinateInPlacedList(double coord, LinkedList<Double> coordsList) {
@@ -78,6 +79,23 @@ public class CoordinatesNavigator {
     public Double findPrevX(double x) {
         for (int i = placedSymbolsXCoordinatesSorted.size() - 1; i >= 0; i--) {
             Double prevX = placedSymbolsXCoordinatesSorted.get(i);
+            if (prevX < x) {
+                return prevX;
+            }
+        }
+        return null;
+    }
+
+    @Deprecated
+    public Double findPrevX(double x, double extraXToTakeIntoAccount) {
+        for (int i = placedSymbolsXCoordinatesSorted.size() - 1; i >= 0; i--) {
+            Double prevX = placedSymbolsXCoordinatesSorted.get(i);
+            Double prevPrevX = i < placedSymbolsXCoordinatesSorted.size() - 1 ? placedSymbolsXCoordinatesSorted.get(i + 1) : null;
+            if (extraXToTakeIntoAccount > prevX && extraXToTakeIntoAccount < prevPrevX) {
+                if (extraXToTakeIntoAccount < x) {
+                    return extraXToTakeIntoAccount;
+                }
+            }
             if (prevX < x) {
                 return prevX;
             }

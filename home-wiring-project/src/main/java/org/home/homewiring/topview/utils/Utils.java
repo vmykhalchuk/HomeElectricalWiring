@@ -1,4 +1,4 @@
-package org.home.homewiring.topview;
+package org.home.homewiring.topview.utils;
 
 public class Utils {
 

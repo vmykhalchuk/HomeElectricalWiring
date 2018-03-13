@@ -4,3 +4,7 @@ https://electrica-shop.com.ua/p22597-klemmnik_na_2_vihoda_0-08-2-5_mm_32a_cu_221
 https://www.youtube.com/watch?v=zTqzNacmpKM
 Для генератора: https://www.youtube.com/watch?v=NyYT24KRMJE
 https://fixer.com.ua/relay-equipment/hager-epn515_722984.html?gclid=EAIaIQobChMIzOjh7MP_2AIVqRXTCh1_KAC2EAAYAiAAEgJM1vD_BwE
+
+
+BUGS:
+SK2x is colliding with point of WK99

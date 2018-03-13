@@ -1,4 +1,4 @@
-package org.home.utils;
+package org.home.homewiring.utils;
 
 public class Tripple<U, V, W> {
     private U u;

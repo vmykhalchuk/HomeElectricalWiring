@@ -1,8 +1,13 @@
-package org.home.utils;
+package org.home.homewiring.utils;
 
+/**
+ * <b>Note:</b> Check here to understand layout
+ * <a href="{@docRoot}/doc-files/rectangle_explained.png">Symbol layout<img src="{@docRoot}/doc-files/rectangle_explained.png" width="50%" height="50%"/></a>
+ */
 public class Rect {
     private double x1, y1, x2, y2;
     private Point p1, p2, p3, p4;
+    private Point diamondP1, diamondP2, diamondP3, diamondP4;
 
     public Rect(double x1, double y1, double x2, double y2) {
         this.x1 = x1;
@@ -72,6 +77,34 @@ public class Rect {
             p4 = new Point(x1, y2);
         }
         return p4;
+    }
+
+    public Point getDiamondP1() {
+        if (diamondP1 == null) {
+            diamondP1 = new Point(x1 + (x2 - x1) / 2.0, y1);
+        }
+        return diamondP1;
+    }
+
+    public Point getDiamondP3() {
+        if (diamondP3 == null) {
+            diamondP3 = new Point(x1 + (x2 - x1) / 2.0, y2);
+        }
+        return diamondP3;
+    }
+
+    public Point getDiamondP2() {
+        if (diamondP2 == null) {
+            diamondP2 = new Point(x2, y1 + (y2 - y1) / 2.0);
+        }
+        return diamondP2;
+    }
+
+    public Point getDiamondP4() {
+        if (diamondP4 == null) {
+            diamondP4 = new Point(x1, y1 + (y2 - y1) / 2.0);
+        }
+        return diamondP4;
     }
 
     public boolean equals(Object rect2) {

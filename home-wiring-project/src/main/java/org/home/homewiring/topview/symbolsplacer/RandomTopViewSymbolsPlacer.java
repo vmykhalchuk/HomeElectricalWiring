@@ -4,8 +4,8 @@ import org.home.homewiring.topview.model.TopViewArea;
 import org.home.homewiring.topview.model.TopViewModel;
 import org.home.homewiring.topview.model.TopViewSymbol;
 import org.home.homewiring.topview.renderer.TopViewRenderingEngine;
-import org.home.homewiring.topview.symbolsplacer.utils.Snapshot;
-import org.home.utils.MyMath;
+import org.home.homewiring.topview.utils.Snapshot;
+import org.home.homewiring.utils.MyMath;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -7,7 +7,7 @@ package org.home.homewiring.topview.model;
  * <b>Note:</b> all coordinates are relative to area in which symbol is located!
  * <br>
  * <br>
- * <b>Note:</b> Check here to understand
+ * <b>Note:</b> Check here to understand layout
  * <a href="{@docRoot}/doc-files/symbol_explained.png">Symbol layout<img src="{@docRoot}/doc-files/symbol_explained.png" width="20%" height="20%"/></a>
  */
 public class TopViewSymbol {

@@ -1,6 +1,6 @@
 package org.home.homewiring.topview.symbolsplacer;
 
-import org.home.homewiring.topview.Utils;
+import org.home.homewiring.topview.utils.Utils;
 import org.home.homewiring.topview.model.TopViewArea;
 import org.home.homewiring.topview.model.TopViewModel;
 import org.home.homewiring.topview.model.TopViewSymbol;

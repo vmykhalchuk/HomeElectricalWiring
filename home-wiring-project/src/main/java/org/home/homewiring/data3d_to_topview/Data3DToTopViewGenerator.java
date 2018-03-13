@@ -2,7 +2,7 @@ package org.home.homewiring.data3d_to_topview;
 
 import org.home.homewiring.data3d_to_topview.mappers.TopViewAreaMapper;
 import org.home.homewiring.data3dmodel.model.*;
-import org.home.homewiring.topview.Utils;
+import org.home.homewiring.topview.utils.Utils;
 import org.home.homewiring.topview.model.*;
 import org.mapstruct.factory.Mappers;
 

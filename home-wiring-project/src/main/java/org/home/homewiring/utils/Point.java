@@ -1,4 +1,4 @@
-package org.home.utils;
+package org.home.homewiring.utils;
 
 public class Point {
     private double x, y;

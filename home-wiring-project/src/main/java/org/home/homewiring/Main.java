@@ -39,7 +39,7 @@ public class Main {
 
         new GeneticSymbolsPlacer(topViewModel, renderingEngine).placeSymbolsProperly();
 
-        renderingEngine.generateFile(new File("output.svg"), topViewModel);
+        renderingEngine.generateFile(new File("output.svg"), topViewModel, false);
 
         System.out.println("Ok!");
 
