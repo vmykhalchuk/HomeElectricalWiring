@@ -39,4 +39,19 @@
 
         <point code="ZK99" type="S" x="4.6m" y="2m" z="22cm" />
     </points-collection>
+
+    <!-- Kitchen Points (Testing collection : Highly dense in single row points) -->
+    <points-collection areaCode="K" pointTypeResolver="Resolvers.getByCodeResolver()">
+        <!-- Here type of point is resolved automatically with pointTypeResolver -->
+        <group x="0cm" y="2m" z="22cm">
+            <point code="SK31" dY="0cm"/>
+            <point code="SK32" dY="2cm"/>
+            <point code="SK33" dY="4cm"/>
+            <point code="SK34" dY="6cm"/>
+            <point code="SK35" dY="8cm"/>
+            <point code="SK36" dY="10cm"/>
+            <point code="SK37" dY="12cm"/>
+            <point code="SK38" dY="14cm"/>
+        </group>
+    </points-collection>
 </home-wiring-data>

@@ -7,6 +7,7 @@ import org.home.homewiring.topview.utils.CoordinatesNavigator;
 import org.home.homewiring.topview.utils.PlacementNormalizer;
 import org.home.homewiring.utils.MyMath;
 import org.home.homewiring.utils.Point;
+import org.home.homewiring.utils.Rect;
 
 import java.util.*;
 import java.util.function.Function;
@@ -49,12 +50,12 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
         }
 
         List<SymbolData> placedSymbolsList = symbolsList.stream().filter(s -> !symbolsToPlace.contains(s)).collect(Collectors.toList());
-        CoordinatesNavigator nav = createCoordinatesNavigator(symbolsList, placedSymbolsList);
+        CoordinatesNavigator nav = createCoordinatesNavigator(tvArea, symbolsList, placedSymbolsList);
 
         for (Integer prio : symbolsToPlacePriorities) {
             SymbolData symbolToPlace = symbolsToPlace.get(prio);
 
-            PlacementResult placementResult = placeSymbolOptimallyRightFromPoint(tvArea, placedSymbolsList, symbolToPlace, nav);
+            PlacementResult placementResult = placeSymbolOptimallyRightFromPoint(tvArea, symbolsList, symbolToPlace, nav);
             if (placementResult == null) {
                 throw new RuntimeException("Unable to find proper location for symbol: " + symbolToPlace.getLabelText());
             }
@@ -64,20 +65,50 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
             placedSymbolsList.add(symbolToPlace);
             nav.registerNewRect(symbolToPlace.getRect());
         }
+
+        // register artificial symbols representing Area border margins, so symbols are not colliding with border margin
+        placedSymbolsList.add(new AreaBorderSymbolData(new Rect(0, 0,
+                tvArea.getxWidth(), POINT_BORDER_MARGIN))); // top margin
+        placedSymbolsList.add(new AreaBorderSymbolData(new Rect(0, tvArea.getyLength() - POINT_BORDER_MARGIN,
+                tvArea.getxWidth(), tvArea.getyLength()))); // bottom margin
+        placedSymbolsList.add(new AreaBorderSymbolData(new Rect(0, 0,
+                POINT_BORDER_MARGIN, tvArea.getyLength()))); // left margin
+        placedSymbolsList.add(new AreaBorderSymbolData(new Rect(tvArea.getxWidth() - POINT_BORDER_MARGIN, 0,
+                tvArea.getxWidth(), tvArea.getyLength()))); // right margin
     }
 
-    private CoordinatesNavigator createCoordinatesNavigator(List<SymbolData> symbolsList, List<SymbolData> placedSymbolsList) {
-        CoordinatesNavigator nav = new CoordinatesNavigator();
+    public static class AreaBorderSymbolData extends SymbolData {
+
+        private Rect rect;
+
+        public AreaBorderSymbolData(Rect rect) {
+            super(null, null);
+            this.rect = rect;
+        }
+
+        @Override
+        public Rect getRect() {
+            return rect;
+        }
+    }
+
+    private CoordinatesNavigator createCoordinatesNavigator(TopViewArea tvArea, List<SymbolData> symbolsList, List<SymbolData> placedSymbolsList) {
+        Rect tvAreaRect = new Rect(new Point(0, 0), tvArea.getxWidth(), tvArea.getyLength());
+        CoordinatesNavigator nav = new CoordinatesNavigator(tvAreaRect);
         for (SymbolData placedSymbol : placedSymbolsList) {
             nav.registerNewRect(placedSymbol.getRect());
         }
         for (SymbolData symbol : symbolsList) {
             nav.registerNewRect(symbol.getPointRect());
         }
+        // corner cases
+        nav.registerNewRect(tvAreaRect);
+        nav.registerNewRect(new Rect(POINT_BORDER_MARGIN, POINT_BORDER_MARGIN,
+                tvArea.getxWidth() - POINT_BORDER_MARGIN, tvArea.getyLength() - POINT_BORDER_MARGIN));
         return nav;
     }
 
-    private PlacementResult placeSymbolOptimallyRightFromPoint(TopViewArea tvArea, List<SymbolData> placedSymbolsList, SymbolData symbolToPlace, CoordinatesNavigator coordinatesNavigator) {
+    private PlacementResult placeSymbolOptimallyRightFromPoint(TopViewArea tvArea, List<SymbolData> allSymbolsList, SymbolData symbolToPlace, CoordinatesNavigator coordinatesNavigator) {
         final double symbolXWidth = symbolToPlace.getXWidth();
         final double symbolYLength = symbolToPlace.getYLength();
         final double minY = POINT_BORDER_MARGIN;
@@ -85,7 +116,7 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
         final double minX = POINT_BORDER_MARGIN;
         final double maxX = tvArea.getxWidth() - symbolXWidth - POINT_BORDER_MARGIN;
 
-        State state = new State(tvArea, placedSymbolsList, symbolToPlace);
+        State state = new State(tvArea, allSymbolsList, symbolToPlace);
 
         Function moveUpAndDownVertically = o -> {
             // move up (drag top of rectangle up)
@@ -206,7 +237,7 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
             //if (!betterLength) {
             //    break; // already given length was best - we couldn't find any better
             //}
-            if (betterLength && !symbolCollides(state.symbolToPlace, state.placedSymbolsList, true) /*FIXME try to avoid this adjacent!*/) {
+            if (betterLength && !symbolCollides(state.symbolToPlace, state.allSymbolsList, true) /*FIXME try to avoid this adjacent!*/) {
                 state.best = new PlacementResult(normalizedX, normalizedY, newLength);
                 break;
             } else {
@@ -237,15 +268,15 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
 
     private static class State {
         protected TopViewArea tvArea;
-        protected List<SymbolData> placedSymbolsList;
+        protected List<SymbolData> allSymbolsList;
         protected SymbolData symbolToPlace;
         protected double x;
         protected double y;
         protected PlacementResult best;
 
-        public State(TopViewArea tvArea, List<SymbolData> placedSymbolsList, SymbolData symbolToPlace) {
+        public State(TopViewArea tvArea, List<SymbolData> allSymbolsList, SymbolData symbolToPlace) {
             this.tvArea = tvArea;
-            this.placedSymbolsList = placedSymbolsList;
+            this.allSymbolsList = allSymbolsList;
             this.symbolToPlace = symbolToPlace;
         }
     }

@@ -82,4 +82,9 @@ public class MyMath {
         lineLengthOnY *= lineLengthOnY;
         return Math.sqrt(lineLengthOnX + lineLengthOnY);
     }
+
+    public static boolean valueInRange(double val, double min, double max) {
+        return val >= min && val <= max;
+    }
+
 }

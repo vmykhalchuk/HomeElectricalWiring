@@ -5,16 +5,24 @@ import org.home.homewiring.utils.Rect;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
+import static org.home.homewiring.utils.MyMath.valueInRange;
+
 public class CoordinatesNavigator {
+
+    private Rect limitRect;
     private LinkedList<Double> placedSymbolsXCoordinatesSorted = new LinkedList<>();
     private LinkedList<Double> placedSymbolsYCoordinatesSorted = new LinkedList<>();
+
+    public CoordinatesNavigator(Rect limitRect) {
+        this.limitRect = limitRect;
+    }
 
     public static void main(String[] args) {
         testNewCoordPlacement();
     }
 
     public static void testNewCoordPlacement() {
-        CoordinatesNavigator gtp = new CoordinatesNavigator();
+        CoordinatesNavigator gtp = new CoordinatesNavigator(null);
         gtp.registerNewCoordinateInPlacedList(1, gtp.placedSymbolsXCoordinatesSorted);
         gtp.registerNewCoordinateInPlacedList(2, gtp.placedSymbolsXCoordinatesSorted);
         gtp.registerNewCoordinateInPlacedList(3, gtp.placedSymbolsXCoordinatesSorted);
@@ -41,11 +49,19 @@ public class CoordinatesNavigator {
         iterator.add(coord);
     }
 
-    private void registerNewX(double x) {
+    public void registerNewX(double x) {
+        if (limitRect != null && !valueInRange(x, limitRect.getX1(), limitRect.getX2())) {
+            return;
+        }
+
         registerNewCoordinateInPlacedList(x, placedSymbolsXCoordinatesSorted);
     }
 
-    private void registerNewY(double y) {
+    public void registerNewY(double y) {
+        if (limitRect != null && !valueInRange(y, limitRect.getY1(), limitRect.getY2())) {
+            return;
+        }
+
         registerNewCoordinateInPlacedList(y, placedSymbolsYCoordinatesSorted);
     }
 
