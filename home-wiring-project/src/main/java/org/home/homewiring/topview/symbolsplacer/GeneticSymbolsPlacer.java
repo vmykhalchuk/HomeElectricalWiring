@@ -30,8 +30,10 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
     }
 
     protected void placeSymbolsProperlyForArea(TopViewArea tvArea, List<SymbolData> symbolsList) {
+        List<SymbolData> symbolsListWIthPadding = symbolsList.stream().map(s -> new SymbolData(s, new TVRenderingEngineWrapperWithPaddingAccounted(renderingEngine))).collect(Collectors.toList());
+
         // find colliding symbols (to be placed randomly)
-        List<SymbolData> collidingSymbols = symbolsList.stream().filter(a -> symbolCollides(a, symbolsList, false)).collect(Collectors.toList());
+        List<SymbolData> collidingSymbols = symbolsListWIthPadding.stream().filter(a -> symbolCollides(a, symbolsListWIthPadding, false)).collect(Collectors.toList());
         for (SymbolData s : collidingSymbols) {
             s.setXY(-1000000d, -1000000d);
         }
@@ -40,7 +42,7 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
         for (int i = 0; i < collidingSymbols.size(); i++) {
             prioritiesList.add(i);
         }
-        placeSymbolsOptimally(tvArea, symbolsList, collidingSymbols, prioritiesList);
+        placeSymbolsOptimally(tvArea, symbolsListWIthPadding, collidingSymbols, prioritiesList);
     }
 
     private void placeSymbolsOptimally(TopViewArea tvArea, List<SymbolData> symbolsList, List<SymbolData> symbolsToPlace, List<Integer> symbolsToPlacePriorities) {
@@ -82,7 +84,7 @@ public class GeneticSymbolsPlacer extends RandomTopViewSymbolsPlacer {
         private Rect rect;
 
         public AreaBorderSymbolData(Rect rect) {
-            super(null, null);
+            super(new Point(0, 0), null, null);
             this.rect = rect;
         }
 

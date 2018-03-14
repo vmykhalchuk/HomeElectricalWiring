@@ -29,9 +29,16 @@ public class SymbolData {
     }
 
     public SymbolData(Point relativeFrom, TopViewSymbol topViewSymbol, TopViewRenderingEngine renderingEngine) {
-        relativeX = relativeFrom != null ? relativeFrom.getX() : 0;
-        relativeY = relativeFrom != null ? relativeFrom.getY() : 0;
+        relativeX = relativeFrom.getX();
+        relativeY = relativeFrom.getY();
         this.tvSymbol = topViewSymbol;
+        this.renderingEngine = renderingEngine;
+    }
+
+    public SymbolData(SymbolData symbolData, TopViewRenderingEngine renderingEngine) {
+        this.tvSymbol = symbolData.tvSymbol;
+        this.relativeX = symbolData.relativeX;
+        this.relativeY = symbolData.relativeY;
         this.renderingEngine = renderingEngine;
     }
 
