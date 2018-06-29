@@ -1,0 +1,984 @@
+import com.datalex.matrix.adapters.connections.DummyConnectionHelper;
+import com.datalex.matrix.adapters.connections.DummyConnection;
+import com.datalex.mw.persistence.DBAccess;
+import com.datalex.rqrs.ancillaryaircomponent.AncillaryAirComponent;
+import com.datalex.rqrs.ancillaryaircomponent.ItineraryReference;
+import com.datalex.rqrs.ancillaryaircomponent.InternalAncillaryAirComponentPricedOptions;
+import com.datalex.rqrs.ancillaryaircomponent.AncillaryAirComponentPricedOptions;
+import com.datalex.rqrs.ancillaryaircomponent.AncillaryAirComponentManageSvRQ;
+import com.datalex.rqrs.ancillaryaircomponent.AncillaryAirComponentManageSvRS;
+import com.datalex.rqrs.ancillaryaircomponent.AncillaryAirComponentSearchRS;
+import com.datalex.tdp.ancillary.airitemprice.AncillaryAirItemPriceService;
+import com.datalex.tdp.ancillary.airitemprice.DODUpgradeAvailabilityService;
+import com.datalex.tdp.ancillary.airitemprice.AncillaryAirItemPriceUtils;
+import com.datalex.tdp.ancillary.airitemprice.PricedItineraryODOReference;
+import com.datalex.tdp.ancillary.airitemprice.*;
+import com.datalex.rqrs.merch.ProductGroup;
+import com.datalex.tdp.ancillary.AncillaryUtils;
+import com.datalex.xsf.messaging.AppException;
+import com.datalex.xsf.messaging.ServiceException;
+
+/**
+ * Service which invokes the BRE to get applicable AncillaryAirComponents and to price them. 
+ *
+ * M3-J2EE business servant.
+ *
+ * @author tkaudit
+ *
+ * @ejb:bean name="AncillaryAirItemPriceSv" display-name="TDP - AncillaryAirItemPriceSvBean" generate="true" type="Stateless"
+ *           transaction-type="Container" view-type="remote"
+ * @ejb:home remote-class="com.datalex.matrix.servants.ota.air.AncillaryAirItemPriceSvHome"
+ * @ejb:interface remote-class="com.datalex.matrix.servants.ota.air.AncillaryAirItemPriceSv"
+ * @ejb:transaction type="NotSupported"
+ * @ejb:env-entry name="policy" type="java.lang.String" value="AncillaryAirItemPriceSv"
+ *
+ * @weblogic:enable-call-by-reference True
+ * @weblogic:pool initial-beans-in-free-pool="0" max-beans-in-free-pool="100"
+ * @weblogic:clustering stateless-bean-is-clusterable="True"
+ *
+ * @dlex:MatrixBusinessServant type="AncillaryAirItemPrice" 
+ * 								description="Generates a policy with id=AncillaryAirItemPriceSv"
+ *                             	extends="MatrixAdapterServantBase"
+ *
+ * @dlex:bean-reference id="XMLUnmarshaller" bean="XMLUnmarshaller" policy="default"
+ * @dlex:bean-reference id="XMLMarshaller" bean="XMLMarshaller" policy="default"
+ * @dlex:bean-reference id="AncillaryAirItemPriceService" bean="AncillaryAirItemPriceService" 
+ *                      policy="AncillaryAirItemPriceService" 
+ *                      description="Reference to the AncillaryAirItemPriceService"
+ *
+ * @dlex:bean-reference id="DODUpgradeAvailabilityService" bean="DODUpgradeAvailabilityService" 
+ *                      policy="AncillaryAirItemPriceService" 
+ *                      description="Reference to the DODUpgradeAvailabilityService"
+ *
+ * @dlex:bean-property name="UpgradeAvailabilityServiceName" 
+ * 						value="DLXUpgradeAvailabilitySv"
+ *                     	description="The Upgrade Availability service name"
+ *
+ * @dlex:bean-property name="AncillaryCalculateRedemptionMilesServiceName" 
+ *                      value="DLXAncillaryCalculateRedemptionMilesSv"
+ *                      description="The Ancillary Calculate Redemption Miles service name"
+ * @dlex:bean-property name="AncillaryCalculateRedemptionMoneyMilesServiceName" 
+ *                      value="DLXAncillaryCalculateRedemptionMoneyMilesSv"
+ *                      description="The Ancillary Calculate Redemption Money Miles service name"
+ * @dlex:bean-property name="AncillaryItemInventoryCheckServiceName" 
+ *                      value="DLXAncillaryItemInventoryCheckSv"
+ *                      description="The Ancillary Item Inventory Check service name"
+ *
+ * @dlex:bean-property name="EnableInventoryCheck" 
+ *                      value="true"
+ *                      needsReplacing="true"
+ *                      description="boolean flag which indicates whether 
+ *                      this service should call the inventory check service or not"
+ * @dlex:bean-property name="EnableAncillaryRedemption" 
+ *                      value="true"
+ *                      needsReplacing="true"
+ *                      description="boolean flag which indicates whether 
+ *                      this service should call the ancillary redemption service or not"
+ * @dlex:bean-property name="AncillaryTaxCalculateServiceName" 
+ * 						value="DLXAncillaryTaxCalculateSv"
+ *                     	description="The Ancillary Tax Calculate service name"
+ * @dlex:bean-property name="ApplyAncillaryTaxCalculateTaxData" value="false" needsReplacing="true" 
+ * 						description="Apply taxes using AncillaryTaxCalculateSv service"
+ * @dlex:bean-property name="AncillaryAirComponentManageServiceName" 
+ *                      value="AncillaryAirComponentManageSv"
+ *                      description="The Ancillary Air Component Manage service name"
+ * @dlex:bean-property name="AncillaryAirComponentSearchByLanguage" value="true" needsReplacing="true"
+ *                      description="Specifies if language should be specified in ancillary component search"
+ * @dlex:bean-property name="AlwaysUseCacheForAncillaryAirComponents" value="false" needsReplacing="true"
+ *                      description="Specifies if cache should be used for AncillaryAirComponents search"
+ * @dlex:bean-property name="EnableDynamicBundling"
+ * 						value="@@@com.datalex.matrix.servants.ota.air.DLXAncillaryMerchandizingSvBean_EnableDynamicBundling@@@"
+ * 						description="Allows use of PricedItineraries element. Segments the requests in
+ * 					    several PricedItinerary otherwise."
+ *                     value="@@@com.datalex.matrix.servants.ota.air.DLXAncillaryMerchandizingSvBean_EnableDynamicBundling@@@"
+ *                     description="Allows use of PricedItineraries element.
+ *                     Segments the requests in several PricedItinerary
+ *                     otherwise."
+ * @dlex:bean-property name="PricedOptionsExpansionEnabled"
+ * 						value="@@@com.datalex.tdp.ancillary.airitemprice.builders.ProductGroupAndSubGroupAACPricedOptionsBuilder_PricedOptionsExpansionEnabled@@@"
+ * 						description="Allows responses with AlternativeApplyPricedOptionTo elements (dynamic bundling) when switch is set to OFF"
+ *                     value="@@@com.datalex.tdp.ancillary.airitemprice.builders.ProductGroupAndSubGroupAACPricedOptionsBuilder_PricedOptionsExpansionEnabled@@@"
+ *                     description="Allows responses with
+ *                     AlternativeApplyPricedOptionTo elements (dynamic
+ *                     bundling) when switch is set to OFF"
+ */
+public class AncillaryAirItemPriceSvBean extends MatrixAdapterServantBase
+{
+	/**
+	 *  default uid
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/** BRE Connection Helper Name*/
+	private static final String BRE_SERVICE_NAME = "BRE";
+
+
+	/** Reference to the AncillaryAirItemPriceService */
+	private AncillaryAirItemPriceService m_aaiPriceService;
+
+	/** Reference to the DODUpgradeAvailabilityService **/
+	private DODUpgradeAvailabilityService m_dodUpgradeAvailabilityService;
+
+	/** The upgrade availability service name **/
+	private String m_upgradeAvailabiltyServiceName;
+
+	/** The ancillary item inventory check service name **/
+	private String m_ancillaryItemInventoryCheckServiceName;
+	/** The ancillary calculate redemption miles name **/
+	private String m_ancillaryCalculateRedemptionMilesServiceName;
+	/** The ancillary calculate redemption money miles service name **/
+	private String m_ancillaryCalculateRedemptionMoneyMilesServiceName;
+	/** boolean flag indicating whether this services should call the inventory service **/
+	private boolean m_enableInventoryCheck = true;
+	/** boolean flag indicating whether this services should call the ancillary redemption service **/
+	private boolean m_enableAncillaryRedemption = true;
+	/** The Ancillary Tax Calculate service name */
+	private String m_ancillaryTaxCalculateServiceName;
+
+	/** Apply taxes using AncillaryTaxCalculateSv service */
+	private boolean m_applyAncillaryTaxCalculateTaxData = false;
+	/** The Ancillary Air Component Manage service name */
+	private String m_ancillaryAirComponentManageServiceName;
+	/** Specifies if language should be specified in ancillary component search. */
+	private boolean m_ancillaryAirComponentSearchByLanguage = true;
+	/** Specifies if cache should be used for AncillaryAirComponents search */
+	private boolean m_alwaysUseCache = false;
+	/** Enable Dynamic Bundling **/
+	protected boolean m_enableDynamicBundling = false;
+	/** Switch for old grammar expansion for priced options **/
+	protected boolean m_pricedOptionsExpansionEnabled = false;
+
+
+	/**
+	 * Invoked by the BeanFactory framework to initialize this bean
+	 */
+	public void init()
+	{
+		super.init();
+		m_aaiPriceService = (AncillaryAirItemPriceService) getReference("AncillaryAirItemPriceService");
+
+		m_dodUpgradeAvailabilityService = (DODUpgradeAvailabilityService) getReference("DODUpgradeAvailabilityService");
+
+		m_upgradeAvailabiltyServiceName = getProperty("UpgradeAvailabilityServiceName", "DLXUpgradeAvailabilitySv");
+
+		m_ancillaryItemInventoryCheckServiceName =
+			getProperty("AncillaryItemInventoryCheckServiceName", "DLXAncillaryItemInventoryCheckSv");
+
+		m_ancillaryCalculateRedemptionMilesServiceName =
+			getProperty("AncillaryCalculateRedemptionMilesServiceName", "DLXAncillaryCalculateRedemptionMilesSv");
+
+		m_ancillaryCalculateRedemptionMoneyMilesServiceName =
+			getProperty("AncillaryCalculateRedemptionMoneyMilesServiceName", "DLXAncillaryCalculateRedemptionMoneyMilesSv");
+
+		m_enableInventoryCheck = Boolean.valueOf(getProperty("EnableInventoryCheck", "true"));
+
+		m_enableAncillaryRedemption = Boolean.valueOf(getProperty("EnableAncillaryRedemption", "false"));
+
+		m_ancillaryTaxCalculateServiceName = getProperty("AncillaryTaxCalculateServiceName", "DLXAncillaryTaxCalculateSv");
+
+		String applyTaxes = getProperty("ApplyAncillaryTaxCalculateTaxData", "false");
+		m_applyAncillaryTaxCalculateTaxData = Boolean.valueOf(applyTaxes).booleanValue();
+		m_ancillaryAirComponentManageServiceName =
+			getProperty("AncillaryAirComponentManageServiceName", "AncillaryAirComponentManageSv");
+		m_ancillaryAirComponentSearchByLanguage = Boolean.parseBoolean(
+			getProperty("AncillaryAirComponentSearchByLanguage", "true"));
+
+		m_alwaysUseCache = Boolean.valueOf(getProperty("AlwaysUseCacheForAncillaryAirComponents", "false"));
+
+		m_enableDynamicBundling = Boolean.valueOf(getProperty("EnableDynamicBundling",
+			String.valueOf(false))).booleanValue();
+
+		m_pricedOptionsExpansionEnabled = Boolean.valueOf(getProperty("PricedOptionsExpansionEnabled",
+			String.valueOf(false))).booleanValue();
+	}
+
+
+	/**
+	 * Builds the AncillaryAirComponentPricedOptions
+	 * @param request the DLX_AncillaryAirItemPriceSvRQ request
+	 * @return a list of AncillaryAirComponentPricedOptions
+	 */
+	@SuppressWarnings("unchecked")
+	private DLX_AncillaryAirItemPriceSvRS getResponse(DLX_AncillaryAirItemPriceSvRQ request)
+	{
+		List<AncillaryAirComponent> ancillaryAirComponents = null;
+		// Fix for Delta :TDP-61114
+		// If our request contains a product group criteria, we will form a detailed request against the database
+		// Otherwise, we get all from cache
+		if (request != null && request.getDLX_AncillaryAirItemPriceRQ() != null
+			&& request.getDLX_AncillaryAirItemPriceRQ().getDLX_AncillaryAirItemPriceRQChoice() != null
+			&& request.getDLX_AncillaryAirItemPriceRQ().getDLX_AncillaryAirItemPriceRQChoice()
+			.getByProductGroupAndSubGroup() != null
+			&& request.getDLX_AncillaryAirItemPriceRQ().getDLX_AncillaryAirItemPriceRQChoice()
+			.getByProductGroupAndSubGroup().getProductGroupCount() > 0)
+		{
+			List<ProductGroup> productGroups = request.getDLX_AncillaryAirItemPriceRQ().getDLX_AncillaryAirItemPriceRQChoice()
+				.getByProductGroupAndSubGroup().getProductGroupList();
+
+			ancillaryAirComponents = (m_alwaysUseCache) ? MMBUtil
+				.getAllAncillaryAirComponentsByProductGroupAndSubgroup(productGroups) : getAncillaryAirComponents(request);
+		}
+		else
+		{
+			ancillaryAirComponents = (m_alwaysUseCache) ? MMBUtil.getAllAncillaryAirComponents()
+				: getAncillaryAirComponents(request);
+		}
+
+		if (ancillaryAirComponents == null || ancillaryAirComponents.isEmpty())
+		{
+			throw new ServiceException("No Ancillary Air Component retrieved from Database",
+				M3_ContextCodes.TDPMERCHANDIZING_CONTEXT_CODE,
+				M3_MajorCodes.TDPMERCHANDIZING_MAJOR_CODE,
+				M3_AirMinorCodes.TDPMERCHANDIZING_NO_AAC_RETRIEVED_FROM_DB);
+		}
+
+		if (m_alwaysUseCache)
+		{
+			ancillaryAirComponents = AncillaryAirItemPriceUtils.copyAncillaryAirComponents(ancillaryAirComponents);
+		}
+
+		Map<PricedItineraryODOReference, ItineraryReference> odoMap = new HashMap();
+		AncillaryAirItemPriceSvRS internalResponse = m_aaiPriceService.buildAACPricedOptions(request, ancillaryAirComponents,
+			odoMap);
+
+		DLX_AncillaryAirItemPriceSvRS response = AncillaryAirItemPriceUtils.buildDefaultDLXAncillaryAirItemPriceSvRS(request);
+
+		if (!AncillaryAirItemPriceUtils.hasPricedOptions(internalResponse))
+		{
+			AncillaryAirItemPriceUtils.setWarningInResponse(response, "No Priced Options built",
+				M3_ContextCodes.TDPMERCHANDIZING_CONTEXT_CODE,
+				M3_MajorCodes.TDPMERCHANDIZING_MAJOR_CODE,
+				M3_AirMinorCodes.TDPMERCHANDIZING_NO_PRICEDOPTION);
+
+			return response;
+		}
+
+		if (AncillaryAirItemPriceUtils.hasWarnings(internalResponse))
+		{
+			response.getDLX_AncillaryAirItemPriceRS().setWarnings(internalResponse.getAncillaryAirItemPriceRS().getWarnings());
+		}
+
+		List<InternalAncillaryAirComponentPricedOptions> internalAACPricedOptions =
+			internalResponse.getAncillaryAirItemPriceRS().getInternalAncillaryAirComponentPricedOptionsList();
+		List<Map<SegmentWrapIndex, List<Integer>>> aapotMapList = new ArrayList();
+		List<AncillaryAirComponentPricedOptions> pricedOptions =
+			AncillaryAirItemPriceUtils.convertInternalAACPricedOptions(internalAACPricedOptions, aapotMapList);
+		response.getDLX_AncillaryAirItemPriceRS().setAncillaryAirComponentPricedOptionsList(pricedOptions);
+
+		if (m_dodUpgradeAvailabilityService.hasUpgradeOptions(internalResponse))
+		{
+			processUpgradeOptions(request, internalResponse, response);
+		}
+
+		/**
+		 * Remove the Priced Options that are embargoed/cannot be offered (Offer=false)
+		 */
+		AncillaryAirItemPriceUtils.filterPricedOptionsThatCannotBeOffered(response, request.getHostTransactionLogDebug());
+
+		boolean ancillaryAirItemCheckInventory = true;
+		if (request.getDLX_AncillaryAirItemPriceRQ().hasAncillaryAirItemCheckInventory())
+		{
+			ancillaryAirItemCheckInventory = request.getDLX_AncillaryAirItemPriceRQ().getAncillaryAirItemCheckInventory();
+		}
+		if (m_enableInventoryCheck && ancillaryAirItemCheckInventory)
+		{
+			if (isLogging(Logger.DEBUG_EVENT))
+			{
+				log("Calling Inventory Check Service", Logger.DEBUG_EVENT);
+			}
+			if (!m_pricedOptionsExpansionEnabled)
+			{
+				AncillaryAirItemPriceUtils.InternalODOMap.setODOStore(odoMap);
+				this.putInConversation("SegmentIndexes", aapotMapList);
+			}
+			processInventoryCheck(request, response);
+		}
+		else
+		{
+			if (isLogging(Logger.DEBUG_EVENT))
+			{
+				log("Inventory Check not enabled. Not calling Inventory Check Service", Logger.DEBUG_EVENT);
+			}
+		}
+
+		if (m_applyAncillaryTaxCalculateTaxData && AncillaryAirItemPriceUtils.hasPricedOptions(response))
+		{
+			applyTaxes(request, response);
+		}
+
+		/**
+		 * Ancillary Redemption Calculation Service
+		 * It is invoked after tax service, in case other customers besides JBU need it.
+		 */
+		if (m_enableAncillaryRedemption)
+		{
+			if (isLogging(Logger.DEBUG_EVENT))
+			{
+				log("Calling Ancillary Redemption Calculate Service", Logger.DEBUG_EVENT);
+			}
+			processAncillaryRedemption(request, response);
+		}
+		else
+		{
+			if (isLogging(Logger.DEBUG_EVENT))
+			{
+				log("Ancillary Redemption Calculation not enabled. Not calling Ancillary Redemption Calculation Service",
+					Logger.DEBUG_EVENT);
+			}
+		}
+
+		return response;
+	}
+
+
+	/**
+	 * This method applies tax data using the Ancillary Tax Calculate Service.
+	 *
+	 * @param request	DLX_AncillaryAirItemPriceSvRQ request
+	 * @param response	DLX_AncillaryAirItemPriceSvRS response
+	 */
+	private void applyTaxes(DLX_AncillaryAirItemPriceSvRQ request, DLX_AncillaryAirItemPriceSvRS response)
+	{
+		if (request.getDLX_AncillaryAirItemPriceRQ().getRequestCriteria() != null)
+		{
+			String reservationCode = null;
+			if (request.getDLX_AncillaryAirItemPriceRQ().getRequestCriteria().getTDPReservation() != null)
+			{
+				reservationCode = request.getDLX_AncillaryAirItemPriceRQ().getRequestCriteria().getTDPReservation()
+					.getReservationCode();
+			}
+
+			DLX_AncillaryTaxCalculateSvRQ ancillaryTaxCalculateSvRQ = MMBUtil.buildDLXAncillaryTaxCalculateSvRQ(request,
+				reservationCode);
+
+			if (reservationCode == null)
+			{
+				com.datalex.rqrs.merch.PricedItinerary pricedItinerary = request.getDLX_AncillaryAirItemPriceRQ()
+					.getRequestCriteria().getPricedItinerary();
+				ancillaryTaxCalculateSvRQ.getDLX_AncillaryTaxCalculateRQ().getRequestCriteria()
+					.setPricedItinerary(pricedItinerary);
+			}
+
+			// Only apply taxes for AncillaryAirComponentPricedOptions elements with Fees data.
+			for (AncillaryAirComponentPricedOptions ancillaryAirComponentPricedOptions :
+				response.getDLX_AncillaryAirItemPriceRS().getAncillaryAirComponentPricedOptions())
+			{
+				if (ancillaryAirComponentPricedOptions.getFees() != null &&
+					ancillaryAirComponentPricedOptions.getAncillaryAirComponentCode() != null)
+				{
+					ancillaryTaxCalculateSvRQ.getDLX_AncillaryTaxCalculateRQ().addAncillaryAirComponentPricedOptions(
+						ancillaryAirComponentPricedOptions);
+				}
+			}
+
+			// No AncillaryAirComponentPricedOptions elements?
+			if (ancillaryTaxCalculateSvRQ.getDLX_AncillaryTaxCalculateRQ().getAncillaryAirComponentPricedOptionsCount() == 0)
+			{
+				if (isLogging(Logger.DEBUG_EVENT))
+				{
+					log(" No AncillaryAirComponentPricedOptions elements. Not calling AncillaryTaxCalculateSv Service",
+						Logger.DEBUG_EVENT);
+				}
+				return;
+			}
+
+			MMBUtil.logXML(ancillaryTaxCalculateSvRQ);
+
+			DLX_AncillaryTaxCalculateSvRS ancillaryTaxCalculateSvRS = (DLX_AncillaryTaxCalculateSvRS) callServant(
+				m_ancillaryTaxCalculateServiceName, ancillaryTaxCalculateSvRQ, DLX_AncillaryTaxCalculateSvRS.class);
+
+			if (ancillaryTaxCalculateSvRS == null)
+			{
+				throw new ServiceException("No response received from Ancillary Tax Calculate Service",
+					M3_ContextCodes.TDPMERCHANDIZING_CONTEXT_CODE,
+					M3_MajorCodes.TDPMERCHANDIZING_MAJOR_CODE,
+					M3_AirMinorCodes.TDPMERCHANDIZING_NO_RESPONSE_RECEIVED);
+			}
+			MMBUtil.logXML(ancillaryTaxCalculateSvRS);
+
+			if (MMBUtil.hasWarning(ancillaryTaxCalculateSvRS))
+			{
+				AncillaryAirItemPriceUtils.setWarningsInResponse(
+					response, ancillaryTaxCalculateSvRS.getDLX_AncillaryTaxCalculateRS().getWarnings());
+			}
+
+			if (MMBUtil.hasError(ancillaryTaxCalculateSvRS))
+			{
+				AncillaryAirItemPriceUtils.setErrorsInResponse(response,
+					ancillaryTaxCalculateSvRS.getDLX_AncillaryTaxCalculateSvRSChoice().getErrors());
+			}
+
+			// in case no priced option is returned from calling the Ancillary Tax Calculate Service
+			if (ancillaryTaxCalculateSvRS.getDLX_AncillaryTaxCalculateRS() != null &&
+				ancillaryTaxCalculateSvRS.getDLX_AncillaryTaxCalculateRS().getAncillaryAirComponentPricedOptionsCount() == 0)
+			{
+				throw new ServiceException("No priced option returned after calling Ancillary Tax Calculate Service");
+			}
+
+			for (AncillaryAirComponentPricedOptions ancillaryTaxCalculateSvRSOptions :
+				ancillaryTaxCalculateSvRS.getDLX_AncillaryTaxCalculateRS().getAncillaryAirComponentPricedOptions())
+			{
+				for (int i = 0; i < response.getDLX_AncillaryAirItemPriceRS().getAncillaryAirComponentPricedOptionsCount(); i++)
+				{
+					AncillaryAirComponentPricedOptions ancillaryAirItemPriceRSOptions =
+						response.getDLX_AncillaryAirItemPriceRS().getAncillaryAirComponentPricedOptions(i);
+
+					if (ancillaryAirItemPriceRSOptions.getAncillaryAirComponentCode().equals(
+						ancillaryTaxCalculateSvRSOptions.getAncillaryAirComponentCode())
+						&& ancillaryAirItemPriceRSOptions.getAncillaryAirComponentPricedOptionsDocID().equals(
+						ancillaryTaxCalculateSvRSOptions.getAncillaryAirComponentPricedOptionsDocID()))
+					{
+						response.getDLX_AncillaryAirItemPriceRS().setAncillaryAirComponentPricedOptions(i,
+							ancillaryTaxCalculateSvRSOptions);
+					}
+				}
+			}
+		}
+	}
+
+	/**
+	 * Calls the upgrade availability service to find out if upgrade is available for the upgrade options.
+	 * Upgrade Availability is done by calling the Upgrade Availability service which populates
+	 * the Availability element in the priced options. 
+	 * The DLX_AncillaryAirItemPriceSvRS response is then updated with the priced options 
+	 * containing with upgrade availability information. 
+	 * @param request the ancillary air item price request
+	 * @param internalResponse contains the priced options
+	 * @param response updated with errors/warnings and priced options from the upgrade availability service
+	 */
+	@SuppressWarnings("unchecked")
+	private void processUpgradeOptions(DLX_AncillaryAirItemPriceSvRQ request,
+		AncillaryAirItemPriceSvRS internalResponse, DLX_AncillaryAirItemPriceSvRS response)
+	{
+		try
+		{
+			if (!m_dodUpgradeAvailabilityService.hasUpgradeOptions(internalResponse))
+			{
+				return;
+			}
+
+			internalResponse = m_dodUpgradeAvailabilityService.setPricing(request, internalResponse);
+
+			// TODO check if we need to call the upgrade availability service after calling the above BRE rule
+
+			List<InternalAncillaryAirComponentPricedOptions> internalPricedOptions =
+				internalResponse.getAncillaryAirItemPriceRS().getInternalAncillaryAirComponentPricedOptionsList();
+
+			List<Map<SegmentWrapIndex, List<Integer>>> aapotMapList = new ArrayList();
+			List<AncillaryAirComponentPricedOptions> pricedOptions =
+				AncillaryAirItemPriceUtils.convertInternalAACPricedOptions(internalPricedOptions, aapotMapList);
+
+			if (pricedOptions ==  null)
+			{
+				throw new ServiceException("No priced options returned after conversion");
+			}
+
+			DLX_AncillaryItemInventoryCheckSvRQ inventoryCheckSvRQ =
+				m_dodUpgradeAvailabilityService.buildDLXAncillaryItemInventoryCheckSvRQ(request, pricedOptions);
+			if (inventoryCheckSvRQ == null)
+			{
+				throw new ServiceException("No DLX_AncillaryItemInventoryCheckSvRQ built");
+			}
+
+			DLX_AncillaryItemInventoryCheckSvRS inventoryCheckSvRS = (DLX_AncillaryItemInventoryCheckSvRS) callServant(
+				m_upgradeAvailabiltyServiceName, inventoryCheckSvRQ, DLX_AncillaryItemInventoryCheckSvRS.class);
+
+			if (inventoryCheckSvRS == null)
+			{
+				throw new ServiceException("No response received from Upgrade Availability Service",
+					M3_ContextCodes.TDPMERCHANDIZING_CONTEXT_CODE,
+					M3_MajorCodes.TDPMERCHANDIZING_MAJOR_CODE,
+					M3_AirMinorCodes.TDPMERCHANDIZING_NO_RESPONSE_RECEIVED);
+			}
+
+			if (m_dodUpgradeAvailabilityService.hasWarning(inventoryCheckSvRS))
+			{
+				AncillaryAirItemPriceUtils.setWarningsInResponse(
+					response, inventoryCheckSvRS.getAncillaryItemInventoryCheckRS().getWarnings());
+			}
+
+			if (m_dodUpgradeAvailabilityService.hasError(inventoryCheckSvRS))
+			{
+				AncillaryAirItemPriceUtils.setErrorsInResponse(response, inventoryCheckSvRS.getErrors());
+			}
+
+			// in case no priced option is returned from calling the upgrade availability service
+			if (inventoryCheckSvRS.getAncillaryItemInventoryCheckRS() != null
+				&& inventoryCheckSvRS.getAncillaryItemInventoryCheckRS().
+				getAncillaryAirComponentPricedOptionsCount() == 0)
+			{
+				throw new ServiceException("No priced option returned after " +
+					"calling Upgrade Availability Service");
+			}
+
+			response.getDLX_AncillaryAirItemPriceRS().setAncillaryAirComponentPricedOptionsList(
+				inventoryCheckSvRS.getAncillaryItemInventoryCheckRS().getAncillaryAirComponentPricedOptionsList());
+		}
+		catch (AnyException ae)
+		{
+			AncillaryAirItemPriceUtils.setWarningInResponse(
+				response, ae.getMessage(), ae.getContext(),
+				ae.getMajor(), ae.getMinor());
+		}
+	}
+
+	/**
+	 * Performs inventory check.
+	 *
+	 * @param request the request.
+	 * @param response the response.
+	 */
+	private void processInventoryCheck(DLX_AncillaryAirItemPriceSvRQ request,
+		DLX_AncillaryAirItemPriceSvRS response)
+	{
+		DLX_AncillaryItemInventoryCheckSvRS inventoryCheckSvRS = null;
+		DLX_AncillaryItemInventoryCheckSvRQ inventoryCheckSvRQ = null;
+		try
+		{
+			List<AncillaryAirComponentPricedOptions> pricedOptions =
+				response.getDLX_AncillaryAirItemPriceRS().getAncillaryAirComponentPricedOptionsList();
+
+			if (pricedOptions == null || pricedOptions.isEmpty())
+			{
+				return;
+			}
+
+			List<AncillaryAirComponentPricedOptions> checkInventoryPricedOptions =
+				new ArrayList<AncillaryAirComponentPricedOptions>();
+			List<AncillaryAirComponentPricedOptions> notCheckInventoryPricedOptions =
+				new ArrayList<AncillaryAirComponentPricedOptions>();
+			for (AncillaryAirComponentPricedOptions pricedOption : pricedOptions)
+			{
+				if (pricedOption.getInventory() != null
+					&& pricedOption.getInventory().getInventoryCheck() != null)
+				{
+					checkInventoryPricedOptions.add(pricedOption);
+				}
+				else
+				{
+					notCheckInventoryPricedOptions.add(pricedOption);
+				}
+			}
+			if (!checkInventoryPricedOptions.isEmpty())
+			{
+				inventoryCheckSvRQ =
+					m_dodUpgradeAvailabilityService.buildDLXAncillaryItemInventoryCheckSvRQ(request,
+						checkInventoryPricedOptions);
+
+				inventoryCheckSvRS = (DLX_AncillaryItemInventoryCheckSvRS) callServant(
+					m_ancillaryItemInventoryCheckServiceName, inventoryCheckSvRQ,
+					DLX_AncillaryItemInventoryCheckSvRS.class);
+
+				if (inventoryCheckSvRS == null)
+				{
+					throw new ServiceException("No response received from Upgrade Availability Service",
+						M3_ContextCodes.TDPMERCHANDIZING_CONTEXT_CODE,
+						M3_MajorCodes.TDPMERCHANDIZING_MAJOR_CODE,
+						M3_AirMinorCodes.TDPMERCHANDIZING_NO_RESPONSE_RECEIVED);
+				}
+
+				if (m_dodUpgradeAvailabilityService.hasWarning(inventoryCheckSvRS))
+				{
+					AncillaryAirItemPriceUtils.setWarningsInResponse(
+						response, inventoryCheckSvRS.getAncillaryItemInventoryCheckRS().getWarnings());
+				}
+
+				if (m_dodUpgradeAvailabilityService.hasError(inventoryCheckSvRS))
+				{
+					AncillaryAirItemPriceUtils.setErrorsInResponse(response, inventoryCheckSvRS.getErrors());
+				}
+			}
+			response.getDLX_AncillaryAirItemPriceRS().
+				setAncillaryAirComponentPricedOptionsList(notCheckInventoryPricedOptions);
+
+			if (inventoryCheckSvRS != null
+				&&	inventoryCheckSvRS.getAncillaryItemInventoryCheckRS() != null
+				&& inventoryCheckSvRS.getAncillaryItemInventoryCheckRS().getAncillaryAirComponentPricedOptionsCount() > 0)
+			{
+				response.getDLX_AncillaryAirItemPriceRS().getAncillaryAirComponentPricedOptionsList().addAll(
+					inventoryCheckSvRS.getAncillaryItemInventoryCheckRS().getAncillaryAirComponentPricedOptionsList());
+			}
+
+		}
+		catch (AnyException ae)
+		{
+			AncillaryAirItemPriceUtils.setWarningInResponse(
+				response, ae.getMessage(), ae.getContext(), ae.getMajor(), ae.getMinor());
+		}
+	}
+	/**
+	 * Performs Ancillary Redemption Calculation.
+	 *
+	 * @param request the request.
+	 * @param response the response.
+	 */
+	private void processAncillaryRedemption(DLX_AncillaryAirItemPriceSvRQ request,
+		DLX_AncillaryAirItemPriceSvRS response)
+	{
+
+		try
+		{
+			List<AncillaryAirComponentPricedOptions> pricedOptions =
+				response.getDLX_AncillaryAirItemPriceRS().getAncillaryAirComponentPricedOptionsList();
+
+			if (pricedOptions == null || pricedOptions.isEmpty() ||
+				request.getDLX_AncillaryAirItemPriceRQ().getRequestCriteria() == null ||
+				request.getDLX_AncillaryAirItemPriceRQ().getRequestCriteria().getRedemption() == null)
+			{
+				return;
+			}
+
+			DLX_AncillaryCalculateRedemptionPriceSvRS calculateRedemptionSvRS =
+				new DLX_AncillaryCalculateRedemptionPriceSvRS();
+
+			DLX_AncillaryCalculateRedemptionPriceSvRQ calculateRedemptionSvRQ =
+				new DLX_AncillaryCalculateRedemptionPriceSvRQ();
+
+			buildCalculateRedemptionSvRQ(calculateRedemptionSvRQ, request, pricedOptions);
+
+			if (request.getDLX_AncillaryAirItemPriceRQ().getRequestCriteria().getRedemption() != null)
+			{
+				if (request.getDLX_AncillaryAirItemPriceRQ().getRequestCriteria()
+					.getRedemption().hasCalculateRedemptionPrice() && request.getDLX_AncillaryAirItemPriceRQ()
+					.getRequestCriteria().getRedemption().getCalculateRedemptionPrice())
+				{
+					calculateRedemptionSvRS = (DLX_AncillaryCalculateRedemptionPriceSvRS) callServant(
+						m_ancillaryCalculateRedemptionMilesServiceName, calculateRedemptionSvRQ,
+						DLX_AncillaryCalculateRedemptionPriceSvRS.class);
+				}
+				if (request.getDLX_AncillaryAirItemPriceRQ().getRequestCriteria()
+					.getRedemption().hasCalculateMoneyMilesCombinations() && request.getDLX_AncillaryAirItemPriceRQ()
+					.getRequestCriteria().getRedemption().getCalculateMoneyMilesCombinations())
+				{
+					calculateRedemptionSvRS = (DLX_AncillaryCalculateRedemptionPriceSvRS) callServant(
+						m_ancillaryCalculateRedemptionMoneyMilesServiceName, calculateRedemptionSvRQ,
+						DLX_AncillaryCalculateRedemptionPriceSvRS.class);
+				}
+			}
+
+			if (calculateRedemptionSvRS.getWarningCode() != null && calculateRedemptionSvRS.getWarningCodeCount() > 0)
+			{
+				AncillaryAirItemPriceUtils.setWarningInResponse(
+					response, calculateRedemptionSvRS.getWarningCode(0).getDescription(),
+					M3_ContextCodes.TDPMERCHANDIZING_CONTEXT_CODE, M3_MajorCodes.TDPMERCHANDIZING_MAJOR_CODE,
+					calculateRedemptionSvRS.getWarningCode(0).getWarning().getType());
+			}
+
+			if (calculateRedemptionSvRS == null || calculateRedemptionSvRS
+				.getDLX_AncillaryCalculateRedemptionPriceRS().getAncillaryAirComponentPricedOptionsCount() == 0)
+			{
+				throw new ServiceException("No response received from Ancillary Redemption Calculation",
+					M3_ContextCodes.TDPMERCHANDIZING_CONTEXT_CODE,
+					M3_MajorCodes.TDPMERCHANDIZING_MAJOR_CODE,
+					M3_AirMinorCodes.TDPMERCHANDIZING_NO_RESPONSE_RECEIVED);
+			}
+			else
+			{
+				response.getDLX_AncillaryAirItemPriceRS().setAncillaryAirComponentPricedOptionsList(calculateRedemptionSvRS
+					.getDLX_AncillaryCalculateRedemptionPriceRS().getAncillaryAirComponentPricedOptionsList());
+			}
+
+		}
+		catch (AnyException ae)
+		{
+			AncillaryAirItemPriceUtils.setWarningInResponse(
+				response, ae.getMessage(), ae.getContext(), ae.getMajor(), ae.getMinor());
+		}
+	}
+
+	/**
+	 * Get all the AncillaryAirComponents configured for that client
+	 *
+	 * @param calculateRedemptionSvRQ
+	 *            DLX_AncillaryCalculateRedemptionPriceSvRQ
+	 * @param request DLX_AncillaryAirItemPriceSvRQ
+	 * @param pricedOptions  a list of priced options
+	 */
+	@SuppressWarnings("unchecked")
+	private void buildCalculateRedemptionSvRQ(DLX_AncillaryCalculateRedemptionPriceSvRQ calculateRedemptionSvRQ,
+		DLX_AncillaryAirItemPriceSvRQ request, List<AncillaryAirComponentPricedOptions> pricedOptions)
+	{
+		if (request.getBusinessFlowStep() != null)
+		{
+			calculateRedemptionSvRQ.setBusinessFlowStep(request.getBusinessFlowStep());
+		}
+		if (request.getClientId() != null)
+		{
+			calculateRedemptionSvRQ.setClientId(request.getClientId());
+		}
+		if (request.hasMajorVersion())
+		{
+			calculateRedemptionSvRQ.setMajorVersion(request.getMajorVersion());
+		}
+		if (request.getServiceName() != null)
+		{
+			calculateRedemptionSvRQ.setServiceName(request.getServiceName());
+		}
+		if (request.getSessionInfo() != null)
+		{
+			calculateRedemptionSvRQ.setSessionInfo(request.getSessionInfo());
+		}
+		DLX_AncillaryCalculateRedemptionPriceRQ rq = new DLX_AncillaryCalculateRedemptionPriceRQ();
+		rq.setAncillaryAirComponentPricedOptionsList(pricedOptions);
+		rq.setRequestCriteria(request.getDLX_AncillaryAirItemPriceRQ().getRequestCriteria());
+		calculateRedemptionSvRQ.setDLX_AncillaryCalculateRedemptionPriceRQ(rq);
+	}
+
+	/**
+	 * Get all the AncillaryAirComponents configured for that client
+	 *
+	 * @param request
+	 *            the DLX_AncillaryAirItemPriceSvRQ request
+	 * @return all the AncillaryAirComponents configured for the client
+	 */
+	@SuppressWarnings("unchecked")
+	private List<AncillaryAirComponent> getAncillaryAirComponents(
+		DLX_AncillaryAirItemPriceSvRQ request)
+	{
+		AncillaryAirComponentManageSvRQ aacRetrieveRq = AncillaryAirItemPriceUtils
+			.buildAncillaryAirComponentManageSvRQ(request,
+				m_ancillaryAirComponentSearchByLanguage);
+
+		if (aacRetrieveRq == null)
+		{
+			throw new ServiceException(
+				"No AncillaryAirComponentManageSvRQ request built");
+		}
+
+		AncillaryAirComponentManageSvRS aacManageSvRS = (AncillaryAirComponentManageSvRS) callServant(
+			m_ancillaryAirComponentManageServiceName, aacRetrieveRq,
+			AncillaryAirComponentManageSvRS.class);
+
+		if (isLogging(Logger.DEBUG_EVENT))
+		{
+			log("Retrieving configured AncillaryAirComponents for Client "
+				+ request.getClientId(), Logger.DEBUG_EVENT);
+		}
+
+		if (aacManageSvRS == null
+			|| aacManageSvRS.getAncillaryAirComponentSearchRS() == null
+			|| aacManageSvRS.getAncillaryAirComponentSearchRSCount() == 0)
+		{
+			throw new ServiceException(
+				"No Ancillary Air Component retrieved from Database",
+				M3_ContextCodes.TDPMERCHANDIZING_CONTEXT_CODE,
+				M3_MajorCodes.TDPMERCHANDIZING_MAJOR_CODE,
+				M3_AirMinorCodes.TDPMERCHANDIZING_NO_AAC_RETRIEVED_FROM_DB);
+		}
+
+		List<AncillaryAirComponent> allAACs = new ArrayList<AncillaryAirComponent>();
+
+		List<AncillaryAirComponent> nonBundleAACs = new ArrayList<AncillaryAirComponent>();
+		List<AncillaryAirComponent> bundleAACs = new ArrayList<AncillaryAirComponent>();
+
+		AncillaryAirComponentSearchRS[] ancillaryAirComponentSearchRS = aacManageSvRS
+			.getAncillaryAirComponentSearchRS();
+		for (AncillaryAirComponentSearchRS aacSearchRS : ancillaryAirComponentSearchRS)
+		{
+			if (aacSearchRS != null
+				&& aacSearchRS.getAncillaryAirComponentList() != null
+				&& aacSearchRS.getAncillaryAirComponentCount() != 0)
+
+			{
+
+				for (int i = 0; i < aacSearchRS.getAncillaryAirComponentCount(); i++)
+				{
+					AncillaryAirComponent aac = aacSearchRS
+						.getAncillaryAirComponent(i);
+
+					/*
+					 * Hack to get seg passenger working DLUAT-93 by putting
+					 * bundles last in the list
+					 */
+					if (aac.getAncillaryAirComponentGroupMembers() != null
+						&& aac.getAncillaryAirComponentGroupMembers()
+						.getBundleMember() != null
+						&& aac.getAncillaryAirComponentGroupMembers()
+						.getBundleMemberCount() > 0)
+					{
+
+						nonBundleAACs.add(aac);
+
+					}
+
+					else
+					{
+
+						bundleAACs.add(aac);
+
+					}
+
+					/* end of hack */
+				}
+			}
+		}
+
+		allAACs.addAll(nonBundleAACs);
+		allAACs.addAll(bundleAACs);
+
+		if (isLogging(Logger.DEBUG_EVENT))
+		{
+			log("Retrieved " + allAACs.size()
+				+ "AncillaryAirComponents for Client "
+				+ request.getClientId(), Logger.DEBUG_EVENT);
+		}
+
+		return allAACs;
+	}
+
+
+	/**
+	 * This method returns the class type of the request object. The framework uses this to correctly parse the XML into an RQRS
+	 * object. This implementation will always return a class object representing the class DLX_AncillaryAirItemPriceSvRQ
+	 *
+	 * @return Returns DLX_AncillaryAirItemPriceSvRQ class reference
+	 */
+	protected Class getRQClass()
+	{
+		return DLX_AncillaryAirItemPriceSvRQ.class;
+	}
+
+
+	/**
+	 * This method will return a Connection Helper suitable for <code>this</code> adapter and the specified service.
+	 * The value of <CODE>service</CODE> should not be null. The handler is located by navigating the reference with
+	 * id="XXXX-ConnectionHelper" where XXXX is value of service. If this does not return a handler and the service
+	 * name is specialised (i.e contains a '/') then the generalised version of the service name is used. <B>Example:
+	 * </B><BR> If service is "Worldspan/TYO/123" the method will try the following references until a connection
+	 * helper is found.
+	 *
+	 * <UL>
+	 * <li>
+	 * Worldspan/TYO/123-ConnectionHelper
+	 * </li>
+	 * <li>
+	 * Worldspan/TYO-ConnectionHelper
+	 * </li>
+	 * <li>
+	 * Worldspan-ConnectionHelper
+	 * </li>
+	 * </ul>
+	 *
+	 * This specialisation of service names allows new services to partial extend other services without requiring new
+	 * connection helpers and new handlers.
+	 *
+	 * @param service The service name as specified in the request object.
+	 * @param request the CBP Request that is being used.
+	 * @return A ConnectionHelper appropriate for this service and policy.
+	 */
+	protected ConnectionHelper getConnectionHelper(String service, CBPSvRQBase request)
+	{
+		ConnectionHelper retVal = null;
+		try
+		{
+			retVal = super.getConnectionHelper(service, request);
+		}
+		catch (AppException e)
+		{
+			retVal = super.getConnectionHelper(BRE_SERVICE_NAME, request);
+//    		retVal = new DummyConnectionHelper();
+
+//    		possible call with BRE    		
+		}
+		return retVal;
+	}
+
+	/**
+	 * Returns a connection from the connection helper that's passed in.
+	 *
+	 * @param connectionHelper The ConnectionHelper
+	 *
+	 * @return MatrixConnection
+	 */
+	protected MatrixConnection reserveConnection(ConnectionHelper connectionHelper)
+	{
+//    	possible call without helper
+		return connectionHelper != null ? connectionHelper.getConnection() : (new DummyConnectionHelper()).getConnection();
+	}
+
+	/**
+	 * This method will return a handler suitable for <code>this</code> adapter and the specified service. The value of
+	 * <CODE>service</CODE> should not be null. The handler is located by navigating the reference with
+	 * id="XXXX-Handler" where XXXX is value of service. If this not return a handler and the service name is
+	 * specialised (i.e contains a '/') then the generalised version of the service name is used. <B>Example: </B><BR>
+	 * If service is "Worldspan/TYO/123" the method will try the following references until a handler is found.
+	 *
+	 * <UL>
+	 * <li>
+	 * Worldspan/TYO/123-Handler
+	 * </li>
+	 * <li>
+	 * Worldspan/TYO-Handler
+	 * </li>
+	 * <li>
+	 * Worldspan-Handler
+	 * </li>
+	 * </ul>
+	 *
+	 * This specialisation of service names allows new services to partial extend other services without requiring new
+	 * connection helpers and new handlers.
+	 *
+	 * @param service The service name as specified in the request object.
+	 * @param request the CBP Request containing any connection details
+	 * @return A Universal handler appropriate for this service and policy.
+	 */
+	protected UniversalHandler getHandler(String service, CBPSvRQBase request)
+	{
+		UniversalHandler  retVal = null;
+		try
+		{
+			retVal = super.getHandler(service, request);
+		}
+		catch (AppException e)
+		{
+//    		possible call with BRE
+		}
+
+		return retVal;
+	}
+
+
+
+
+	/**
+	 *
+	 * @param obj The CBP Request Object to process
+	 * @param handler The handler that maps this request to a host request
+	 * @param conn The connection to the host
+	 * @param dbAccess Class that provides methods for accessing the persistance layer.
+	 *
+	 * @return The CBP Response Object
+	 *
+	 * @see com.datalex.mw.persistence.DBAccess
+	 */
+
+	@Override
+	protected CBPSvRSBase processRequest(CBPSvRQBase obj, UniversalHandler handler, MatrixConnection conn, DBAccess dbAccess)
+	{
+		DLX_AncillaryAirItemPriceSvRQ request = (DLX_AncillaryAirItemPriceSvRQ) obj;
+		DLX_AncillaryAirItemPriceSvRS response = null;
+		try
+		{
+			if (isLogging(Logger.DEBUG_EVENT))
+			{
+				log("AncillaryAirItemPrice Connection use: " + conn, Logger.DEBUG_EVENT);
+			}
+			AncillaryAirItemPriceUtils.validateRequest(request);
+			response = getResponse(request);
+			if (handler != null && conn != null && !(conn instanceof DummyConnection))
+			{
+				DLX_AncillaryAirItemPriceRQ request0 = request.getDLX_AncillaryAirItemPriceRQ();
+				DLX_AncillaryAirItemPriceRS response0 = null;
+				response0 = response.getDLX_AncillaryAirItemPriceRS();
+				((AncillaryAirItemPriceHandler) handler).process(request0, response0, conn);
+			}
+		}
+		catch (AnyException ae)
+		{
+			String message = AncillaryUtils.createExceptionMessage(ae);
+			response = AncillaryAirItemPriceUtils.buildDefaultDLXAncillaryAirItemPriceSvRS(request);
+			AncillaryAirItemPriceUtils.setWarningInResponse(response, message, ae.getContext(), ae.getMajor(), ae.getMinor());
+		}
+		return response;
+	}
+}

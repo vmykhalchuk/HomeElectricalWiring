@@ -1,10 +1,10 @@
-package org.home.homewiring.topview.symbolsplacer.utils;
+package org.home.homewiring.topview.utils;
 
-import org.home.utils.Point;
-import org.home.utils.Rect;
+import org.home.homewiring.utils.Point;
+import org.home.homewiring.utils.Rect;
 import org.junit.Test;
 
-import static org.home.utils.MyMathTest.ASSERTION_DELTA;
+import static org.home.homewiring.utils.MyMathTest.ASSERTION_DELTA;
 import static org.junit.Assert.assertEquals;
 
 public class CoordinatesNavigatorTest {
